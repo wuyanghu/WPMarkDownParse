@@ -40,4 +40,5 @@ MarkDown解析
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'YYText','1.0.7'
    s.dependency 'WPChained','0.1.2'
+   s.dependency 'SDWebImage', '5.0.2'
 end

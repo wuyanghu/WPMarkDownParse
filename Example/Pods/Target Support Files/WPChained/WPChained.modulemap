@@ -1,0 +1,6 @@
+framework module WPChained {
+  umbrella header "WPChained-umbrella.h"
+
+  export *
+  module * { export * }
+}

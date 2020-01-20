@@ -1,0 +1,6 @@
+framework module WPBaseTableView {
+  umbrella header "WPBaseTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
