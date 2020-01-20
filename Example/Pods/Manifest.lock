@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WPMarkDownParse (0.1.0):
+    - YYText (= 1.0.7)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WPMarkDownParse (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - YYText
+
+EXTERNAL SOURCES:
+  WPMarkDownParse:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WPMarkDownParse: e9a6bbba46a4978502c6ff3a7697f9285f3f7f2d
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 6ae9258fd81be796ff1342d679e72e9e6868fa99
+
+COCOAPODS: 1.8.4

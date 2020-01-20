@@ -1,0 +1,1549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 84146ED0F776160D5D23F71C4A6649A9 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003881D08EC4E2E7E90FDD5925830FDA /* WPMarkDownParseQuoteParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 986C9FE6005E09194836DEB04EA74ABB /* WPMarkDownParseQuoteParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0537F9C971C6D401D678525797388F1D /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AE10A0AF4938DB9514C311492EE918 /* YYTextContainerView.m */; };
+		0568AC6F1615033C74D8EB9121386339 /* Pods-WPMarkDownParse_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D428A3F270F1271383A941C996B4E /* Pods-WPMarkDownParse_Example-dummy.m */; };
+		092EE043FA93E4B1BE97161CD61619FC /* WPMarkDownBaseParse.h in Headers */ = {isa = PBXBuildFile; fileRef = C17CB5DDF04B95B2E14A9DE70FCC7777 /* WPMarkDownBaseParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B093804BD633B091A3D68DF4F3A184 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38E2598480B79C613EBD9C555929870 /* MobileCoreServices.framework */; };
+		0AB001F8A3D305182B3E33D3109EEBB7 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD308C4D86BC44899FEA0D1CD574A17 /* YYTextAsyncLayer.m */; };
+		0BBDCAF94E4D90C1F7A0D660CAA9BD47 /* WPMarkDownBaseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = F74F036119ECEDC7BE6BBFC56DB0308B /* WPMarkDownBaseParse.m */; };
+		0C7B954CF0B85E39F7D0FE3E5B2EC0E6 /* WPMarkDownParseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E5A15FFB1DCFD3CE62C2226BE6CC3D /* WPMarkDownParseFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBA853BBD9DCFC78DB91AEA8B6EB20A /* YYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2665DBBE4C623A52542ED03010667E6A /* YYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1192FFD49002CD27ABAC004DE7EFA885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 106EA3B7C423F1A3C4E7081DF411A431 /* UIApplication+StrictKeyWindow.m */; };
+		1480B17A6CEB0D10EE1CEE7FB8FC63E8 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EDD7DCFE6A71B054B64F0BDA6179F /* UIView+YYText.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6626634828DCB2FDD608DBBF1E98C8 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FEDBCDB36F45A7ED5194925851B80A /* QuartzCore.framework */; };
+		1A6EBAD8FED8756731AE01BE517F6DA3 /* WPMarkDownParseBold.h in Headers */ = {isa = PBXBuildFile; fileRef = A01B459468342060F7EEE7F3D5D9205A /* WPMarkDownParseBold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BADDF9472E02C4298B8CC83A6049F38 /* WPMarkDownParseDisorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC9707B5C234AF0C80874A1998CF21 /* WPMarkDownParseDisorder.m */; };
+		1EA0E777844B555C569ECA4635DF28A3 /* WPMarkDownParseBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97214F43995EABF222E4EDEC83898854 /* WPMarkDownParseBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F96B5CE221B1A03ABA7F5F43F97A49E /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F2AAD6F2C37797D75ECA2FC7AB2EE5 /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226B223EFCBF98A74E79569683613F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */; };
+		23FFAF85C725BF8525727F554395F190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */; };
+		26E6D49AFC812D56A582DD93839ACA56 /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = AC34BF7FCD17DF8BDCEA3991551049AD /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7F60DBE01E6B8238418037F8DFEF7F /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E712B0539CA32A4EE7F9F7D3E2886D /* YYTextDebugOption.m */; };
+		2B64ADAA6BA362D30DD0DE95BF476172 /* YYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D861BA301BBA4F8078878ACC7F51D446 /* YYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA0DE39E7255E4BA0298CE6AC7A165B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A440B08EA25A8E36D9CE5CA2A4CC27E2 /* Accelerate.framework */; };
+		2CF4E88D6D04D18F9C476C530B924399 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BCD28A1DFA9A58B1CBD1469D060C62 /* YYTextSelectionView.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CE37BAFDA0F22974676CF3E11318A /* UIImage+Compare.m */; };
+		300983D3D349C2F8FCC803F69949D145 /* WPMarkDownParseStrageInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = C7154EC0FBD23113E9CE3E87EE04C6E4 /* WPMarkDownParseStrageInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F8CC49BDA48251CB04EB8D5E039CEA /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = C64546176357FEE7969399885F48D023 /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AA7E78FBA0F3D80D10933092347EBA /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 425D53B06687C9D6E98CBF6690538ED0 /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331906DC8E6EAE8CE6E03A9854CDBE1B /* Pods-WPMarkDownParse_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B2250DC6CDFF138E1637D4B6DC2978 /* Pods-WPMarkDownParse_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E5732A90734074188D87B9B104C328 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77705E4FE36D3CF781BCCAE0ACC08BB2 /* YYLabel.m */; };
+		3A173D05E6636E983C0B33BE8312DF44 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 63936751C189C87715F9989779F88293 /* YYTextArchiver.m */; };
+		3EE337EDB234A1F01438EDACF55FB30B /* YYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A42B013958CB115F4DEA604CB4FAEC98 /* YYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 26ED011C0ACD8DEC819D629EAFA5D755 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		408E7E949C6C97AF8044C739B4B8D59E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FEDBCDB36F45A7ED5194925851B80A /* QuartzCore.framework */; };
+		44FF84E65F3F08E8686089E7D32E3967 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB417D5721C78AB269463268A4FDCAFB /* YYTextUtilities.m */; };
+		4573ADD3245FD876FA901B64E25B70EE /* YYText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AD6400A04D7095585B496449704EEB /* YYText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C64A0998F4808586DD600EC174CBD74 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7926204F52039C375E47E330EA2FD7 /* NSAttributedString+YYText.m */; };
+		4D9996FC129E406351E42B2248121AAC /* YYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D962DFE3213954DCDFA0D956207DBB2E /* YYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FF0598385BC7073448F58B596CC72CC /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B212BB6C90D22D9586322A2CCC87DD /* YYTextAttribute.m */; };
+		5E3F89FD2B18A90E0B356D24F9DB9936 /* WPMarkDownParseItalic.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9B43B4A4268164A2588854DEFFA3ED /* WPMarkDownParseItalic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60270A8DAE837F5A89770565F215C6CD /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F469BC725C542A9DB528A5FFD81DCA1B /* YYTextTransaction.m */; };
+		66AE0A9A2CA859D15EAEFAF2ACE00184 /* YYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 192EFB46AFFCBF9D29FE694DBCBCD0FB /* YYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684B711456042B96E43D80E8467973BA /* WPMarkDownParseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DDAC5C846E5D699B4EBC45257203EB /* WPMarkDownParseFactory.m */; };
+		6A0389A2FC279C1B4067DA89C7A037AE /* YYText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7309F3F56500CD281B78451A5E271A53 /* YYText.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD915AB8C91A47DECEB3852E96C86DB /* XCTest.framework */; };
+		6AEC62721831F855A243C852839971CA /* WPMarkDownParseDisorder.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5EB8ACA237B434EC60DE6EB08A5BFF /* WPMarkDownParseDisorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D14924ADDFEE26319EB117C4AD1D98C /* YYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A5A8C304BC1B0B57B2A757268727E5 /* YYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DD1968E106FBCB8298B155BFEB0F4 /* FBSnapshotTestCase-dummy.m */; };
+		6EB4B26214F60EECD8088FCA8236BE9B /* UIView+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD48ADD0C7DB7AEA82E937C230EE4D /* UIView+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B82B6BC330F45630F3F19C80D838C2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743DAFCA080850BC9769B4857DBBF045 /* CoreText.framework */; };
+		748B9925CE8869E74CF4AB3A3A51268A /* YYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = A5498B0FA543FF3753A508F1DB3B7826 /* YYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C285B114B27DCA01DB662B399E015D /* WPMarkDownParseImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEBB6E7F9DC899121B57095C753ECD9 /* WPMarkDownParseImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7988476BA0AF847CBD665AECF8E88CA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */; };
+		7AC68283418C7A26AFF149C41C6A505A /* WPMarkDownParse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E4CCF339B177829C9CCF86FFA683BA /* WPMarkDownParse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C882678A9FF8092BFFB3F1CBBEB7256 /* WPMarkDownParseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF82C4AF8E77F5C8B72A3EABEAB6BA9 /* WPMarkDownParseImage.m */; };
+		7CCC4ACB092BFBF90467000084B46CF1 /* WPMarkDownParseQuoteParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BE33EF05FDC87DA6468DF8E7EAC01 /* WPMarkDownParseQuoteParagraph.m */; };
+		7E49ED065299A6BDA281107CC027EC5D /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C68D8A52210582682DFA38185103614 /* UIPasteboard+YYText.m */; };
+		86E473D0730E2A4AF3C12F60AE69B73F /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA526E7B75F2EEB48C71B3B964328881 /* YYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6405FDC6C6E8463E4BE0984BD5C084E /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B7323F26AB2264939A3AECAFC4743F5C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AC4F2AC13672446E3B692D148ACA6A /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C366D981520ECC8B9A51F07A182A46 /* WPMarkDownParseLink.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFAF5872C6E72A2EAEB5D910DA83B0A /* WPMarkDownParseLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E02CA20E7DA71D3E5243EF63A9D409 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A58B92041339013990D2B5194C194D8 /* YYTextInput.m */; };
+		917B1C0D2101B826388A95161022DFD2 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B39A835A30FDF1DCCF9B3E2656D6048 /* YYTextWeakProxy.m */; };
+		9B0072E6B197630ACD9F8BA6EAF688C6 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6904A979036A44322CF27E6F27E1A /* YYTextEffectWindow.m */; };
+		9B85DCD49F74C77438C0ED72702C974F /* YYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BC262007D66754D99D777B6BDCE819 /* YYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D561AC65B05909CEEC7D390462CE847 /* NSParagraphStyle+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 676713307A86A7E06F184C765E13E59B /* NSParagraphStyle+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CA6B6928BAC7FE062034ECFA8DD0 /* SwiftSupport.swift */; };
+		A05F84C379B0E9BD9E375CE90DBD026C /* WPMarkDownParseLink.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE235284ACCEB9EA7933236B3310B84 /* WPMarkDownParseLink.m */; };
+		A0D9A2036C77A0D22AE3FCD0592F6CFD /* WPMarkDownParseItalic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922BC8FF45982A3613B1D8869C50EF0 /* WPMarkDownParseItalic.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A01BD42A9272689A9564555CF25E2 /* UIImage+Snapshot.m */; };
+		A5D09E06E4AFCF179BB624941786E379 /* YYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E489BFEF27E24FFA4B41F46FBF74BF /* YYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8CAC4507F2F426E8942A57D974891B /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 158AF18C6A1AEF48B576265140347924 /* YYTextLine.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */; };
+		B393D3AF15DAE9A5F8A441A1554F2525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71AEC5313012CE25A6F362013ED8AE /* UIKit.framework */; };
+		B5572A946CAA3884182A633D625738A7 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D5860E1A4787A7F9AB2C44C06C011 /* YYTextKeyboardManager.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFC7A454D743F01E7ADD5ECD5DD31B3 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B8369C24E2D940BC083CAF35DE54C854 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C5F4C2898F59E3107EF42B09BF983E /* YYTextView.m */; };
+		BAD7808EACF72D3BB6D496EE275B451E /* WPMarkDownParseOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = D3800D487139D703CC568102D2A4DF91 /* WPMarkDownParseOrder.m */; };
+		BB4FD81499C445A1F96B52A957E34BEB /* YYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F49BE62A9959DA27DA6800B74E23D7 /* YYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB6591134F0E941E6F7DDA3FA920ACD /* YYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2607A902A5535D880B9C6F4302AD19 /* YYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3893CC32EE8A60BF92502E81F1A8A7 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = C74AA0DEAB8568678363151099E0DBC3 /* NSParagraphStyle+YYText.m */; };
+		BCC12A8B047BF01021088EC141E7C8CE /* WPMarkDownParseCodeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 414E765EB1E31908CDD342239719C2E3 /* WPMarkDownParseCodeBlock.m */; };
+		BD9D4C76F69C845942B88A77468E060B /* WPMarkDownParseTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC08FB30612F8DE3605FA0DFE1D04FC /* WPMarkDownParseTitle.m */; };
+		BFCC86FD23F340815EBA67ACFF100326 /* YYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D3C7698786DAF56AB19F9C8B1AD7AC /* YYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D1F427D7E19F043F37E6FCF3945A1C /* YYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCB40721CE31ADAF5B2DC04E19913B9 /* YYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BA44DE9E8AEFCE5B089CEA96EEF617 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C553A8D843BCA5056DD3BB7412056446 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E812EA385EE9DAC09AAEABB4994C6085 /* YYTextParser.m */; };
+		CC4966C192BDD59D4C2D18014C8CBB4A /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AC71E1CA8187324C922340B4AB6BE6 /* YYTextMagnifier.m */; };
+		CEA760B758B9D753CF81340D396BCD56 /* WPMarkDownParse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CAC096CB4B6F75AE8B3D144895B41 /* WPMarkDownParse-dummy.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EF384240CA48D72788ADE7EF785DF8 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D06EBAC2CE5350317DE6CB1730D39D64 /* WPMarkDownParseBold.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47D987C54EF52B70C55EE47369EC95 /* WPMarkDownParseBold.m */; };
+		D19B9EBF5BA97F1D7679D66F903E5117 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE448CD128BF9A681E039C0EE7D1CFE9 /* YYTextRunDelegate.m */; };
+		D21C84634DEBF45A1DE0304C25ED794E /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F93E58586DD4EEDC50761DB96AC1B3 /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4FE7F994DA7DD885BA4E1119E2DCACF /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5794A7864B3870D1B72CDFF8210F8551 /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72709FC7D9A8B8D37AC678161FF7AFD /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9BF02D514818785D034109CB3AD5F2 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC14E9EBECD0A615EB05A64F980397BE /* WPMarkDownParseCodeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = A48F9C4CB1237C4AC8A5F963E14CBB50 /* WPMarkDownParseCodeBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71AEC5313012CE25A6F362013ED8AE /* UIKit.framework */; };
+		E655C20AC5ED281E699267DBE207C4E7 /* WPMarkDownParseTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB3C8A8E025AF06F577FB114AD2A332 /* WPMarkDownParseTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6EA274D1543CD745548036D5FE5BF15 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA850C88813FA99CE227A5E2B754D5 /* CoreFoundation.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2099A4F4A4C40CBB767F93C7DBF9DED0 /* FBSnapshotTestCasePlatform.m */; };
+		E95B6F67E0A56DFE9C877F74493762C5 /* Pods-WPMarkDownParse_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415B0F585A4A2EBA90545E8EDDAEF32B /* Pods-WPMarkDownParse_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00C8A3946A7D53170C058F83DFD2FB2 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB011E575C7FE7460EE8379DE5442FD /* YYTextRubyAnnotation.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B088E7860F1004AC460517AA82E148C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F241D0722101D240FB73DDDC5663DE16 /* Pods-WPMarkDownParse_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BF4A11D1C02877C0E124F3F0E0E54 /* Pods-WPMarkDownParse_Tests-dummy.m */; };
+		F2EC66D29822F6E138EBF9AA70CE29AB /* WPMarkDownParseBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6B63953F424FC8C06CED5472DFFE6 /* WPMarkDownParseBaseModel.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FC32802E60A9AC04840AD35FF32D15 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9312F41A3FA509F46D2F8515FC86178 /* WPMarkDownParseOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0781BCD5299FC98FE7339AAF501CE329 /* WPMarkDownParseOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4C12B69EDF3AF92E00C5F28D1BA53B /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F80A98C22160A8B312F4508F810BBC /* YYTextLayout.m */; };
+		FCD389FD886931B73C6F958C46721DCA /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 13575BC72077375C506CBD440E0A6735 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD1A871A4FFDE9F1FB1D6F7BF7C81252 /* YYText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E367AB4B3DB9DE626CFA58BA7E16BAE3 /* YYText-dummy.m */; };
+		FD4AC1CE75D6FD75DD8E6DE211B563BA /* YYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C256D504AEB7681183FCDCB9B7A152B3 /* YYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07A5C65FFD7666B9B0C84128CF46E162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		19B0362FB98F40BFC75468E4A4CFA884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5C17E80BD1B7F60A33F79692330A57;
+			remoteInfo = YYText;
+		};
+		29D05FC9903BB45865F4E223BAC24B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBBC3A3BDAADBA49A7935C25777CF93;
+			remoteInfo = WPMarkDownParse;
+		};
+		8BB2F3249CE48345E265A823F4EDDD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5C17E80BD1B7F60A33F79692330A57;
+			remoteInfo = YYText;
+		};
+		B1F7498AED79ABEC8C588D032F90B4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D044BEFB2AB30FA78850A3FCE0D69E3;
+			remoteInfo = "Pods-WPMarkDownParse_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D0AC608B977C33FBE02C6A0A084679 /* Pods-WPMarkDownParse_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPMarkDownParse_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		03A2A2BF9A39D387346576CE80632A33 /* Pods-WPMarkDownParse_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPMarkDownParse_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06AC71E1CA8187324C922340B4AB6BE6 /* YYTextMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextMagnifier.m; path = YYText/Component/YYTextMagnifier.m; sourceTree = "<group>"; };
+		0781BCD5299FC98FE7339AAF501CE329 /* WPMarkDownParseOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseOrder.h; path = WPMarkDownParse/Classes/WPMarkDownParseOrder.h; sourceTree = "<group>"; };
+		0AF82C4AF8E77F5C8B72A3EABEAB6BA9 /* WPMarkDownParseImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseImage.m; path = WPMarkDownParse/Classes/WPMarkDownParseImage.m; sourceTree = "<group>"; };
+		0C3BF4A11D1C02877C0E124F3F0E0E54 /* Pods-WPMarkDownParse_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPMarkDownParse_Tests-dummy.m"; sourceTree = "<group>"; };
+		0C68D8A52210582682DFA38185103614 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYText/Utility/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		0CB3C8A8E025AF06F577FB114AD2A332 /* WPMarkDownParseTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseTitle.h; path = WPMarkDownParse/Classes/WPMarkDownParseTitle.h; sourceTree = "<group>"; };
+		0D1EDD7DCFE6A71B054B64F0BDA6179F /* UIView+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYText.m"; path = "YYText/Utility/UIView+YYText.m"; sourceTree = "<group>"; };
+		106EA3B7C423F1A3C4E7081DF411A431 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		12F49BE62A9959DA27DA6800B74E23D7 /* YYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextInput.h; path = YYText/Component/YYTextInput.h; sourceTree = "<group>"; };
+		13575BC72077375C506CBD440E0A6735 /* YYTextLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLine.h; path = YYText/Component/YYTextLine.h; sourceTree = "<group>"; };
+		138095BA0F81E0F07F656FEA20635E95 /* YYText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYText.modulemap; sourceTree = "<group>"; };
+		1507614B9F3CC8B8DAC2088E5C72B566 /* Pods_WPMarkDownParse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPMarkDownParse_Tests.framework; path = "Pods-WPMarkDownParse_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AF18C6A1AEF48B576265140347924 /* YYTextLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLine.m; path = YYText/Component/YYTextLine.m; sourceTree = "<group>"; };
+		192EFB46AFFCBF9D29FE694DBCBCD0FB /* YYTextTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextTransaction.h; path = YYText/Utility/YYTextTransaction.h; sourceTree = "<group>"; };
+		195671224028D044A0F479B49E9CDC07 /* Pods_WPMarkDownParse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPMarkDownParse_Example.framework; path = "Pods-WPMarkDownParse_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B088E7860F1004AC460517AA82E148C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		1BCB40721CE31ADAF5B2DC04E19913B9 /* YYTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLayout.h; path = YYText/Component/YYTextLayout.h; sourceTree = "<group>"; };
+		1C2607A902A5535D880B9C6F4302AD19 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRunDelegate.h; path = YYText/String/YYTextRunDelegate.h; sourceTree = "<group>"; };
+		1CD915AB8C91A47DECEB3852E96C86DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2099A4F4A4C40CBB767F93C7DBF9DED0 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		20FC9707B5C234AF0C80874A1998CF21 /* WPMarkDownParseDisorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseDisorder.m; path = WPMarkDownParse/Classes/WPMarkDownParseDisorder.m; sourceTree = "<group>"; };
+		21B212BB6C90D22D9586322A2CCC87DD /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = YYText/String/YYTextAttribute.m; sourceTree = "<group>"; };
+		22AC4F2AC13672446E3B692D148ACA6A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		22B2250DC6CDFF138E1637D4B6DC2978 /* Pods-WPMarkDownParse_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPMarkDownParse_Tests-umbrella.h"; sourceTree = "<group>"; };
+		23D3C7698786DAF56AB19F9C8B1AD7AC /* YYTextContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextContainerView.h; path = YYText/Component/YYTextContainerView.h; sourceTree = "<group>"; };
+		252D428A3F270F1271383A941C996B4E /* Pods-WPMarkDownParse_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPMarkDownParse_Example-dummy.m"; sourceTree = "<group>"; };
+		2665DBBE4C623A52542ED03010667E6A /* YYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYLabel.h; path = YYText/YYLabel.h; sourceTree = "<group>"; };
+		26ED011C0ACD8DEC819D629EAFA5D755 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		2B39A835A30FDF1DCCF9B3E2656D6048 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextWeakProxy.m; path = YYText/Utility/YYTextWeakProxy.m; sourceTree = "<group>"; };
+		2C1748F0057E613F206AA63CA5C3275D /* Pods-WPMarkDownParse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F6D5860E1A4787A7F9AB2C44C06C011 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextKeyboardManager.m; path = YYText/Component/YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		34AD6400A04D7095585B496449704EEB /* YYText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-umbrella.h"; sourceTree = "<group>"; };
+		35BC262007D66754D99D777B6BDCE819 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextEffectWindow.h; path = YYText/Component/YYTextEffectWindow.h; sourceTree = "<group>"; };
+		35E4CCF339B177829C9CCF86FFA683BA /* WPMarkDownParse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-umbrella.h"; sourceTree = "<group>"; };
+		39E489BFEF27E24FFA4B41F46FBF74BF /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYText/String/YYTextArchiver.h; sourceTree = "<group>"; };
+		3D4AE13700572C388303A069D3040B0E /* Pods-WPMarkDownParse_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPMarkDownParse_Tests.modulemap"; sourceTree = "<group>"; };
+		3FFC7A454D743F01E7ADD5ECD5DD31B3 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		414E765EB1E31908CDD342239719C2E3 /* WPMarkDownParseCodeBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseCodeBlock.m; path = WPMarkDownParse/Classes/WPMarkDownParseCodeBlock.m; sourceTree = "<group>"; };
+		415B0F585A4A2EBA90545E8EDDAEF32B /* Pods-WPMarkDownParse_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPMarkDownParse_Example-umbrella.h"; sourceTree = "<group>"; };
+		420D80B10F9AC633AD78EB26208FE69C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		425D53B06687C9D6E98CBF6690538ED0 /* YYTextMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextMagnifier.h; path = YYText/Component/YYTextMagnifier.h; sourceTree = "<group>"; };
+		4293CA6B6928BAC7FE062034ECFA8DD0 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4865134BF862B94FD034450899B385CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4A1A30EEDB0DB85F3867AD5AAEEBFA8B /* Pods-WPMarkDownParse_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Tests-Info.plist"; sourceTree = "<group>"; };
+		4AEBB6E7F9DC899121B57095C753ECD9 /* WPMarkDownParseImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseImage.h; path = WPMarkDownParse/Classes/WPMarkDownParseImage.h; sourceTree = "<group>"; };
+		52AE10A0AF4938DB9514C311492EE918 /* YYTextContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextContainerView.m; path = YYText/Component/YYTextContainerView.m; sourceTree = "<group>"; };
+		56EF384240CA48D72788ADE7EF785DF8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		5794A7864B3870D1B72CDFF8210F8551 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRubyAnnotation.h; path = YYText/String/YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		5A58B92041339013990D2B5194C194D8 /* YYTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextInput.m; path = YYText/Component/YYTextInput.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63936751C189C87715F9989779F88293 /* YYTextArchiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextArchiver.m; path = YYText/String/YYTextArchiver.m; sourceTree = "<group>"; };
+		651655BB9C7A30B17DCCD249891D0B52 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		676713307A86A7E06F184C765E13E59B /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYText/Utility/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6922BC8FF45982A3613B1D8869C50EF0 /* WPMarkDownParseItalic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseItalic.m; path = WPMarkDownParse/Classes/WPMarkDownParseItalic.m; sourceTree = "<group>"; };
+		71762A728913EB440C97D3616D291AF3 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYText.framework; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7309F3F56500CD281B78451A5E271A53 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743DAFCA080850BC9769B4857DBBF045 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		76F2AAD6F2C37797D75ECA2FC7AB2EE5 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+YYText.h"; path = "YYText/Utility/NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		77705E4FE36D3CF781BCCAE0ACC08BB2 /* YYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYLabel.m; path = YYText/YYLabel.m; sourceTree = "<group>"; };
+		8130CE7B7E5496E87FE4600A21E1D35F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		83129F08E0CCDAA17A4B0C07F2177FB1 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		83BCD28A1DFA9A58B1CBD1469D060C62 /* YYTextSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextSelectionView.m; path = YYText/Component/YYTextSelectionView.m; sourceTree = "<group>"; };
+		84146ED0F776160D5D23F71C4A6649A9 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		861374CB2A52AE1F3DF0E4E30ACF6A83 /* Pods-WPMarkDownParse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A9BF02D514818785D034109CB3AD5F2 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		94E5A15FFB1DCFD3CE62C2226BE6CC3D /* WPMarkDownParseFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseFactory.h; path = WPMarkDownParse/Classes/WPMarkDownParseFactory.h; sourceTree = "<group>"; };
+		95E712B0539CA32A4EE7F9F7D3E2886D /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYText/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
+		96CD48ADD0C7DB7AEA82E937C230EE4D /* UIView+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYText.h"; path = "YYText/Utility/UIView+YYText.h"; sourceTree = "<group>"; };
+		97214F43995EABF222E4EDEC83898854 /* WPMarkDownParseBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseBaseModel.h; sourceTree = "<group>"; };
+		986C9FE6005E09194836DEB04EA74ABB /* WPMarkDownParseQuoteParagraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseQuoteParagraph.h; path = WPMarkDownParse/Classes/WPMarkDownParseQuoteParagraph.h; sourceTree = "<group>"; };
+		9A9CAC096CB4B6F75AE8B3D144895B41 /* WPMarkDownParse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPMarkDownParse-dummy.m"; sourceTree = "<group>"; };
+		9AC08FB30612F8DE3605FA0DFE1D04FC /* WPMarkDownParseTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseTitle.m; path = WPMarkDownParse/Classes/WPMarkDownParseTitle.m; sourceTree = "<group>"; };
+		9AC388A317F74813D8497FC0E1E29FE2 /* Pods-WPMarkDownParse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C1DD1968E106FBCB8298B155BFEB0F4 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3BE33EF05FDC87DA6468DF8E7EAC01 /* WPMarkDownParseQuoteParagraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseQuoteParagraph.m; path = WPMarkDownParse/Classes/WPMarkDownParseQuoteParagraph.m; sourceTree = "<group>"; };
+		A01B459468342060F7EEE7F3D5D9205A /* WPMarkDownParseBold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseBold.h; path = WPMarkDownParse/Classes/WPMarkDownParseBold.h; sourceTree = "<group>"; };
+		A1868724164D7DDFB48B69DFE56F5331 /* WPMarkDownParse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-prefix.pch"; sourceTree = "<group>"; };
+		A42B013958CB115F4DEA604CB4FAEC98 /* YYTextUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextUtilities.h; path = YYText/Utility/YYTextUtilities.h; sourceTree = "<group>"; };
+		A440B08EA25A8E36D9CE5CA2A4CC27E2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		A48F9C4CB1237C4AC8A5F963E14CBB50 /* WPMarkDownParseCodeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseCodeBlock.h; path = WPMarkDownParse/Classes/WPMarkDownParseCodeBlock.h; sourceTree = "<group>"; };
+		A5498B0FA543FF3753A508F1DB3B7826 /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYText/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
+		A672B3AED6F91EB8298DEB348696EF62 /* Pods-WPMarkDownParse_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPMarkDownParse_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB47D987C54EF52B70C55EE47369EC95 /* WPMarkDownParseBold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseBold.m; path = WPMarkDownParse/Classes/WPMarkDownParseBold.m; sourceTree = "<group>"; };
+		AB71AEC5313012CE25A6F362013ED8AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC12203CA9E830DA03B058C349172D8B /* Pods-WPMarkDownParse_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPMarkDownParse_Example.modulemap"; sourceTree = "<group>"; };
+		AC34BF7FCD17DF8BDCEA3991551049AD /* YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYText.h; path = YYText/YYText.h; sourceTree = "<group>"; };
+		AC5EB8ACA237B434EC60DE6EB08A5BFF /* WPMarkDownParseDisorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseDisorder.h; path = WPMarkDownParse/Classes/WPMarkDownParseDisorder.h; sourceTree = "<group>"; };
+		ACE235284ACCEB9EA7933236B3310B84 /* WPMarkDownParseLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseLink.m; path = WPMarkDownParse/Classes/WPMarkDownParseLink.m; sourceTree = "<group>"; };
+		B7323F26AB2264939A3AECAFC4743F5C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		BB5F8EEA7D92C9F9FEC0E4A94B2D56F6 /* Pods-WPMarkDownParse_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCC6BCEA49677938ACF38013CC890ED5 /* Pods-WPMarkDownParse_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD082357A60C952EE8A28F9DCC573E67 /* Pods-WPMarkDownParse_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPMarkDownParse_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDD308C4D86BC44899FEA0D1CD574A17 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAsyncLayer.m; path = YYText/Utility/YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		BE448CD128BF9A681E039C0EE7D1CFE9 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRunDelegate.m; path = YYText/String/YYTextRunDelegate.m; sourceTree = "<group>"; };
+		C17CB5DDF04B95B2E14A9DE70FCC7777 /* WPMarkDownBaseParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownBaseParse.h; path = WPMarkDownParse/Classes/WPMarkDownBaseParse.h; sourceTree = "<group>"; };
+		C256D504AEB7681183FCDCB9B7A152B3 /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYText/String/YYTextParser.h; sourceTree = "<group>"; };
+		C2DDAC5C846E5D699B4EBC45257203EB /* WPMarkDownParseFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseFactory.m; path = WPMarkDownParse/Classes/WPMarkDownParseFactory.m; sourceTree = "<group>"; };
+		C2FC32802E60A9AC04840AD35FF32D15 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		C39CE37BAFDA0F22974676CF3E11318A /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		C3BA44DE9E8AEFCE5B089CEA96EEF617 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		C5FEDBCDB36F45A7ED5194925851B80A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C6405FDC6C6E8463E4BE0984BD5C084E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C64546176357FEE7969399885F48D023 /* YYTextAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAttribute.h; path = YYText/String/YYTextAttribute.h; sourceTree = "<group>"; };
+		C7154EC0FBD23113E9CE3E87EE04C6E4 /* WPMarkDownParseStrageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseStrageInterface.h; path = WPMarkDownParse/Classes/WPMarkDownParseStrageInterface.h; sourceTree = "<group>"; };
+		C74AA0DEAB8568678363151099E0DBC3 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+YYText.m"; path = "YYText/Utility/NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		C7AA850C88813FA99CE227A5E2B754D5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C842096BEE4F654391A6CF8FA6E70C2F /* Pods-WPMarkDownParse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C909DB9FB0EB7F03E0998492B9AD8EA4 /* WPMarkDownParse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPMarkDownParse.xcconfig; sourceTree = "<group>"; };
+		CA7926204F52039C375E47E330EA2FD7 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYText/Utility/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		CAFAF5872C6E72A2EAEB5D910DA83B0A /* WPMarkDownParseLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseLink.h; path = WPMarkDownParse/Classes/WPMarkDownParseLink.h; sourceTree = "<group>"; };
+		CDB011E575C7FE7460EE8379DE5442FD /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRubyAnnotation.m; path = YYText/String/YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		CDE9AA27FF8F527BD6F79486758ADB52 /* YYText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-prefix.pch"; sourceTree = "<group>"; };
+		CE20CFB88C56016E3CCDCA3DD62FE2E9 /* WPMarkDownParse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPMarkDownParse.modulemap; sourceTree = "<group>"; };
+		CF9B43B4A4268164A2588854DEFFA3ED /* WPMarkDownParseItalic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMarkDownParseItalic.h; path = WPMarkDownParse/Classes/WPMarkDownParseItalic.h; sourceTree = "<group>"; };
+		D3800D487139D703CC568102D2A4DF91 /* WPMarkDownParseOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownParseOrder.m; path = WPMarkDownParse/Classes/WPMarkDownParseOrder.m; sourceTree = "<group>"; };
+		D70A01BD42A9272689A9564555CF25E2 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D716548BD8E7E3EA31649C3325160121 /* YYText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYText.xcconfig; sourceTree = "<group>"; };
+		D861BA301BBA4F8078878ACC7F51D446 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAsyncLayer.h; path = YYText/Utility/YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		D962DFE3213954DCDFA0D956207DBB2E /* YYTextWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextWeakProxy.h; path = YYText/Utility/YYTextWeakProxy.h; sourceTree = "<group>"; };
+		DC077168EC0725B843CB4926ECD4C697 /* WPMarkDownParse.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPMarkDownParse.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCBE9B8453C3F8631F5C6CB8615477BF /* WPMarkDownParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPMarkDownParse.framework; path = WPMarkDownParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB6904A979036A44322CF27E6F27E1A /* YYTextEffectWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextEffectWindow.m; path = YYText/Component/YYTextEffectWindow.m; sourceTree = "<group>"; };
+		E0F93E58586DD4EEDC50761DB96AC1B3 /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYText/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
+		E367AB4B3DB9DE626CFA58BA7E16BAE3 /* YYText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYText-dummy.m"; sourceTree = "<group>"; };
+		E522DAB6EFEEE38A0EE36E3915A3FAE0 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		E6EFD72DD12796BD748E910DD05C0103 /* Pods-WPMarkDownParse_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Example-Info.plist"; sourceTree = "<group>"; };
+		E812EA385EE9DAC09AAEABB4994C6085 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYText/String/YYTextParser.m; sourceTree = "<group>"; };
+		EA526E7B75F2EEB48C71B3B964328881 /* YYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextView.h; path = YYText/YYTextView.h; sourceTree = "<group>"; };
+		EB417D5721C78AB269463268A4FDCAFB /* YYTextUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextUtilities.m; path = YYText/Utility/YYTextUtilities.m; sourceTree = "<group>"; };
+		F0C2D6DA1C8C098EC77CE4316813CA02 /* YYText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYText-Info.plist"; sourceTree = "<group>"; };
+		F1A5A8C304BC1B0B57B2A757268727E5 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextKeyboardManager.h; path = YYText/Component/YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		F38E2598480B79C613EBD9C555929870 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F3F80A98C22160A8B312F4508F810BBC /* YYTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLayout.m; path = YYText/Component/YYTextLayout.m; sourceTree = "<group>"; };
+		F42254786ABD1564A77DA5B3549D7058 /* WPMarkDownParse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPMarkDownParse-Info.plist"; sourceTree = "<group>"; };
+		F469BC725C542A9DB528A5FFD81DCA1B /* YYTextTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextTransaction.m; path = YYText/Utility/YYTextTransaction.m; sourceTree = "<group>"; };
+		F4C5F4C2898F59E3107EF42B09BF983E /* YYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextView.m; path = YYText/YYTextView.m; sourceTree = "<group>"; };
+		F4C6B63953F424FC8C06CED5472DFFE6 /* WPMarkDownParseBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseBaseModel.m; sourceTree = "<group>"; };
+		F74F036119ECEDC7BE6BBFC56DB0308B /* WPMarkDownBaseParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMarkDownBaseParse.m; path = WPMarkDownParse/Classes/WPMarkDownBaseParse.m; sourceTree = "<group>"; };
+		FA6626634828DCB2FDD608DBBF1E98C8 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EE166206469AA4FF3E69C3E2176F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1192FFD49002CD27ABAC004DE7EFA885 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAFD964AF0284CBE520E900DBEEE46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7988476BA0AF847CBD665AECF8E88CA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E797754C95CFB7D9E7EED49669B4E048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FFAF85C725BF8525727F554395F190 /* Foundation.framework in Frameworks */,
+				6A0389A2FC279C1B4067DA89C7A037AE /* YYText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD9E359CB01DFAE9E4D60565808AFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA0DE39E7255E4BA0298CE6AC7A165B /* Accelerate.framework in Frameworks */,
+				E6EA274D1543CD745548036D5FE5BF15 /* CoreFoundation.framework in Frameworks */,
+				73B82B6BC330F45630F3F19C80D838C2 /* CoreText.framework in Frameworks */,
+				226B223EFCBF98A74E79569683613F2C /* Foundation.framework in Frameworks */,
+				09B093804BD633B091A3D68DF4F3A184 /* MobileCoreServices.framework in Frameworks */,
+				408E7E949C6C97AF8044C739B4B8D59E /* QuartzCore.framework in Frameworks */,
+				B393D3AF15DAE9A5F8A441A1554F2525 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB5F0E71E14BF89287ECEF07DC26BDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8130CE7B7E5496E87FE4600A21E1D35F /* LICENSE */,
+				4865134BF862B94FD034450899B385CD /* README.md */,
+				DC077168EC0725B843CB4926ECD4C697 /* WPMarkDownParse.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2DD6FFB09082A32D5212BE220923C260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				195671224028D044A0F479B49E9CDC07 /* Pods_WPMarkDownParse_Example.framework */,
+				1507614B9F3CC8B8DAC2088E5C72B566 /* Pods_WPMarkDownParse_Tests.framework */,
+				DCBE9B8453C3F8631F5C6CB8615477BF /* WPMarkDownParse.framework */,
+				71762A728913EB440C97D3616D291AF3 /* YYText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D031AE7E4944D14C1244C19EF79A24D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84146ED0F776160D5D23F71C4A6649A9 /* FBSnapshotTestCase.h */,
+				B7323F26AB2264939A3AECAFC4743F5C /* FBSnapshotTestCase.m */,
+				C3BA44DE9E8AEFCE5B089CEA96EEF617 /* FBSnapshotTestCasePlatform.h */,
+				2099A4F4A4C40CBB767F93C7DBF9DED0 /* FBSnapshotTestCasePlatform.m */,
+				22AC4F2AC13672446E3B692D148ACA6A /* FBSnapshotTestController.h */,
+				C6405FDC6C6E8463E4BE0984BD5C084E /* FBSnapshotTestController.m */,
+				26ED011C0ACD8DEC819D629EAFA5D755 /* UIApplication+StrictKeyWindow.h */,
+				106EA3B7C423F1A3C4E7081DF411A431 /* UIApplication+StrictKeyWindow.m */,
+				1B088E7860F1004AC460517AA82E148C /* UIImage+Compare.h */,
+				C39CE37BAFDA0F22974676CF3E11318A /* UIImage+Compare.m */,
+				56EF384240CA48D72788ADE7EF785DF8 /* UIImage+Diff.h */,
+				FA6626634828DCB2FDD608DBBF1E98C8 /* UIImage+Diff.m */,
+				3FFC7A454D743F01E7ADD5ECD5DD31B3 /* UIImage+Snapshot.h */,
+				D70A01BD42A9272689A9564555CF25E2 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		49FFD2A5B80E0837D769246E4895484F /* WPMarkDownParse */ = {
+			isa = PBXGroup;
+			children = (
+				C17CB5DDF04B95B2E14A9DE70FCC7777 /* WPMarkDownBaseParse.h */,
+				F74F036119ECEDC7BE6BBFC56DB0308B /* WPMarkDownBaseParse.m */,
+				A01B459468342060F7EEE7F3D5D9205A /* WPMarkDownParseBold.h */,
+				AB47D987C54EF52B70C55EE47369EC95 /* WPMarkDownParseBold.m */,
+				A48F9C4CB1237C4AC8A5F963E14CBB50 /* WPMarkDownParseCodeBlock.h */,
+				414E765EB1E31908CDD342239719C2E3 /* WPMarkDownParseCodeBlock.m */,
+				AC5EB8ACA237B434EC60DE6EB08A5BFF /* WPMarkDownParseDisorder.h */,
+				20FC9707B5C234AF0C80874A1998CF21 /* WPMarkDownParseDisorder.m */,
+				94E5A15FFB1DCFD3CE62C2226BE6CC3D /* WPMarkDownParseFactory.h */,
+				C2DDAC5C846E5D699B4EBC45257203EB /* WPMarkDownParseFactory.m */,
+				4AEBB6E7F9DC899121B57095C753ECD9 /* WPMarkDownParseImage.h */,
+				0AF82C4AF8E77F5C8B72A3EABEAB6BA9 /* WPMarkDownParseImage.m */,
+				CF9B43B4A4268164A2588854DEFFA3ED /* WPMarkDownParseItalic.h */,
+				6922BC8FF45982A3613B1D8869C50EF0 /* WPMarkDownParseItalic.m */,
+				CAFAF5872C6E72A2EAEB5D910DA83B0A /* WPMarkDownParseLink.h */,
+				ACE235284ACCEB9EA7933236B3310B84 /* WPMarkDownParseLink.m */,
+				0781BCD5299FC98FE7339AAF501CE329 /* WPMarkDownParseOrder.h */,
+				D3800D487139D703CC568102D2A4DF91 /* WPMarkDownParseOrder.m */,
+				986C9FE6005E09194836DEB04EA74ABB /* WPMarkDownParseQuoteParagraph.h */,
+				9E3BE33EF05FDC87DA6468DF8E7EAC01 /* WPMarkDownParseQuoteParagraph.m */,
+				C7154EC0FBD23113E9CE3E87EE04C6E4 /* WPMarkDownParseStrageInterface.h */,
+				0CB3C8A8E025AF06F577FB114AD2A332 /* WPMarkDownParseTitle.h */,
+				9AC08FB30612F8DE3605FA0DFE1D04FC /* WPMarkDownParseTitle.m */,
+				1DB5F0E71E14BF89287ECEF07DC26BDA /* Pod */,
+				DEA9741AB9202FAF973929F781B4C07B /* Support Files */,
+				C0B0618291FE606D5527DCA5882542E8 /* WPMarkDownParseModel */,
+			);
+			name = WPMarkDownParse;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		521D2E3CF61ED307560BA3A767415909 /* Pods-WPMarkDownParse_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AC12203CA9E830DA03B058C349172D8B /* Pods-WPMarkDownParse_Example.modulemap */,
+				BD082357A60C952EE8A28F9DCC573E67 /* Pods-WPMarkDownParse_Example-acknowledgements.markdown */,
+				BCC6BCEA49677938ACF38013CC890ED5 /* Pods-WPMarkDownParse_Example-acknowledgements.plist */,
+				252D428A3F270F1271383A941C996B4E /* Pods-WPMarkDownParse_Example-dummy.m */,
+				03A2A2BF9A39D387346576CE80632A33 /* Pods-WPMarkDownParse_Example-frameworks.sh */,
+				E6EFD72DD12796BD748E910DD05C0103 /* Pods-WPMarkDownParse_Example-Info.plist */,
+				415B0F585A4A2EBA90545E8EDDAEF32B /* Pods-WPMarkDownParse_Example-umbrella.h */,
+				2C1748F0057E613F206AA63CA5C3275D /* Pods-WPMarkDownParse_Example.debug.xcconfig */,
+				861374CB2A52AE1F3DF0E4E30ACF6A83 /* Pods-WPMarkDownParse_Example.release.xcconfig */,
+			);
+			name = "Pods-WPMarkDownParse_Example";
+			path = "Target Support Files/Pods-WPMarkDownParse_Example";
+			sourceTree = "<group>";
+		};
+		5ACCD02D7AE53FC206F3D83DEACE43D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7309F3F56500CD281B78451A5E271A53 /* YYText.framework */,
+				6C662B5D3C70CD1F624738750B0DE0CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		637C6AF82DC1220C60121643AC8ACC1B /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				76F2AAD6F2C37797D75ECA2FC7AB2EE5 /* NSAttributedString+YYText.h */,
+				CA7926204F52039C375E47E330EA2FD7 /* NSAttributedString+YYText.m */,
+				676713307A86A7E06F184C765E13E59B /* NSParagraphStyle+YYText.h */,
+				C74AA0DEAB8568678363151099E0DBC3 /* NSParagraphStyle+YYText.m */,
+				8A9BF02D514818785D034109CB3AD5F2 /* UIPasteboard+YYText.h */,
+				0C68D8A52210582682DFA38185103614 /* UIPasteboard+YYText.m */,
+				96CD48ADD0C7DB7AEA82E937C230EE4D /* UIView+YYText.h */,
+				0D1EDD7DCFE6A71B054B64F0BDA6179F /* UIView+YYText.m */,
+				2665DBBE4C623A52542ED03010667E6A /* YYLabel.h */,
+				77705E4FE36D3CF781BCCAE0ACC08BB2 /* YYLabel.m */,
+				AC34BF7FCD17DF8BDCEA3991551049AD /* YYText.h */,
+				39E489BFEF27E24FFA4B41F46FBF74BF /* YYTextArchiver.h */,
+				63936751C189C87715F9989779F88293 /* YYTextArchiver.m */,
+				D861BA301BBA4F8078878ACC7F51D446 /* YYTextAsyncLayer.h */,
+				BDD308C4D86BC44899FEA0D1CD574A17 /* YYTextAsyncLayer.m */,
+				C64546176357FEE7969399885F48D023 /* YYTextAttribute.h */,
+				21B212BB6C90D22D9586322A2CCC87DD /* YYTextAttribute.m */,
+				23D3C7698786DAF56AB19F9C8B1AD7AC /* YYTextContainerView.h */,
+				52AE10A0AF4938DB9514C311492EE918 /* YYTextContainerView.m */,
+				A5498B0FA543FF3753A508F1DB3B7826 /* YYTextDebugOption.h */,
+				95E712B0539CA32A4EE7F9F7D3E2886D /* YYTextDebugOption.m */,
+				35BC262007D66754D99D777B6BDCE819 /* YYTextEffectWindow.h */,
+				DEB6904A979036A44322CF27E6F27E1A /* YYTextEffectWindow.m */,
+				12F49BE62A9959DA27DA6800B74E23D7 /* YYTextInput.h */,
+				5A58B92041339013990D2B5194C194D8 /* YYTextInput.m */,
+				F1A5A8C304BC1B0B57B2A757268727E5 /* YYTextKeyboardManager.h */,
+				2F6D5860E1A4787A7F9AB2C44C06C011 /* YYTextKeyboardManager.m */,
+				1BCB40721CE31ADAF5B2DC04E19913B9 /* YYTextLayout.h */,
+				F3F80A98C22160A8B312F4508F810BBC /* YYTextLayout.m */,
+				13575BC72077375C506CBD440E0A6735 /* YYTextLine.h */,
+				158AF18C6A1AEF48B576265140347924 /* YYTextLine.m */,
+				425D53B06687C9D6E98CBF6690538ED0 /* YYTextMagnifier.h */,
+				06AC71E1CA8187324C922340B4AB6BE6 /* YYTextMagnifier.m */,
+				C256D504AEB7681183FCDCB9B7A152B3 /* YYTextParser.h */,
+				E812EA385EE9DAC09AAEABB4994C6085 /* YYTextParser.m */,
+				5794A7864B3870D1B72CDFF8210F8551 /* YYTextRubyAnnotation.h */,
+				CDB011E575C7FE7460EE8379DE5442FD /* YYTextRubyAnnotation.m */,
+				1C2607A902A5535D880B9C6F4302AD19 /* YYTextRunDelegate.h */,
+				BE448CD128BF9A681E039C0EE7D1CFE9 /* YYTextRunDelegate.m */,
+				E0F93E58586DD4EEDC50761DB96AC1B3 /* YYTextSelectionView.h */,
+				83BCD28A1DFA9A58B1CBD1469D060C62 /* YYTextSelectionView.m */,
+				192EFB46AFFCBF9D29FE694DBCBCD0FB /* YYTextTransaction.h */,
+				F469BC725C542A9DB528A5FFD81DCA1B /* YYTextTransaction.m */,
+				A42B013958CB115F4DEA604CB4FAEC98 /* YYTextUtilities.h */,
+				EB417D5721C78AB269463268A4FDCAFB /* YYTextUtilities.m */,
+				EA526E7B75F2EEB48C71B3B964328881 /* YYTextView.h */,
+				F4C5F4C2898F59E3107EF42B09BF983E /* YYTextView.m */,
+				D962DFE3213954DCDFA0D956207DBB2E /* YYTextWeakProxy.h */,
+				2B39A835A30FDF1DCCF9B3E2656D6048 /* YYTextWeakProxy.m */,
+				DDB22AE84179B36E70D0AA94D7DF5E74 /* Support Files */,
+			);
+			name = YYText;
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		6C662B5D3C70CD1F624738750B0DE0CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A440B08EA25A8E36D9CE5CA2A4CC27E2 /* Accelerate.framework */,
+				C7AA850C88813FA99CE227A5E2B754D5 /* CoreFoundation.framework */,
+				743DAFCA080850BC9769B4857DBBF045 /* CoreText.framework */,
+				682D658FB6A6469E7E6159AF13B3196C /* Foundation.framework */,
+				F38E2598480B79C613EBD9C555929870 /* MobileCoreServices.framework */,
+				C5FEDBCDB36F45A7ED5194925851B80A /* QuartzCore.framework */,
+				AB71AEC5313012CE25A6F362013ED8AE /* UIKit.framework */,
+				1CD915AB8C91A47DECEB3852E96C86DB /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		748EAF08D4B589003062E6EDAFF42C2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83129F08E0CCDAA17A4B0C07F2177FB1 /* FBSnapshotTestCase.modulemap */,
+				420D80B10F9AC633AD78EB26208FE69C /* FBSnapshotTestCase.xcconfig */,
+				9C1DD1968E106FBCB8298B155BFEB0F4 /* FBSnapshotTestCase-dummy.m */,
+				651655BB9C7A30B17DCCD249891D0B52 /* FBSnapshotTestCase-Info.plist */,
+				E522DAB6EFEEE38A0EE36E3915A3FAE0 /* FBSnapshotTestCase-prefix.pch */,
+				C2FC32802E60A9AC04840AD35FF32D15 /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		9F4B3EB4F0C120676EC654B76AE763AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49FFD2A5B80E0837D769246E4895484F /* WPMarkDownParse */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A9D6BC1024E65F65E8590437F3A05005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56F389D0F3E10CDD9C438BD777977D1 /* FBSnapshotTestCase */,
+				637C6AF82DC1220C60121643AC8ACC1B /* YYText */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0B0618291FE606D5527DCA5882542E8 /* WPMarkDownParseModel */ = {
+			isa = PBXGroup;
+			children = (
+				97214F43995EABF222E4EDEC83898854 /* WPMarkDownParseBaseModel.h */,
+				F4C6B63953F424FC8C06CED5472DFFE6 /* WPMarkDownParseBaseModel.m */,
+			);
+			name = WPMarkDownParseModel;
+			path = WPMarkDownParse/Classes/WPMarkDownParseModel;
+			sourceTree = "<group>";
+		};
+		C7252CA194C3235D0F454A16675C3271 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				521D2E3CF61ED307560BA3A767415909 /* Pods-WPMarkDownParse_Example */,
+				D6891744C50016D68CF95F9A696B37B6 /* Pods-WPMarkDownParse_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9F4B3EB4F0C120676EC654B76AE763AE /* Development Pods */,
+				5ACCD02D7AE53FC206F3D83DEACE43D5 /* Frameworks */,
+				A9D6BC1024E65F65E8590437F3A05005 /* Pods */,
+				2DD6FFB09082A32D5212BE220923C260 /* Products */,
+				C7252CA194C3235D0F454A16675C3271 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6891744C50016D68CF95F9A696B37B6 /* Pods-WPMarkDownParse_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4AE13700572C388303A069D3040B0E /* Pods-WPMarkDownParse_Tests.modulemap */,
+				A672B3AED6F91EB8298DEB348696EF62 /* Pods-WPMarkDownParse_Tests-acknowledgements.markdown */,
+				BB5F8EEA7D92C9F9FEC0E4A94B2D56F6 /* Pods-WPMarkDownParse_Tests-acknowledgements.plist */,
+				0C3BF4A11D1C02877C0E124F3F0E0E54 /* Pods-WPMarkDownParse_Tests-dummy.m */,
+				00D0AC608B977C33FBE02C6A0A084679 /* Pods-WPMarkDownParse_Tests-frameworks.sh */,
+				4A1A30EEDB0DB85F3867AD5AAEEBFA8B /* Pods-WPMarkDownParse_Tests-Info.plist */,
+				22B2250DC6CDFF138E1637D4B6DC2978 /* Pods-WPMarkDownParse_Tests-umbrella.h */,
+				9AC388A317F74813D8497FC0E1E29FE2 /* Pods-WPMarkDownParse_Tests.debug.xcconfig */,
+				C842096BEE4F654391A6CF8FA6E70C2F /* Pods-WPMarkDownParse_Tests.release.xcconfig */,
+			);
+			name = "Pods-WPMarkDownParse_Tests";
+			path = "Target Support Files/Pods-WPMarkDownParse_Tests";
+			sourceTree = "<group>";
+		};
+		DA9FF3568352FE835C279F3A4428885D /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4293CA6B6928BAC7FE062034ECFA8DD0 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		DDB22AE84179B36E70D0AA94D7DF5E74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				138095BA0F81E0F07F656FEA20635E95 /* YYText.modulemap */,
+				D716548BD8E7E3EA31649C3325160121 /* YYText.xcconfig */,
+				E367AB4B3DB9DE626CFA58BA7E16BAE3 /* YYText-dummy.m */,
+				F0C2D6DA1C8C098EC77CE4316813CA02 /* YYText-Info.plist */,
+				CDE9AA27FF8F527BD6F79486758ADB52 /* YYText-prefix.pch */,
+				34AD6400A04D7095585B496449704EEB /* YYText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYText";
+			sourceTree = "<group>";
+		};
+		DEA9741AB9202FAF973929F781B4C07B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE20CFB88C56016E3CCDCA3DD62FE2E9 /* WPMarkDownParse.modulemap */,
+				C909DB9FB0EB7F03E0998492B9AD8EA4 /* WPMarkDownParse.xcconfig */,
+				9A9CAC096CB4B6F75AE8B3D144895B41 /* WPMarkDownParse-dummy.m */,
+				F42254786ABD1564A77DA5B3549D7058 /* WPMarkDownParse-Info.plist */,
+				A1868724164D7DDFB48B69DFE56F5331 /* WPMarkDownParse-prefix.pch */,
+				35E4CCF339B177829C9CCF86FFA683BA /* WPMarkDownParse-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPMarkDownParse";
+			sourceTree = "<group>";
+		};
+		F56F389D0F3E10CDD9C438BD777977D1 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3D031AE7E4944D14C1244C19EF79A24D /* Core */,
+				748EAF08D4B589003062E6EDAFF42C2E /* Support Files */,
+				DA9FF3568352FE835C279F3A4428885D /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14E236862EA0087FC540B53E6FDA2F82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95B6F67E0A56DFE9C877F74493762C5 /* Pods-WPMarkDownParse_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D17480AD771EACC794B460DC1EB8E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F96B5CE221B1A03ABA7F5F43F97A49E /* NSAttributedString+YYText.h in Headers */,
+				9D561AC65B05909CEEC7D390462CE847 /* NSParagraphStyle+YYText.h in Headers */,
+				D72709FC7D9A8B8D37AC678161FF7AFD /* UIPasteboard+YYText.h in Headers */,
+				6EB4B26214F60EECD8088FCA8236BE9B /* UIView+YYText.h in Headers */,
+				0CBA853BBD9DCFC78DB91AEA8B6EB20A /* YYLabel.h in Headers */,
+				4573ADD3245FD876FA901B64E25B70EE /* YYText-umbrella.h in Headers */,
+				26E6D49AFC812D56A582DD93839ACA56 /* YYText.h in Headers */,
+				A5D09E06E4AFCF179BB624941786E379 /* YYTextArchiver.h in Headers */,
+				2B64ADAA6BA362D30DD0DE95BF476172 /* YYTextAsyncLayer.h in Headers */,
+				31F8CC49BDA48251CB04EB8D5E039CEA /* YYTextAttribute.h in Headers */,
+				BFCC86FD23F340815EBA67ACFF100326 /* YYTextContainerView.h in Headers */,
+				748B9925CE8869E74CF4AB3A3A51268A /* YYTextDebugOption.h in Headers */,
+				9B85DCD49F74C77438C0ED72702C974F /* YYTextEffectWindow.h in Headers */,
+				BB4FD81499C445A1F96B52A957E34BEB /* YYTextInput.h in Headers */,
+				6D14924ADDFEE26319EB117C4AD1D98C /* YYTextKeyboardManager.h in Headers */,
+				C3D1F427D7E19F043F37E6FCF3945A1C /* YYTextLayout.h in Headers */,
+				FCD389FD886931B73C6F958C46721DCA /* YYTextLine.h in Headers */,
+				32AA7E78FBA0F3D80D10933092347EBA /* YYTextMagnifier.h in Headers */,
+				FD4AC1CE75D6FD75DD8E6DE211B563BA /* YYTextParser.h in Headers */,
+				D4FE7F994DA7DD885BA4E1119E2DCACF /* YYTextRubyAnnotation.h in Headers */,
+				BBB6591134F0E941E6F7DDA3FA920ACD /* YYTextRunDelegate.h in Headers */,
+				D21C84634DEBF45A1DE0304C25ED794E /* YYTextSelectionView.h in Headers */,
+				66AE0A9A2CA859D15EAEFAF2ACE00184 /* YYTextTransaction.h in Headers */,
+				3EE337EDB234A1F01438EDACF55FB30B /* YYTextUtilities.h in Headers */,
+				86E473D0730E2A4AF3C12F60AE69B73F /* YYTextView.h in Headers */,
+				4D9996FC129E406351E42B2248121AAC /* YYTextWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8E99B7EC37D52AE5A8429127D6BAE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092EE043FA93E4B1BE97161CD61619FC /* WPMarkDownBaseParse.h in Headers */,
+				7AC68283418C7A26AFF149C41C6A505A /* WPMarkDownParse-umbrella.h in Headers */,
+				1EA0E777844B555C569ECA4635DF28A3 /* WPMarkDownParseBaseModel.h in Headers */,
+				1A6EBAD8FED8756731AE01BE517F6DA3 /* WPMarkDownParseBold.h in Headers */,
+				DC14E9EBECD0A615EB05A64F980397BE /* WPMarkDownParseCodeBlock.h in Headers */,
+				6AEC62721831F855A243C852839971CA /* WPMarkDownParseDisorder.h in Headers */,
+				0C7B954CF0B85E39F7D0FE3E5B2EC0E6 /* WPMarkDownParseFactory.h in Headers */,
+				77C285B114B27DCA01DB662B399E015D /* WPMarkDownParseImage.h in Headers */,
+				5E3F89FD2B18A90E0B356D24F9DB9936 /* WPMarkDownParseItalic.h in Headers */,
+				90C366D981520ECC8B9A51F07A182A46 /* WPMarkDownParseLink.h in Headers */,
+				F9312F41A3FA509F46D2F8515FC86178 /* WPMarkDownParseOrder.h in Headers */,
+				003881D08EC4E2E7E90FDD5925830FDA /* WPMarkDownParseQuoteParagraph.h in Headers */,
+				300983D3D349C2F8FCC803F69949D145 /* WPMarkDownParseStrageInterface.h in Headers */,
+				E655C20AC5ED281E699267DBE207C4E7 /* WPMarkDownParseTitle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4EE68E374EDDD1F4116023C2D3E17F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331906DC8E6EAE8CE6E03A9854CDBE1B /* Pods-WPMarkDownParse_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F5C17E80BD1B7F60A33F79692330A57 /* YYText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A3AD949F2962D5A96AC6C786DB1500 /* Build configuration list for PBXNativeTarget "YYText" */;
+			buildPhases = (
+				5D17480AD771EACC794B460DC1EB8E80 /* Headers */,
+				6CC7493F036611C2F5EA2BC673291919 /* Sources */,
+				EFD9E359CB01DFAE9E4D60565808AFF9 /* Frameworks */,
+				8657144EB319569181F62535BC07F544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYText;
+			productName = YYText;
+			productReference = 71762A728913EB440C97D3616D291AF3 /* YYText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A684D33BC670D5FBFF0182198D5B2CE /* Pods-WPMarkDownParse_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8EC2669990AA1274238210A5F2B34E /* Build configuration list for PBXNativeTarget "Pods-WPMarkDownParse_Tests" */;
+			buildPhases = (
+				BD4EE68E374EDDD1F4116023C2D3E17F /* Headers */,
+				BD1A3A90937EFB3A6BD8F78012D841A5 /* Sources */,
+				75EE166206469AA4FF3E69C3E2176F40 /* Frameworks */,
+				D91CB1F55760C9E85BE78AAD751CF53D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3086FB1F5CD0EF42004F0989CD809F24 /* PBXTargetDependency */,
+				386DE90184C7D57DD0BA50CA09E8130C /* PBXTargetDependency */,
+			);
+			name = "Pods-WPMarkDownParse_Tests";
+			productName = "Pods-WPMarkDownParse_Tests";
+			productReference = 1507614B9F3CC8B8DAC2088E5C72B566 /* Pods_WPMarkDownParse_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D044BEFB2AB30FA78850A3FCE0D69E3 /* Pods-WPMarkDownParse_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF75E907238C9FA543463FF4FD3A382 /* Build configuration list for PBXNativeTarget "Pods-WPMarkDownParse_Example" */;
+			buildPhases = (
+				14E236862EA0087FC540B53E6FDA2F82 /* Headers */,
+				41B1C24588924881C7CAB0020D53C16B /* Sources */,
+				7DAFD964AF0284CBE520E900DBEEE46C /* Frameworks */,
+				5FFEBA87CC60B7DD5D9706355706E625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D085E4E4FED243995A3ADC3BC6A24DA2 /* PBXTargetDependency */,
+				3B56FAC5F70150CADDDCA1859D8CB3E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPMarkDownParse_Example";
+			productName = "Pods-WPMarkDownParse_Example";
+			productReference = 195671224028D044A0F479B49E9CDC07 /* Pods_WPMarkDownParse_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFBBC3A3BDAADBA49A7935C25777CF93 /* WPMarkDownParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7582866ABE3ECBF4A21A68815D663156 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */;
+			buildPhases = (
+				5E8E99B7EC37D52AE5A8429127D6BAE5 /* Headers */,
+				735770C7207BD993A4D48A5A87A6E8F2 /* Sources */,
+				E797754C95CFB7D9E7EED49669B4E048 /* Frameworks */,
+				6DCE6B099E88C8C19DF58BC4353A4E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE883E3821FAD18BB75EE66E6655D7AD /* PBXTargetDependency */,
+			);
+			name = WPMarkDownParse;
+			productName = WPMarkDownParse;
+			productReference = DCBE9B8453C3F8631F5C6CB8615477BF /* WPMarkDownParse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2DD6FFB09082A32D5212BE220923C260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				8D044BEFB2AB30FA78850A3FCE0D69E3 /* Pods-WPMarkDownParse_Example */,
+				8A684D33BC670D5FBFF0182198D5B2CE /* Pods-WPMarkDownParse_Tests */,
+				AFBBC3A3BDAADBA49A7935C25777CF93 /* WPMarkDownParse */,
+				6F5C17E80BD1B7F60A33F79692330A57 /* YYText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEBA87CC60B7DD5D9706355706E625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCE6B099E88C8C19DF58BC4353A4E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8657144EB319569181F62535BC07F544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91CB1F55760C9E85BE78AAD751CF53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B1C24588924881C7CAB0020D53C16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0568AC6F1615033C74D8EB9121386339 /* Pods-WPMarkDownParse_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC7493F036611C2F5EA2BC673291919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64A0998F4808586DD600EC174CBD74 /* NSAttributedString+YYText.m in Sources */,
+				BC3893CC32EE8A60BF92502E81F1A8A7 /* NSParagraphStyle+YYText.m in Sources */,
+				7E49ED065299A6BDA281107CC027EC5D /* UIPasteboard+YYText.m in Sources */,
+				1480B17A6CEB0D10EE1CEE7FB8FC63E8 /* UIView+YYText.m in Sources */,
+				33E5732A90734074188D87B9B104C328 /* YYLabel.m in Sources */,
+				FD1A871A4FFDE9F1FB1D6F7BF7C81252 /* YYText-dummy.m in Sources */,
+				3A173D05E6636E983C0B33BE8312DF44 /* YYTextArchiver.m in Sources */,
+				0AB001F8A3D305182B3E33D3109EEBB7 /* YYTextAsyncLayer.m in Sources */,
+				4FF0598385BC7073448F58B596CC72CC /* YYTextAttribute.m in Sources */,
+				0537F9C971C6D401D678525797388F1D /* YYTextContainerView.m in Sources */,
+				2A7F60DBE01E6B8238418037F8DFEF7F /* YYTextDebugOption.m in Sources */,
+				9B0072E6B197630ACD9F8BA6EAF688C6 /* YYTextEffectWindow.m in Sources */,
+				90E02CA20E7DA71D3E5243EF63A9D409 /* YYTextInput.m in Sources */,
+				B5572A946CAA3884182A633D625738A7 /* YYTextKeyboardManager.m in Sources */,
+				FA4C12B69EDF3AF92E00C5F28D1BA53B /* YYTextLayout.m in Sources */,
+				AD8CAC4507F2F426E8942A57D974891B /* YYTextLine.m in Sources */,
+				CC4966C192BDD59D4C2D18014C8CBB4A /* YYTextMagnifier.m in Sources */,
+				C553A8D843BCA5056DD3BB7412056446 /* YYTextParser.m in Sources */,
+				F00C8A3946A7D53170C058F83DFD2FB2 /* YYTextRubyAnnotation.m in Sources */,
+				D19B9EBF5BA97F1D7679D66F903E5117 /* YYTextRunDelegate.m in Sources */,
+				2CF4E88D6D04D18F9C476C530B924399 /* YYTextSelectionView.m in Sources */,
+				60270A8DAE837F5A89770565F215C6CD /* YYTextTransaction.m in Sources */,
+				44FF84E65F3F08E8686089E7D32E3967 /* YYTextUtilities.m in Sources */,
+				B8369C24E2D940BC083CAF35DE54C854 /* YYTextView.m in Sources */,
+				917B1C0D2101B826388A95161022DFD2 /* YYTextWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735770C7207BD993A4D48A5A87A6E8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBDCAF94E4D90C1F7A0D660CAA9BD47 /* WPMarkDownBaseParse.m in Sources */,
+				CEA760B758B9D753CF81340D396BCD56 /* WPMarkDownParse-dummy.m in Sources */,
+				F2EC66D29822F6E138EBF9AA70CE29AB /* WPMarkDownParseBaseModel.m in Sources */,
+				D06EBAC2CE5350317DE6CB1730D39D64 /* WPMarkDownParseBold.m in Sources */,
+				BCC12A8B047BF01021088EC141E7C8CE /* WPMarkDownParseCodeBlock.m in Sources */,
+				1BADDF9472E02C4298B8CC83A6049F38 /* WPMarkDownParseDisorder.m in Sources */,
+				684B711456042B96E43D80E8467973BA /* WPMarkDownParseFactory.m in Sources */,
+				7C882678A9FF8092BFFB3F1CBBEB7256 /* WPMarkDownParseImage.m in Sources */,
+				A0D9A2036C77A0D22AE3FCD0592F6CFD /* WPMarkDownParseItalic.m in Sources */,
+				A05F84C379B0E9BD9E375CE90DBD026C /* WPMarkDownParseLink.m in Sources */,
+				BAD7808EACF72D3BB6D496EE275B451E /* WPMarkDownParseOrder.m in Sources */,
+				7CCC4ACB092BFBF90467000084B46CF1 /* WPMarkDownParseQuoteParagraph.m in Sources */,
+				BD9D4C76F69C845942B88A77468E060B /* WPMarkDownParseTitle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1A3A90937EFB3A6BD8F78012D841A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F241D0722101D240FB73DDDC5663DE16 /* Pods-WPMarkDownParse_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3086FB1F5CD0EF42004F0989CD809F24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 07A5C65FFD7666B9B0C84128CF46E162 /* PBXContainerItemProxy */;
+		};
+		386DE90184C7D57DD0BA50CA09E8130C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WPMarkDownParse_Example";
+			target = 8D044BEFB2AB30FA78850A3FCE0D69E3 /* Pods-WPMarkDownParse_Example */;
+			targetProxy = B1F7498AED79ABEC8C588D032F90B4AB /* PBXContainerItemProxy */;
+		};
+		3B56FAC5F70150CADDDCA1859D8CB3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			target = 6F5C17E80BD1B7F60A33F79692330A57 /* YYText */;
+			targetProxy = 8BB2F3249CE48345E265A823F4EDDD0C /* PBXContainerItemProxy */;
+		};
+		D085E4E4FED243995A3ADC3BC6A24DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPMarkDownParse;
+			target = AFBBC3A3BDAADBA49A7935C25777CF93 /* WPMarkDownParse */;
+			targetProxy = 29D05FC9903BB45865F4E223BAC24B9A /* PBXContainerItemProxy */;
+		};
+		DE883E3821FAD18BB75EE66E6655D7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			target = 6F5C17E80BD1B7F60A33F79692330A57 /* YYText */;
+			targetProxy = 19B0362FB98F40BFC75468E4A4CFA884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34AC86B90D5C54C9893A5D0961C182D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D716548BD8E7E3EA31649C3325160121 /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_MODULE_NAME = YYText;
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		52863CAE646C6EBA325D04378F29C072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1748F0057E613F206AA63CA5C3275D /* Pods-WPMarkDownParse_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPMarkDownParse_Example/Pods-WPMarkDownParse_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPMarkDownParse_Example/Pods-WPMarkDownParse_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		545156D7CDCF5A9486754E95E7589E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861374CB2A52AE1F3DF0E4E30ACF6A83 /* Pods-WPMarkDownParse_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPMarkDownParse_Example/Pods-WPMarkDownParse_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPMarkDownParse_Example/Pods-WPMarkDownParse_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		604B0C04D46E5CAFD4B139A8B4785F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D716548BD8E7E3EA31649C3325160121 /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_MODULE_NAME = YYText;
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420D80B10F9AC633AD78EB26208FE69C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7238F3A021B0C84F16CDAF3CE0B74AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C909DB9FB0EB7F03E0998492B9AD8EA4 /* WPMarkDownParse.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPMarkDownParse/WPMarkDownParse-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPMarkDownParse/WPMarkDownParse-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPMarkDownParse/WPMarkDownParse.modulemap";
+				PRODUCT_MODULE_NAME = WPMarkDownParse;
+				PRODUCT_NAME = WPMarkDownParse;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE3B0F3E067580C641D08BE7403C93E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C909DB9FB0EB7F03E0998492B9AD8EA4 /* WPMarkDownParse.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPMarkDownParse/WPMarkDownParse-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPMarkDownParse/WPMarkDownParse-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPMarkDownParse/WPMarkDownParse.modulemap";
+				PRODUCT_MODULE_NAME = WPMarkDownParse;
+				PRODUCT_NAME = WPMarkDownParse;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB00546C6523D6F46D3DFBCCA5EC3774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC388A317F74813D8497FC0E1E29FE2 /* Pods-WPMarkDownParse_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPMarkDownParse_Tests/Pods-WPMarkDownParse_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPMarkDownParse_Tests/Pods-WPMarkDownParse_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E843307297B957D14805CCE289B745DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C842096BEE4F654391A6CF8FA6E70C2F /* Pods-WPMarkDownParse_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPMarkDownParse_Tests/Pods-WPMarkDownParse_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPMarkDownParse_Tests/Pods-WPMarkDownParse_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420D80B10F9AC633AD78EB26208FE69C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF75E907238C9FA543463FF4FD3A382 /* Build configuration list for PBXNativeTarget "Pods-WPMarkDownParse_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52863CAE646C6EBA325D04378F29C072 /* Debug */,
+				545156D7CDCF5A9486754E95E7589E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7582866ABE3ECBF4A21A68815D663156 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7238F3A021B0C84F16CDAF3CE0B74AA3 /* Debug */,
+				CE3B0F3E067580C641D08BE7403C93E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A3AD949F2962D5A96AC6C786DB1500 /* Build configuration list for PBXNativeTarget "YYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604B0C04D46E5CAFD4B139A8B4785F11 /* Debug */,
+				34AC86B90D5C54C9893A5D0961C182D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8EC2669990AA1274238210A5F2B34E /* Build configuration list for PBXNativeTarget "Pods-WPMarkDownParse_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB00546C6523D6F46D3DFBCCA5EC3774 /* Debug */,
+				E843307297B957D14805CCE289B745DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

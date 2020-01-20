@@ -1,0 +1,6 @@
+framework module WPMarkDownParse {
+  umbrella header "WPMarkDownParse-umbrella.h"
+
+  export *
+  module * { export * }
+}
