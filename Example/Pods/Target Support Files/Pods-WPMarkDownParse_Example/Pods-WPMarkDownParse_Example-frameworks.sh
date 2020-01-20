@@ -161,21 +161,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WPBaseTableView/WPBaseTableView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WPChained/WPChained.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WPMarkDownParse/WPMarkDownParse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WPBaseTableView/WPBaseTableView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WPChained/WPChained.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WPMarkDownParse/WPMarkDownParse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"

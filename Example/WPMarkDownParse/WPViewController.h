@@ -8,7 +8,6 @@
 
 @import UIKit;
 
-#import <WPBaseTableView/WPBaseTableView.h>
-@interface WPViewController : WPBaseSectionTableViewViewController
+@interface WPViewController : UIViewController
 
 @end

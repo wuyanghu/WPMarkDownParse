@@ -4,18 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Masonry (1.1.0)
-  - MJRefresh (3.1.15.6)
   - SDWebImage (5.0.2):
     - SDWebImage/Core (= 5.0.2)
   - SDWebImage/Core (5.0.2)
-  - "UITableView+FDTemplateLayoutCell (1.6)"
-  - WPBaseTableView (0.1.4.2):
-    - Masonry (= 1.1.0)
-    - MJRefresh (= 3.1.15.6)
-    - SDWebImage (= 5.0.2)
-    - "UITableView+FDTemplateLayoutCell (= 1.6)"
-    - YYText (= 1.0.7)
   - WPChained (0.1.2)
   - WPMarkDownParse (0.1.0):
     - SDWebImage (= 5.0.2)
@@ -25,17 +16,12 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - WPBaseTableView
   - WPMarkDownParse (from `../`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-    - Masonry
-    - MJRefresh
     - SDWebImage
-    - "UITableView+FDTemplateLayoutCell"
-    - WPBaseTableView
     - WPChained
     - YYText
 
@@ -45,15 +31,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
-  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  WPBaseTableView: 9767b8f404b942c11485679590153c8698d4c3fd
   WPChained: 354502cdfaf040ae05dd41b115c9169da90967cf
   WPMarkDownParse: 1ac33eb30159a6bf406b0b1bd2259c9dd12bd05e
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 5e1ce8617dda6e09d277010c6c8820fdcfd6c54e
+PODFILE CHECKSUM: 77c5a6c23daf09d1c57206aa6519f43c23b0350b
 
 COCOAPODS: 1.8.4
