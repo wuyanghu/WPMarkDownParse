@@ -7,6 +7,7 @@
 //
 
 #import "WPMarkDownParseDisorder.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseDisorder
 

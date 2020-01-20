@@ -7,6 +7,7 @@
 //
 
 #import "WPMarkDownParseOrder.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseOrder
 

@@ -9,6 +9,7 @@
 #import "WPMarkDownParseTitle.h"
 #import "WPMarkDownConfigShareManager.h"
 #import "WPMarkDownParseBaseModel.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @interface WPMarkDownParseTitle()
 @property (nonatomic,assign) WPMarkDownParseLevelTitleType level;

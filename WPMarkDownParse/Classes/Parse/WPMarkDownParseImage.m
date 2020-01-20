@@ -9,6 +9,7 @@
 #import "WPMarkDownParseImage.h"
 #import "YYText.h"
 #import "UIImageView+WebCache.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseImage
 

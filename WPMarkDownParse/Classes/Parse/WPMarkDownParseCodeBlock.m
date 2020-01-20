@@ -9,6 +9,7 @@
 #import "WPMarkDownParseCodeBlock.h"
 #import "YYText.h"
 #import "WPMarkDownConfigShareManager.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseCodeBlock
 

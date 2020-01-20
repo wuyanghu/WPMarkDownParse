@@ -8,6 +8,7 @@
 
 #import "WPMarkDownParseQuoteParagraph.h"
 #import "YYText.h"
+#import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseQuoteParagraph
 

@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "WPMarkDownParseStrageInterface.h"
 #import "WPMarkDownParseBaseModel.h"
-#import "NSMutableAttributedString+WPAddAttributed.h"
 #import "WPMarkDownConfigShareManager.h"
 #import "WPMarkDownMacro.h"
 
