@@ -10,11 +10,7 @@
 # 1.效果展示
 [MarkDown简书](https://www.jianshu.com/p/649e72b1bf1f)
 
-![效果1](https://upload-images.jianshu.io/upload_images/1387554-84016149642dafa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![效果2](https://upload-images.jianshu.io/upload_images/1387554-665e8ccb9a7217e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![效果3](https://upload-images.jianshu.io/upload_images/1387554-31cb4bbcd423968a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MarkDown解析.gif](https://upload-images.jianshu.io/upload_images/1387554-068ec99f3268c330.gif?imageMogr2/auto-orient/strip)
 
 # 2.调用
 # 2.1 NSString+WPMarkDownParse入口
