@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WPMarkDownParseFactory : NSObject
+- (void)parseMarkDownWithText:(NSString *)text finishBlock:(void (^)(NSMutableAttributedString * string))block;
+- (void)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width finishBlock:(void (^)(NSMutableAttributedString * string))block;
+
 + (NSMutableAttributedString *)parseMarkDownWithText:(NSString *)text;
++ (NSMutableAttributedString *)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width;
 @end
 
 NS_ASSUME_NONNULL_END

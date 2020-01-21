@@ -14,12 +14,14 @@
 @implementation WPMarkDownParseImage
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1; i++) {
-        WPMarkDownParseImageModel * urlModel = [[WPMarkDownParseImageModel alloc] initWithSymbol:self.symbol];
         
         NSString * leftString = separatedArray[i];
+        if ([self isBackslash:leftString]) {
+            continue;
+        }
+        WPMarkDownParseImageModel * urlModel = [[WPMarkDownParseImageModel alloc] initWithSymbol:self.symbol];
         NSArray * leftStringSeparteds = [leftString componentsSeparatedByString:@"!["];
         if (leftStringSeparteds.count>1) {
             urlModel.text = leftStringSeparteds.lastObject;
@@ -29,32 +31,28 @@
             urlModel.url = rightSepartedArray.firstObject;
         }
         if (urlModel.text.length && urlModel.url.length) {
-            [parseArray addObject:urlModel];//当文字与url都不为空时，才算解析成功
+            [self.segmentArray addObject:urlModel];//当文字与url都不为空时，才算解析成功
         }
-        
     }
-    self.segmentArray = parseArray;
     
 }
 
 //设置富文本url的字体颜色和url
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{
     NSString * text = attributedString.string;
-    WPMarkDownConfigShareManager * config = [WPMarkDownConfigShareManager sharedManager];
-    CGFloat fontSize = config.defaultFontSize;
     [self.segmentArray enumerateObjectsUsingBlock:^(WPMarkDownParseLinkModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSRange range = [text rangeOfString:obj.text];
         
         {   /*
              设置图片,现在是固定宽高，可让url后带上宽高
              */
-            UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, config.defaultWidth, config.defaultWidth*0.68)];
+            UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.defaultWidth, self.defaultWidth*0.68)];
             [imageView sd_setImageWithURL:[NSURL URLWithString:obj.url] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
                 
             }];
             
             imageView.backgroundColor = [UIColor whiteColor];
-            NSMutableAttributedString *attachText = [NSMutableAttributedString yy_attachmentStringWithContent:imageView contentMode:UIViewContentModeCenter attachmentSize:imageView.frame.size alignToFont:[UIFont systemFontOfSize:fontSize] alignment:YYTextVerticalAlignmentCenter];
+            NSMutableAttributedString *attachText = [NSMutableAttributedString yy_attachmentStringWithContent:imageView contentMode:UIViewContentModeCenter attachmentSize:imageView.frame.size alignToFont:[UIFont systemFontOfSize:self.defaultFontSize] alignment:YYTextVerticalAlignmentCenter];
             [attachText appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n" attributes:nil]];
             [attributedString insertAttributedString:attachText atIndex:range.location];
         }
@@ -62,10 +60,10 @@
         {//处理描述文字
             range = [text rangeOfString:obj.text];
             [attributedString wp_makeAttributed:^(WPMutableAttributedStringMaker * _Nullable make) {
-                make.textFont(fontSize-2,range);
+                make.textFont(self.defaultFontSize-2,range);
                 make.textColor([UIColor grayColor],range);
                 
-                CGFloat width = [self calculateWidth:obj.text fontSize:fontSize];
+                CGFloat width = [self calculateWidth:obj.text fontSize:self.defaultFontSize];
                 WPMutableParagraphStyleModel * styleModel = [self paragraphStyleModel:width];
                 make.paragraphStyle([styleModel createParagraphStyle],range);
             }];
@@ -76,9 +74,9 @@
 - (WPMutableParagraphStyleModel *)paragraphStyleModel:(CGFloat)width{
     
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
-    WPMarkDownConfigShareManager * config = [WPMarkDownConfigShareManager sharedManager];
-    styleModel.headIndent =  config.defaultWidth-width/2;//整体缩进(首行除外)
-    styleModel.firstLineHeadIndent = config.defaultWidth-width/2;
+    styleModel.headIndent =  (self.defaultWidth-width)/2;//整体缩进(首行除外)
+    styleModel.firstLineHeadIndent = (self.defaultWidth-width)/2;
+    styleModel.alignment = NSTextAlignmentJustified;
     return styleModel;
 }
 

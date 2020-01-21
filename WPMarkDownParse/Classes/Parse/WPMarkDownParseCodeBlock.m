@@ -8,7 +8,6 @@
 
 #import "WPMarkDownParseCodeBlock.h"
 #import "YYText.h"
-#import "WPMarkDownConfigShareManager.h"
 #import "NSMutableAttributedString+WPAddAttributed.h"
 
 @implementation WPMarkDownParseCodeBlock
@@ -16,15 +15,14 @@
 #pragma mark - 策略
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
-    
     for (int i = 0; i<separatedArray.count-1;i+=2) {
+        if ([self isBackslash:separatedArray[i]]) {
+            continue;
+        }
         WPMarkDownParseCodeBlockModel * blockModel = [[WPMarkDownParseCodeBlockModel alloc] initWithSymbol:self.symbol];
         blockModel.text = separatedArray[i+1];
-        [parseArray addObject:blockModel];
-        
+        [self.segmentArray addObject:blockModel];        
     }
-    self.segmentArray = parseArray;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{

@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WPMarkDownParseLink : WPMarkDownBaseParse
-@property (nonatomic,copy) NSString * url;
 @end
 
 NS_ASSUME_NONNULL_END

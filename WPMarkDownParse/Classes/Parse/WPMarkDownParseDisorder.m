@@ -12,29 +12,27 @@
 @implementation WPMarkDownParseDisorder
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1;i++) {
-        WPMarkDownParseDisorderModel * disorderModel = [[WPMarkDownParseDisorderModel alloc] initWithSymbol:self.symbol];
         
         NSString * leftString = separatedArray[i];
+        if ([self isBackslash:leftString]) {
+            continue;
+        }
         //必须是段落第一位，中间的-不解析
-        NSString * lastString;
         if (leftString.length>0) {
-            lastString = [leftString substringWithRange:NSMakeRange(leftString.length-1, 1)];
-            if (![lastString isEqualToString:@"\n"]) {
+            if (![[leftString substringFromIndex:leftString.length-1] isEqualToString:@"\n"]) {
                 continue;
             }
         }
         
         NSArray * rigthSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n\n"];
         if (rigthSeparteds.count>0) {
+            WPMarkDownParseDisorderModel * disorderModel = [[WPMarkDownParseDisorderModel alloc] initWithSymbol:self.symbol];
             disorderModel.text = rigthSeparteds.firstObject;
-            [parseArray addObject:disorderModel];
-        }
-        
+            [self.segmentArray addObject:disorderModel];
+        }        
     }
-    self.segmentArray = parseArray;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{
@@ -53,6 +51,7 @@
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
     styleModel.headIndent = 20;//整体缩进(首行除外)
     styleModel.firstLineHeadIndent = 20;
+    styleModel.alignment = NSTextAlignmentJustified;
     return styleModel;
 }
 

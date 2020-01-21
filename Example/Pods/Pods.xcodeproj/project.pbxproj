@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001B982D7F0DE9595D51FD0760F92E54 /* NSParagraphStyle+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 27263F220C0D75AEE56555387936B5B5 /* NSParagraphStyle+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0015CF5D587D2FB66888963B858FEA10 /* WPMarkDownParseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 491F1BE1CEEF5548FF3273BBF0DF0FB2 /* WPMarkDownParseFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 11559B3B1EE780FAC91CBA71B05F189C /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0085700B7AC6FDD14350A8D48246B2AC /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EFF15732A91697BB89BDE1EBA9B0AC /* UIPasteboard+YYText.m */; };
+		0246DEB8C5483DA7C22F68F6048FB73C /* YYText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C7E2B7F0402AE8F8628C8358BBAEF2 /* YYText-dummy.m */; };
+		026CCBE8A2EEBDFFACB16238ADAF4823 /* WPMarkDownParseLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 688ECA8E0804615C4DE54F5BAE478041 /* WPMarkDownParseLink.m */; };
+		029971398B5F7B9BD9B659C4FC3CE92E /* YYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E342B52785A13FC2EEC9FED26A4F263 /* YYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		037D0258B92735BF2B23FFFC3E96BFE7 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E173C83A6A8A0E4F0D76999C31185 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0458B22703B2264B7A796C802955A345 /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D66D087682C7708F3E43EA16B4F51E /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		054E2D7AB7D73FDB3EC09A245D6F39E3 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4E3C65DD282462087A7BEDA3EF715 /* YYTextLine.m */; };
 		05AE5D5D1F637215D6A09795AAFEDFB4 /* WPLabelChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 950B07FD22EFB7479F89CFBE2AF607B0 /* WPLabelChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0626D996B07CA49543CE1B207D168121 /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 407FA5AD4A06F374278A24B562CA4813 /* SDWebImageTransition.m */; };
-		06274DCC0647EB1957FA312CB929C4A7 /* YYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B68F26EA2F413D70E2ECAA9D70B117FD /* YYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		089271A8DF0F635E86B5930A58747485 /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D67609481B3F2DE8DAD8334393A9B /* SDAnimatedImageView.m */; };
 		092EC0144C2F4D16F5DC20461953BF81 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1633634C146C0DD70760571389B2EF /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09A5A36A44A042D7BFE7026A97F9146E /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E96A204DE6E79FC02ADCCE56B78DD1 /* YYTextAsyncLayer.m */; };
-		0B80F28E252161A37037F80582492A5B /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9E2AA0DE0D39F02E3E60079F1D996 /* YYTextDebugOption.m */; };
+		0A14C2A7AF716D233B4C6EC8C029499C /* WPMarkDownParseItalic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00E1C5DBC1E33C84F326BA61F89981 /* WPMarkDownParseItalic.m */; };
+		0B6936F5C9B6B08F378DDBE919F803D0 /* WPMarkDownParseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD7B18A5A8FED9589FA561A2F4A6F /* WPMarkDownParseFactory.m */; };
 		0C0514900B6EE4465EB97A4536D41EFF /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6EBE1614486E3139D93D4A949D5F9E /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C5048912970A679E6482E927B57F17F /* WPMarkDownParseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F53CF63FC4594BE568F871116F46235 /* WPMarkDownParseFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CA1A34AB951F5575A4F8A557876BE1D /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416221163571F2860AA3D52FD65962D /* NSData+ImageContentType.m */; };
+		0D8EB84B240167EA48888160F889D18A /* WPMarkDownParseOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A89359D58F6A29BAF46038696A7B73 /* WPMarkDownParseOrder.m */; };
 		0E11B4EA40961294249CB4E5F5AA42A7 /* Pods-WPMarkDownParse_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D428A3F270F1271383A941C996B4E /* Pods-WPMarkDownParse_Example-dummy.m */; };
-		0E7B6BC5ADA3423EBBFE5933179D64BD /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1E6F222FA353B33A44E790FA11696 /* SDWebImage.framework */; };
+		0FEB69C3AB873D3A474D936B592F3821 /* WPMarkDownParseBold.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEFA6763C569E25F475D991D5E33B59 /* WPMarkDownParseBold.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		107FAE670642E6B0BDD77CDB48CD86DA /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69063093477388ECC8F33DBEB9E8E7AA /* UIImageView+HighlightedWebCache.m */; };
+		108371A2B9B82C4BFC86BE8A308B9F94 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 875621894073F9B3A78997B6F5188A2A /* NSAttributedString+YYText.m */; };
 		1192FFD49002CD27ABAC004DE7EFA885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		11964A5D757CF409A3A8448563D3080A /* NSMutableAttributedString+WPAddAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30145FFD651CE4FCB7899205031820 /* NSMutableAttributedString+WPAddAttributed.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 645221E90B3A9C3EAA450CAD9F2A77B4 /* UIApplication+StrictKeyWindow.m */; };
@@ -30,245 +36,237 @@
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74704C6AC357DC5B5B9A7C71AC9021 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C30627A4719BC3A04CC92E3B9EFD442 /* QuartzCore.framework */; };
 		1557A648F50981926086688B622C2AF9 /* WPNavigationChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 166A2AFF1839AB15DAABF3A5C6599EB5 /* WPNavigationChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C204AC5DCE70814A60655F6281C37B /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F52F020324D3F0680FB55F238657343 /* YYTextArchiver.m */; };
+		16EB6D6E22327845E74E064A5DADB0C6 /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA560B0EF1A2F6886966788FF570DF2C /* YYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1799DD61C47CE2524F772CE9FE3E57BB /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D7244C4552EFFCB36543AE00D3D89A /* SDWebImageCompat.m */; };
-		1806641365129B1475C61AFBD036F0CD /* WPMarkDownBaseParse.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA32F2CC05E92AFA4243C8C89A70EBE /* WPMarkDownBaseParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FE659F8785DAE38225E131F60B70C7 /* WPMarkDownParseTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E54765423E43697A7514A4A3A9DC25E /* WPMarkDownParseTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183AE69089AB6722B60089859F51CC91 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F71709367155BC14BB93F2405452A /* NSButton+WebCache.m */; };
-		186922EFE5594F17426A405D14D6CE37 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F52F020324D3F0680FB55F238657343 /* YYTextArchiver.m */; };
+		1A7B929FF8FBEF2D18BF230590D27272 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFF6A693673BA7CD9108E5FFD549E5 /* YYTextTransaction.m */; };
 		1AE9AE32F98D855FF16996E8346F5A4F /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF23B73BB8CEC24992C738E1037200B /* UIImage+Metadata.m */; };
-		1B18636FE76289A80EF4B63FB42212A2 /* WPMarkDownParseStrageInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC68F54ADC58234917A74992FE4AD1B /* WPMarkDownParseStrageInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BFC7BC763C8F786550578273AA7C76F /* WPMarkDownParseBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC87581929EC7EAD490CDA77786C1F0 /* WPMarkDownParseBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C3CEEBD4EC70DE8E9B794394DB88E98 /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1EB50B277AB2E0EDD814C4F238AFA /* SDWeakProxy.m */; };
-		1ECBFA306942B76D2A1B98363AF574CE /* WPMarkDownParseItalic.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAD4D401F20014C7B81BDA6B57AED6 /* WPMarkDownParseItalic.m */; };
+		1CA94FCD5291C3D3FE8C16BBA7F413EB /* YYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F29994DA18BEBE6A8C73EBE01CB47B8D /* YYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB19AD2BB3AA1590AEB5153BF952B03 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F43C78AD4BD76EEFF4F810FEFED8E4 /* CoreText.framework */; };
+		1F9CE4E31B2818F9C2F6BE112C97C18D /* WPMarkDownParseStrageInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AE547592902B5E316C3FE223717213 /* WPMarkDownParseStrageInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FF554024794BF4B5C0E4AFC0C7C8193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411A1E78B5FA096CBE9D2746ADC2B8AA /* UIKit.framework */; };
 		201921931F66DEB554F3E92A1C76103D /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = DF520E504BDDB0BFF9CF35B7AEC5663A /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2023103B5A48C1A6A9589B1E32562AD1 /* WPMarkDownParseDisorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AB57471F373EB0C3CCAB824E66CAD2 /* WPMarkDownParseDisorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20C7AF36AF29FFB79E5A5B5B646BC63B /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF620DC8BA6205DBB1E1E6760853370 /* SDImageCacheConfig.m */; };
-		20C98991BE6ADB0406C37DFC7581FE2B /* YYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E342B52785A13FC2EEC9FED26A4F263 /* YYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21677CBB10369646A99E71939AB83E1A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F43C78AD4BD76EEFF4F810FEFED8E4 /* CoreText.framework */; };
+		21AFABC79B4928B360F3C31C09D23A82 /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EE3A419E19E312573A4A916A1E5049 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		221F4AB77ACAFA552B41C09F86743AA4 /* SDImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3D5E402A38B2FBF1B4CD03D444425 /* SDImageIOCoder.m */; };
 		2226D61A6D5A4D83E6A0454DB5C1FBF6 /* SDImageCacheDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D2E5C24CAC83E0DE5C0FEE645F40 /* SDImageCacheDefine.m */; };
 		22964457252D04396E94426CB5C2A2F9 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2BE7D0BF1A55EDDDB98574989B474 /* SDImageFrame.m */; };
+		238E24448822ECF82238FA78A265B04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		255276C4DEEB80E023A0F6B847F31C42 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EF18CA3BAD6D0E91EE01D5AC8BF82B1F /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CA52DA2A829AF560056B83C81EAA66 /* WPMarkDownParseTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 91365395A4A7DE8539DD554FA0ECC1E4 /* WPMarkDownParseTitle.m */; };
 		26DCE3D775A1D1372129BA63FD9E66CB /* WPNavigationChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B50570D87F36293E1F3C5FDBAC1BD83 /* WPNavigationChainedMaker.m */; };
+		27E08F5AF109876FE51806FBC7E36684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		2810665D418DC3AC5ADE2B26B19FF2D3 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F90119498C67EA9B5D7CB8A30713A0D9 /* UIImageView+WebCache.m */; };
-		28679FF0B0FB2D19F191DEFA407CCE7B /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F09721B60F2135356B395B592755A7A /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2895CCBCDD7B866385A11CB21087CB07 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617B86F9449A11916F31A2A1AEF48293 /* Accelerate.framework */; };
 		2A1576930A205BE96C820872C87EEE7B /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 102E0EB3FEEE6290B96485EDBCE6906D /* UIColor+HexString.m */; };
 		2C186B547D765DF99B11DC9B1CE8B443 /* UINavigationItem+WPAddBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A84057C7B68F7D421DF9A8671F8B306 /* UINavigationItem+WPAddBarButtonItem.m */; };
 		2C8950112B8EE2D95FB7F971B580A374 /* SDImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB173DA9EA7E61120D14BC6898FB79 /* SDImageCodersManager.m */; };
-		2CC11859C1F515E901D9FF413579A659 /* WPMarkDownParseDisorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5383323CD654E2E39B842F81A3F632 /* WPMarkDownParseDisorder.m */; };
 		2CF884A28822E1D9859FD2F2B228560A /* SDImageAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C451BBC6FD023618984DB2F85356A836 /* SDImageAssetManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		2D4002399B49332F8FA808660454794E /* WPMarkDownParseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A1552AE89432B39B1CF6AB17381A53F6 /* WPMarkDownParseImage.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 835F5FB9B7A3DB6CB4B0A0AAEB9C52C0 /* UIImage+Compare.m */; };
-		2F6FB925B19EA463E0E591AB33E0B3AB /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEF02ABD8C7242EA9C54863FDB7CA89 /* YYTextAttribute.m */; };
 		2FE40604ABA7405B498718F7AD1A7173 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF7D7DB56179AE93462736A167EE941 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		312AB9B1CCE4189F1DF9C56DC3CAE705 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AC085784EACDB52645BBDC676DE6055E /* YYTextInput.m */; };
-		3158F7CC0E40FE2FEB77070BE642B117 /* WPMarkDownParseOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9736146A912E1E0EBFA2D95F3399E /* WPMarkDownParseOrder.m */; };
+		308DD0EBF199D17411D316C53C1F0D60 /* WPMarkDownParseCodeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C82EE7436A3F680ADC8B4F93CA1A15 /* WPMarkDownParseCodeBlock.m */; };
+		30C6E5DD2EB1B1F41099BA0F6F84C2E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C30627A4719BC3A04CC92E3B9EFD442 /* QuartzCore.framework */; };
+		31B9A56B7DFD73BB163FFF0F7899871E /* WPMarkDownParseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD81C5BA9427F1B802A5A69A80F0F17F /* WPMarkDownParseImage.m */; };
+		331855041A3DE8917F5CF83EDC1783E6 /* WPMarkDownParseQuoteParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 38301D6C5FC65E6E57D3826B09B59DD7 /* WPMarkDownParseQuoteParagraph.m */; };
 		331906DC8E6EAE8CE6E03A9854CDBE1B /* Pods-WPMarkDownParse_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B2250DC6CDFF138E1637D4B6DC2978 /* Pods-WPMarkDownParse_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A17527968522AD73D8380E23FC44C3 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 469B2C5962E631E845F48149A23E8454 /* YYLabel.m */; };
+		33AC29DD9DE183F52D864A60D62277D2 /* WPMarkDownParseBold.m in Sources */ = {isa = PBXBuildFile; fileRef = 6604F2F41FF21F1577B77F5C3E48006F /* WPMarkDownParseBold.m */; };
+		33AC396CC8ABBE7267F46F1161F7E275 /* YYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CE1A6AD3B711F6D303FE8C10BAC8F6 /* YYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33E28C19D5BF581C63D3597A0DC72380 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B10E8569D0DBA3E9AAD27003CAF4C6 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BD68B648DAD43B5BD17C7A69DFF4A5 /* UILabel+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA896101FA648EA52D39ADCCCD5014D /* UILabel+WPChained.m */; };
+		363F9F1666FF9BC2EC16052293F651E9 /* YYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B967D3E18AC771B18FB657AE9F6ED50 /* YYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37845927AF3B0431639D3589EBE92CEC /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9721B1DEF16F79420ABC0482BC82E7 /* NSImage+Compatibility.m */; };
+		38173E8DF8447B50754CFBDBFE1EF866 /* YYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = EC362C1B05AF475DF6B74B318682655E /* YYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2AA10CAFEA01D2F9C656974755AA7F /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AC085784EACDB52645BBDC676DE6055E /* YYTextInput.m */; };
 		3B722780528C5C876828FBA6F0D58921 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98D583E6DD8B71FBF0D3DD365F25BE /* SDWebImageDownloaderConfig.m */; };
 		3C49237ABF1CC83635F1D0BA74EE3DE8 /* SDDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F039476B5295C26C25955F101506F1 /* SDDiskCache.m */; };
-		3CF6E5F13FF9B7D2BBD6E91692BD03C9 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2329B11F8C02296F9BD3E6C5F143D9 /* UIView+YYText.m */; };
 		3D074AA7E6C8CB30B879378BAF6FE9C2 /* SDImageGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FA01178A1A24DFBF5FE934BEF3095E /* SDImageGraphics.m */; };
-		3D50302F912F569453661FECEC79E4BF /* YYText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F40E7878E5583A33A96FE191E64C8862 /* YYText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DA07A64C87FEBF3CD43E447A1B7BACB /* WPMarkDownParseBold.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD72ECE3D259F454451BE4E579AF752 /* WPMarkDownParseBold.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E05153D7ED2768CCE755D51CD3C8184 /* SDWebImageError.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A0497B0B85B5D223A94D609359E2F0 /* SDWebImageError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F76C5DA5197B2547ED88E28EFD3F9AA /* WPMarkDownParseOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D95255740E491D3EE2DD131DD64EA2 /* WPMarkDownParseOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE1534E2958FD7CD2000290103A6DAA /* WPMarkDownParse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFDDEA6F064B25DEC7A68D6F7D958A7 /* WPMarkDownParse-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D5B3B19F7890EA797306123C5E4B63 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		405323CAAE2DE0241421F59742543277 /* YYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2D6B26446B755EAA17BAD96D98B2A4 /* YYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4174BF09241E8DA253F8ACDEF6C04C21 /* YYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E58AABF2085E1D5D0B4831B487EDFFE /* YYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4056E858713FEDD9A1BA836500A193A0 /* WPMarkDownBaseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B06E005CC3761B1183461A4CC00EAFB /* WPMarkDownBaseParse.m */; };
+		4191609ACE0FDCC3E96DC5F420E0BC63 /* WPMarkDownParseBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3D8B994D52BEF349254A95F201B13 /* WPMarkDownParseBaseModel.m */; };
 		41A17DCE3C993697D925585A26297D1C /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DF33AA4B9BB2577D819D816F636A2 /* SDWebImageIndicator.m */; };
-		4200979EAD8E3BE5D63BD604C61A8E9C /* YYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = EC362C1B05AF475DF6B74B318682655E /* YYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42927E3270EBE2D3F27F2BAA1750736E /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B35C10B2ED60727A15E274CB439C5C4 /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4391FF45E87C9AD2E454C447422B4217 /* WPMarkDownParseCodeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 663923C8E1C3B46CAE08354EEAB3A756 /* WPMarkDownParseCodeBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		439464E37FBB3EEA16786B84187EDE4D /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC5916629FCCB26FF45A84138DF3255 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43CA92608F127EFB9247427E4701FA60 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BA924DB1219E198C00443932F828C /* UIImage+GIF.m */; };
 		447DD41B5CA1E121219ECA2B0B1B874F /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8316E636C5A5F8C4A73152807CAEA179 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44AB83515CFF8FF4918CBD52B22DE20C /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5FDC173944A46EF996EED323FA6D7C /* SDImageLoader.m */; };
 		44DA9B8240EAA7ED49768904DCB226C4 /* WPMutableParagraphStyleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BD278D2A21FD78546C1F61EF2705EF /* WPMutableParagraphStyleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F2046981C7A7BFFF0B040C9AD987CC /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F12D392E5ADF4B5D98CB2AAC2A92B1 /* YYTextRunDelegate.m */; };
+		483CA193D9309ABDBEDD51A06C8198BB /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F12D392E5ADF4B5D98CB2AAC2A92B1 /* YYTextRunDelegate.m */; };
 		4955C693FE3E6F879065339EF9F7BA20 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B52D5B558470330B1E5A6680DA1F0642 /* SDWebImageDownloaderOperation.m */; };
 		4B2EFDE24B936A233E770BCACA7055C9 /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA87A7EF0336C2726D47541A9608138 /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE0D9B792F2CF77564F9CFA8577725C /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D66D087682C7708F3E43EA16B4F51E /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		521FED30111A926918756C141F8B40F8 /* WPMarkDownBaseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EE24D2F18D1F00D8C76EC25A0FACFB /* WPMarkDownBaseParse.m */; };
-		53340D752A88B0525B34AFF9FCB7186A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910DA374BE8AD3B5733361E1523023B /* MobileCoreServices.framework */; };
+		4BA7A8BEB3A75C41347874E3CED74846 /* WPMarkDownMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F2DE11F1EC1AAC9E1F872FB3D6AE92 /* WPMarkDownMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE4F600C2FCE41E0A5528059EE93158 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E96A204DE6E79FC02ADCCE56B78DD1 /* YYTextAsyncLayer.m */; };
+		4E222DA8F014F4F86ADA953E9B91FE36 /* YYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9902CFC1A5F017832CD6CE25285C636C /* YYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A996873D0A293A0DE100C8F075BD89 /* WPMarkDownBaseParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6711D7A79D9F4D647635F581CCE87F5A /* WPMarkDownBaseParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53834B26BF5BBEDB5CBFD2429BF42FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		54AADB59F5CB3BCE4DC007534817DE3A /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD48F9D8BEF2600A955B9A124FCB99D /* UIView+WebCache.m */; };
-		555AD2DF8FB3650809CD18F4908C0AE9 /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE7FE20EB591DBF3EA147D5B2ED935A /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		560C2A8D8419109DF7040B33E0307C3E /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 92378A164C70996073A3E9418F1C8907 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		567B76DB3107D10132E755D40BE0FB7A /* NSString+WPMarkDownParse.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F640C30D0D91858D340CB431214EF7 /* NSString+WPMarkDownParse.m */; };
-		581840C4A283208257B25B907D75AA78 /* WPMarkDownParseItalic.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0C39298840ED02C33CB7765784D67E /* WPMarkDownParseItalic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58A966DBA044F582C47AD36A96D8E3B0 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4577C3859E78BE7ACC36F6572FDBA371 /* YYTextView.m */; };
 		58DA1ECEEDA7E199900C5D141177E10E /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEDB4CF904DA4985E39C9F38E2E1AAD /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A119404130B075B798C4EB9C6E0D2A8 /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 54203D6DC8238F4C72C2C301601C6E20 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB57552A5AB7D989E56C3285CE411B0 /* NSMutableAttributedString+WPAddAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCE8744498D8164ED0E51388D04617E /* NSMutableAttributedString+WPAddAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DF14810A01D3F558AE328A30C48397A /* WPMarkDownParseLink.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2B483C9756F5F3A79932B498BC5CAA /* WPMarkDownParseLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E03053B4B4FCEE9927F3E9E01656FB0 /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 047E9A051153792AD106727114D36F5E /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60674EB9F61FE68A9083560FBEAF8D89 /* YYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F29994DA18BEBE6A8C73EBE01CB47B8D /* YYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		615B7A4D69260D47EB5A2A09778A65A2 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F7E1537CFFDB3CB3786DFC49C6D978 /* YYTextMagnifier.m */; };
 		62128B32A5076513EFD9025C581EBA07 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0845A7FCD0862DABE91C3F07C3A78 /* UIImage+Transform.m */; };
 		62B32B513F591B993CF722FE403D91D6 /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B580E466BD06F069F4BE163506C3C79 /* SDImageCoderHelper.m */; };
+		635F5237BE5D808C45AC31D14DE994CC /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EB9A1766B02AA344B09EFDB09BBC /* YYTextRubyAnnotation.m */; };
 		6378B0F5C6F46F18823A58FE04B49842 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B83E20BA28B82260FF4BCFA494C002 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BCF4EAF69B83898F32C56C3A59351D /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BED0011FAD8E8F2ED6C6274C3D8A4C5 /* SDImageCachesManagerOperation.m */; };
+		644332F0486E3B0A2E019943CF91779B /* NSString+WPMarkDownParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1234A4D4E17746BE342502D03C4ADE /* NSString+WPMarkDownParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A4DBCEBF46707517AF98EE9171EAA2 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC290DF222D6E7685C97193A1B3867B /* UIImage+MultiFormat.m */; };
-		67838BFC7763D62DB134B770089C8C6E /* WPMarkDownParse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E0CB6FB9C34332AF178D3B68E1E3F /* WPMarkDownParse-dummy.m */; };
+		668F3031653D3CF68DB60B4489A0E055 /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C4DFF6B2E163120F02E1F61D41D203 /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67DD73BE7BEA0484FA889F299C8171D8 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418F11A4E65674493CC8A13821A43ED /* YYTextSelectionView.m */; };
 		6805D50DEC98127D9BB2BD93B7E07F8A /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E971122A4B6330E1AAB1FBEB08780AC1 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		689F1E096D435A53EF34A52C9D8C4F54 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D880E4751B16CA3EBA844A64ECBAF7D /* YYTextUtilities.m */; };
 		691A1EC2F39654C5C2B23352AF23D065 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7993B46B2FB1CC89A63250B426EAE42B /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6937E380503DF689615A54F228C7C71E /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B44775889996060DEB8561DD4BCD36 /* YYTextContainerView.m */; };
-		69E1D71DA93651DA8665B3859D988E2C /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E44FAC9F69E6F68E6092B058EC08E /* NSParagraphStyle+YYText.m */; };
+		6931EB43A9BF878ED14C8DE2367152EC /* WPMarkDownParseItalic.h in Headers */ = {isa = PBXBuildFile; fileRef = A56CBD2B268B6361FAB64EC64D38891C /* WPMarkDownParseItalic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A00FB9CEA3EA72446CD8D7DCCD71769 /* SDWebImageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6AB0BE3AFC2640394B1D3ED02D3E4B /* SDWebImageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A17E67E17B4337C1312529A9C2D7185 /* WPChained.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA41ADD1A0921D42B6ADFA46E656FDD3 /* WPChained.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68349C598208B8170680BBDFCEE94038 /* XCTest.framework */; };
-		6B429CF7803334C2334A7D1810D51155 /* WPMarkDownParseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E45ECE7BECF9D5709229A18EE3B9B13 /* WPMarkDownParseFactory.m */; };
-		6D8F0BE99858C5ACD51F829039FB1E0D /* YYText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C7E2B7F0402AE8F8628C8358BBAEF2 /* YYText-dummy.m */; };
+		6B4EC814B9F758C6875467FF6FE45A53 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D880E4751B16CA3EBA844A64ECBAF7D /* YYTextUtilities.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 744E498186D09B4C5531DDEFC307DC02 /* FBSnapshotTestCase-dummy.m */; };
+		7048F7E960EF273F9BDBC66F2458ADB3 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209C5FB86CE4851703C99F68702871E0 /* YYTextWeakProxy.m */; };
 		70794A4065D60CA174A6F4AC097DD5C9 /* UIButton+WPChained.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F495F67A267E9E107F8275A01CC66 /* UIButton+WPChained.m */; };
+		712AC67962D692C9CE3E7C4EB5D2AFDE /* YYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E58AABF2085E1D5D0B4831B487EDFFE /* YYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7160C135B0F26AF5F3475A0E1688EDFE /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 246532E63A0B57892A8014B5D81D2397 /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		719CAC6700AD2C1F8808AE9B77C67076 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C30627A4719BC3A04CC92E3B9EFD442 /* QuartzCore.framework */; };
 		71A05387793F1897323FFDA19CE9D018 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 24342B34B7E00A675287D5B78A660D7F /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E1BA105844053E12CFB823A4B91219 /* WPMarkDownParseQuoteParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACE9B6B3997D0E7E730D31591823F28 /* WPMarkDownParseQuoteParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73471BDBE91D75B014A4CC4533711A22 /* WPChained-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D34976A7DD98A165C402C2A76C14082C /* WPChained-dummy.m */; };
+		75279402304FB50D5C54C8E5699493E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910DA374BE8AD3B5733361E1523023B /* MobileCoreServices.framework */; };
 		758A9D35B886D997244C6B25384CF60F /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDE4001CA551CB4F97F62982117944C /* SDImageAssetManager.m */; };
+		75952F848D3F448B1A9DE6350FC3DB6F /* YYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31600E2584ED0C22A5E99A98EB8FC1 /* YYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75E7087E37028A847C0C72FB24E486FB /* WPChainedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD643E4379AC657B5435D080C7B1EED /* WPChainedHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A222599EF5DE43A4928EBFFD0A0BA3 /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE7FE20EB591DBF3EA147D5B2ED935A /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77F713F33EDEDBB359D0864ACECFA907 /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506B0E7081219E9B5600CB5EE16A3FC /* SDImageLoadersManager.m */; };
-		78EF0660AB0F816B0C6448E2A0D4220A /* WPMarkDownParseLink.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA51BF37445BA29EA4A636F713DBEBA /* WPMarkDownParseLink.m */; };
+		78AADE74CBC94704FE5F428468B5491D /* WPMarkDownParseBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C0E0EA3598E16C0900920A9B5D3C49 /* WPMarkDownParseBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B587118E29B943AFFB49A24C6764E57 /* WPMutableAttributedStringMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 33334D6C6D7A14EE621933B1ACF3792A /* WPMutableAttributedStringMaker.m */; };
 		7BC2174DB47F14169C5557F188A48F46 /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 758D04197E6A59003E7C709A28812AA7 /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BE0BD01FE847A924BD531F237B3E936 /* SDImageGIFCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E90FEFA421AA1B3923A2A6D24C34D4 /* SDImageGIFCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7C4DE11D8501C432BA5A3A81A27CFE5C /* Pods-WPMarkDownParse_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415B0F585A4A2EBA90545E8EDDAEF32B /* Pods-WPMarkDownParse_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D02C43588B1C114C2739DD2AE33B8A6 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9E2AA0DE0D39F02E3E60079F1D996 /* YYTextDebugOption.m */; };
 		7F08EEB0542B3073A4DAC928A94B17D6 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26157D1659A607AE1D0CD76327F23A7A /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		804895270CE7F0B18B6D6B56F00E4951 /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6298D14C2B7C3172DB0CD0917E78002F /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80729B255C33574F58E82A4B4FFFF775 /* WPMarkDownConfigShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F048EB35855ED7A4EA6B5C0BDF79D9E8 /* WPMarkDownConfigShareManager.m */; };
 		81EA907193AD58CFEC15637FBF037189 /* WPLabelChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 866F0DCDDE73D8A82A855F418B9233FC /* WPLabelChainedMaker.m */; };
-		84E68DAAE520E949041AC626C69112DC /* YYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CE1A6AD3B711F6D303FE8C10BAC8F6 /* YYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85035F1729A70C6E09AE5B998BBB970C /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FCEF2C4A8704A28C5B86461854D4DF /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		855E401F22E4CAB5DE0C53CE3776B1F3 /* WPMarkDownParseCodeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ABD3213E5F02FD79F487C8A72E73D7 /* WPMarkDownParseCodeBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86BA81E8184895A67C1FFF3138A7E101 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697C18558F59C7ADBD3FC31CB561E0A /* SDMemoryCache.m */; };
 		87B5E1FE78FE4649D542380268AA3699 /* WPChained-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C1C5B2B7FCF1B1D31BC9F2B9201C4 /* WPChained-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87BD3F164064EE6F2D218F56723E5F4F /* WPMarkDownParseBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDD526B73B63B6D9E977F890B46C4C8 /* WPMarkDownParseBaseModel.m */; };
+		87CEF2EBD02FF76644839A0E60267217 /* NSParagraphStyle+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 27263F220C0D75AEE56555387936B5B5 /* NSParagraphStyle+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732BEB4A880929640771F05E539B3A25 /* FBSnapshotTestController.m */; };
+		894891D07F1214F8B82B0EB6E23CC4F6 /* WPMarkDownParseQuoteParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E82522588DD62EA9BDD3880C5128130 /* WPMarkDownParseQuoteParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA6EC41B41F3D2441949B1883EB8097 /* YYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B68F26EA2F413D70E2ECAA9D70B117FD /* YYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 477E7CF00E43E47CF2A8113FCCC87C15 /* FBSnapshotTestCase.m */; };
 		8D7A1DCC00A9E5DD67963C01CADDBC2E /* NSBezierPath+RoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 658E982D4478A2DADA91167555760628 /* NSBezierPath+RoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8F9C9CFE14DBCF0E075C85540A2CC4BF /* WPMarkDownParseQuoteParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3AFE18E41AE55C06543166F3E6A72 /* WPMarkDownParseQuoteParagraph.m */; };
 		900E77D15203CB028A99E8B28EE1057B /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D27537BF5F06E53906659F2E78985A /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB1842261514F24A1CA044D615A34D8 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9037FCE340936A92DF0A804FFCD95F4A /* WPMarkDownConfigShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 092C2947503E0AC1CF874385D2957EB7 /* WPMarkDownConfigShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A36C239541A82C4706EAD43CE3E1D7 /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F09721B60F2135356B395B592755A7A /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		920013CD1586180C0DC8C8C15B46C2C2 /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4DB8BFC9EFABD77DF24298DB827D9D /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		930A8CDF6F4E5ABC1AA7551BE01A80F0 /* YYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31600E2584ED0C22A5E99A98EB8FC1 /* YYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A9A130946AB616DF3304B9002E66AB /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E44FAC9F69E6F68E6092B058EC08E /* NSParagraphStyle+YYText.m */; };
 		947B0E84CFDE8B17D093BB526CF4A03A /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CB49A20FCE3C522C9F31E7A01BF45 /* SDAnimatedImage.m */; };
+		962551A099D50D35885B247C286F66CC /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D25017E360D6267833DAC480A63557 /* YYTextParser.m */; };
 		967BFFEBD4D7158A5AEB4AF2343CC4AE /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FD74775318EB8A6CF70B455A9D434A /* SDAnimatedImageView+WebCache.m */; };
 		97794390CC5632485420816F8AD53E98 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D992C160EC236185109ABC48113AD75 /* SDImageCache.m */; };
-		9A0D028E6C40E69EF3C28E286C144CE8 /* YYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = CA364AD6FFF2C43901206F339D16A8BE /* YYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BAB4803A107A79442C1A175F959D30 /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 54203D6DC8238F4C72C2C301601C6E20 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A19445560C68B053A665476C55501AF /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FDC992A396EEABB0523B91BE181FBD /* SDWebImageCacheSerializer.m */; };
+		9A8CBC8ED4AB78661F080C524AA583E5 /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6298D14C2B7C3172DB0CD0917E78002F /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AA295EE6B1C10DA83CC36E860BAB5CF /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC68D1452472A791744AFF26782E928 /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AAA9E5633B7133055EC66BAF3E48157 /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAA7E16AB3A28208B46211E59048E54 /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9C1AED2DEC25064E667183E855D5FD5A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA6ECA5257CBE5C0CDC5C9DB7FE289 /* CoreFoundation.framework */; };
-		9D2356E8CE0BA3B6E63E627E788C9168 /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA560B0EF1A2F6886966788FF570DF2C /* YYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D7BB5D5E449298F115E6A9061E19DC /* SwiftSupport.swift */; };
 		9F2983FFB0FDC6182FB80507035D1EC2 /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 5829D96994B4C75FE02795D4C51C4905 /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FB38EF4D969619CCD54D7B64EFBF587 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A12FF32F9495203B8E172C7ADBFF262 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26B9650D7E3488C5A1613166461B505 /* UILabel+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = FC787B53053B4AE2C65B264C0A020350 /* UILabel+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A388CE36296F7964E0D073E17D5E1E2A /* YYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C30B907889143CD81439EA3F48E11154 /* YYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A457833EB6AC89B4A48D1FDC38AE85C4 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = AACBEC0D605F311ABD8BA0296377A736 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C9894D4A15242C747EF46563C881CA /* WPMarkDownParseLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 31907F8299F8D951CDF7BCE1BD019B7A /* WPMarkDownParseLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DBD25C156A87F833661263BC2BB03C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA6ECA5257CBE5C0CDC5C9DB7FE289 /* CoreFoundation.framework */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 17568DA9DB2CCCACED5EEB807F69C156 /* UIImage+Snapshot.m */; };
-		A652CB50E44079C081BF200E302F438B /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C4DFF6B2E163120F02E1F61D41D203 /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6CA2BD4D44B5D2EEAD7458D6B9F7793 /* SDImageAPNGCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 480C9A5A7007F743D6A9D743FB1C03FB /* SDImageAPNGCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A8FC9AF983A1C0B21EA39D203F9325B2 /* UIButton+WPChained.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DF1FD8D39E615744DECE50569AAFDF /* UIButton+WPChained.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7EB7C4CD8FD28BC710451738BBB523 /* NSBezierPath+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 49882E9AFDA90FE3BC72B4743739493B /* NSBezierPath+RoundedCorners.m */; };
-		AD723324C151B7483A1CF3F45936BD58 /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EE3A419E19E312573A4A916A1E5049 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB6418A4EB9FCC268D7222AEF319682 /* SDAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CA02CF0213F166C15D582683DB90C070 /* SDAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADF991E5F80B9F75D2E72F1DD02B1EF1 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A44828E243D2F360DCF9DF3CCA2FA /* SDWebImage-dummy.m */; };
 		AE0C7049B358AE2EA85ADCCD81DEF2B1 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DAB2030D60D5FA3DDE389290466059 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE34B585C58188DCDD6143855DAF4892 /* SDInternalMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B5CDADDFA87E1BD94AC622C42664 /* SDInternalMacros.m */; };
-		B0C1DEFEF7AD1F475DB6907EEC083696 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8877E3A72E2FC87BC370410932701417 /* YYTextLayout.m */; };
 		B13DF6C52581072CDE880A07270D80C9 /* SDWebImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = D86801609C03442D7A98AC81442E42A2 /* SDWebImageDefine.m */; };
 		B14EB82CF4A3EA74730C385ECEC1E025 /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69967604EAA7BBF86A441C2F5F5E41 /* SDImageCachesManager.m */; };
 		B2128EFF9529E6966387B59647179684 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D34ADF83DBF30E42B9717B41F1A82 /* SDWebImageManager.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		B25DF27CC398820D46B9B493FFC2F41C /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CA45EF680DD27EAFCA63A6DB1E6EF /* SDImageGIFCoder.m */; };
 		B2C14964426760D40CE1C1E5A0877592 /* WPButtonChainedMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC16F589C98009215DEF987B8948FE6 /* WPButtonChainedMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5AF7F6F8949B87A3FE7F97BAB57A643 /* NSString+WPMarkDownParse.h in Headers */ = {isa = PBXBuildFile; fileRef = F5011FBB6C1A1C9719A2E44E9A83A408 /* NSString+WPMarkDownParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B404EFD72F6CFC5DBAD2CAA150C06B86 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4577C3859E78BE7ACC36F6572FDBA371 /* YYTextView.m */; };
+		B70E501D8C76619B3B4DF7DF59F8A8C0 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B44775889996060DEB8561DD4BCD36 /* YYTextContainerView.m */; };
+		B72CA3789D368D88FA9543433F83170E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1E6F222FA353B33A44E790FA11696 /* SDWebImage.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = B1606B48F8B193D8D95D3CB7A97BD410 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B7544ADD7DAB706BF84A58442071284A /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FFC6A2C0DA567D2842122BE65235C3 /* SDAnimatedImageRep.m */; };
-		B8189A6603C59B6C6CE3CC3C2B077A75 /* YYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9902CFC1A5F017832CD6CE25285C636C /* YYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB25DEEF06F630B46875F360E1BCCD5 /* UIView+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A0575903E6C517B6A75A219F98495A /* UIView+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE641F472D38BA5A1FD79471D702B8C4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFCB6B693CA736E76F0A79402E9C657 /* UIView+WebCacheOperation.m */; };
 		BEBF1E3CB08A7809E7EAEA8C5695DFD6 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7271C321419787CC8AC5A221580D2F0F /* UIButton+WebCache.m */; };
-		BED2A29D550FE54DDA58D2BF35C671AD /* YYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B967D3E18AC771B18FB657AE9F6ED50 /* YYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF6E5B44793BBF7970F11D83DAF20A63 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B1A2AEC46FFD2FA48238CE054914FD /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFE60DA0CEF5D5762069ED68F082EC02 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 469B2C5962E631E845F48149A23E8454 /* YYLabel.m */; };
-		C14F4424A47B3F8AC945C19A4CE9A34D /* YYText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1738589957BE679E4EECE5F25825045 /* YYText.framework */; };
-		C1E698D402A640653F3AA86D5BACA975 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4E3C65DD282462087A7BEDA3EF715 /* YYTextLine.m */; };
+		C0D6424CD403A24F66CFE601B82A5695 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2329B11F8C02296F9BD3E6C5F143D9 /* UIView+YYText.m */; };
+		C0F65B37C0644BDAF4EDCE801C3CAAE2 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22D5A68F15F78AA373475ECD99F82D /* YYTextEffectWindow.m */; };
 		C227E6DE2BA7105D9EC03DA495B33B79 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 050EB264385C2BB039E924577BB1193D /* SDAsyncBlockOperation.m */; };
 		C232718E645D731D4A5B6AD33667E93A /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA3E12530E7BD4A59B2B9BC1D095B2C /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2E3485A8B9154A71FE201CA17CBF16E /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 997C7EFE094596DDE953B99D09CE0F45 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C312DE8B4CE049329207E74BBE4A3664 /* SDWebImageDownloaderRequestModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DCF7666A0147A3704BBDB9EAC292EB /* SDWebImageDownloaderRequestModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C410A2126FC546E64C03B3239B8E4E68 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A038AE3C98CE9418A0F78D5B59A81 /* YYTextKeyboardManager.m */; };
 		C423F144F0AB773B02897D6345B2DB95 /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79548A6104598EA4393DD3B982A9F01B /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EB0AC2B6CEB0A122DDE4B6BB41DC47 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4BE04F59CB732B1144F2166452131E0 /* WPMarkDownParse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 556D3562F00C33F6D2AE7DEA6ECE3CB2 /* WPMarkDownParse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4CE37B28069B8E12D1E221E0F6FC64E /* WPMarkDownParseImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C967049465F278BB527A78F98FAD02A3 /* WPMarkDownParseImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B47C22042AC5AC335E58C4471AF2B0 /* YYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DFFEF0B76DB83B2B398386A94EEC42 /* YYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62F62C154A5C1D3F3E71FA7249B0ACD /* YYText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F40E7878E5583A33A96FE191E64C8862 /* YYText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C678CAC7C5E6DD638F3A9F11C8BAE0D2 /* WPMarkDownParse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D216172AF2B3B9D6A3CC6E1210B9CA84 /* WPMarkDownParse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6AB0474FF7F3D1DF8E02803F9FF6D84 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA8B1AD667A446A2ED60D8827B4F61C /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6C34FF5166D33DA8B2BA3E70CA546AF /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7AE4E8C1EF20AB38197E01FBFC10AF /* SDImageCoder.m */; };
+		C79BD320955DA1DA6B474D78AA270A7C /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEF02ABD8C7242EA9C54863FDB7CA89 /* YYTextAttribute.m */; };
 		C871AA5A05F822F63F28120011FC9F7C /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9D672994723A79A1EA8CC95963EC1B /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8A9EBF9005117A00C30CE6438ECEF95 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE76236020D410D85CB9975AECD960 /* UIImage+ForceDecode.m */; };
 		C8CEBF8E736425C1E16D14D2A13DF9F4 /* SDWebImageCacheKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4195457A0498F83AB1EDACF7E16DC9AC /* SDWebImageCacheKeyFilter.m */; };
-		CB3A830EB0D8187E21C91997AA4B0B06 /* YYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C72324E3DD45AE78E0A4B153A27990 /* YYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC2C1BC1078B8E4C57C9CE94E442BA2B /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C57F75F69B4E25F6AA9578E212F382B /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD2BC67D43E054CE0695B46CD225F388 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5509AA8C989E15779922A2616746A7 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF036E1F4615E2766351E710E397C64F /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 875621894073F9B3A78997B6F5188A2A /* NSAttributedString+YYText.m */; };
-		CF25DB08C83EE660EBD49ACB5C451049 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418F11A4E65674493CC8A13821A43ED /* YYTextSelectionView.m */; };
-		CF6BF8AADDC37265194EB2BD4F825F7A /* YYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C30B907889143CD81439EA3F48E11154 /* YYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CCA0146B38234908DCEE7837003899 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D06E2B8FD6A1EF5A232E9B6BBA70E906 /* WPChained.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA41ADD1A0921D42B6ADFA46E656FDD3 /* WPChained.framework */; };
-		D26729CA11AD4C67345431DA31E90214 /* WPMarkDownParseCodeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74BE02279056DC478B55AF53D39170 /* WPMarkDownParseCodeBlock.m */; };
-		D487B441E14CDDC133D23B2470EFACFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411A1E78B5FA096CBE9D2746ADC2B8AA /* UIKit.framework */; };
 		D4A0390355773D9EA4FF9A9A72F63299 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF072D0893A9D12AC5FB47891ECFF6AF /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D504C350240E5C86EACBB10C4964CDAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
-		D5F7668BCB451B702A87073BE6FFA8E1 /* YYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DFFEF0B76DB83B2B398386A94EEC42 /* YYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5985E2BEEE8C4D798578E680CE30CEC /* YYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C72324E3DD45AE78E0A4B153A27990 /* YYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D760D8C1A8F0B0E21553050A605D7772 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFCF5DD332DA5AF6191CB87228A875C /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA6C9CEF5FF500F650A745B531887DC9 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFF6A693673BA7CD9108E5FFD549E5 /* YYTextTransaction.m */; };
 		DBA44417332597992D4158D73EF1BE9C /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DADFCEECDD07DE0B7F3BE0B106B590A /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBB510C404CBB678CED6646DDA12F0B5 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D25017E360D6267833DAC480A63557 /* YYTextParser.m */; };
+		DC9797590ECD46501FB112131694219A /* WPMarkDownParseImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D61B3E33793CB6AE5C504EF918E35A49 /* WPMarkDownParseImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD9BF8846B6129439FCB4B08D1DA1309 /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 945CAE53384870E758F0E2C7742AD265 /* SDWebImageDownloaderRequestModifier.m */; };
 		DE290F3F94FB8D7C63ABFAA454AB7DE8 /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9E85082DD1183FDA9919196732CFE4 /* SDWebImageError.m */; };
+		DE4B5FDC01A1103F8D35A35C1DE457FD /* NSString+WPMarkDownParse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3578DA6035A030248208AFA0BC2494E /* NSString+WPMarkDownParse.m */; };
 		DED320C097B8C1FEAEBD3F9203577CF2 /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CD5F5D18757E4076ED2ABF7D4409F /* UIImage+MemoryCacheCost.m */; };
 		DF30BC7207EF8187786C62CD258D7382 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9861145C28F563FFBEA6236329356648 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0108CBE45353D64552D5A1E4BF93FC9 /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A69B821C10D51E909E60C3F119F96675 /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E050389608FECFBD9C5821F3FB7AA0DF /* WPMarkDownParseTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E16590DE72535CBB5AE349D3AF8D851 /* WPMarkDownParseTitle.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411A1E78B5FA096CBE9D2746ADC2B8AA /* UIKit.framework */; };
 		E200E3645E90B13AA4B5136E39D99A52 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0861607ECBB34B930F4E210CFD18FE30 /* ImageIO.framework */; };
 		E3134A5DCAD73B31584488AA4E02186B /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1D9F9F4884191C8F103231C0B864F /* SDWebImagePrefetcher.m */; };
+		E39CBD8FFBAED6559BB8F8019469E29E /* YYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = CA364AD6FFF2C43901206F339D16A8BE /* YYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3FB1238F43B0CE746E5207AA0E4CD6F /* SDImageGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E16FB1925CE2CF7A4E16DBA21058705 /* SDImageGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5BE56FD56550CB2990EA400C3EAAD35 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFB112EBF7A9AD8327D334C177848D /* SDWebImageDownloader.m */; };
-		E61BE21BA695C075A805B79E0CEC950C /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EB9A1766B02AA344B09EFDB09BBC /* YYTextRubyAnnotation.m */; };
 		E797B8F018A179A66CE750C2DD7CCE3C /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A6AE48D1176FEFFC28D1E22A421726 /* SDImageAPNGCoder.m */; };
+		E810007AD38B5DAC176E2B4CDF91F2AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411A1E78B5FA096CBE9D2746ADC2B8AA /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B395DEF3FB2562BAE80B69C6F3FDF6DF /* FBSnapshotTestCasePlatform.m */; };
-		E9ED35FD613BA1292B5473F1B72CCCA1 /* WPMarkDownMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F25C918475CAEA05905F6E0FC33BDAD /* WPMarkDownMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA7B6B6EB29892274ABFA06BE230C61C /* WPMarkDownParseBold.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A4A081A98BC93C27B6430995817777 /* WPMarkDownParseBold.m */; };
+		E91CB334C34FDFD2A987F7DE41A35F06 /* WPMarkDownParseDisorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA0E6D290104803923225F17E076D0 /* WPMarkDownParseDisorder.m */; };
+		E9EE52A79215F320CC4154D8723FE90C /* YYText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1738589957BE679E4EECE5F25825045 /* YYText.framework */; };
+		EACF00EE7433C4B2AD12E0E3D45A1F8F /* YYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2D6B26446B755EAA17BAD96D98B2A4 /* YYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAD12D3AF5060927D753D4A9DB8A4923 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5AF7B1936964B90074EDEDE6ABA847 /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB64C8DAC8B7902A180B486B03CE8DF7 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C30EDE9F6100D4EC7D3E7562DCD5E1 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB9E9BBE0A5AAE78F902BAB881AF8857 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA28ABC885CAAA15540174DFF83C08B /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0FAC3B69B5B2ECE40F8404AF536C919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA04A9CB5884A603DD9DB91E676C311 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F1AAD41762E0D3B06E6E9589F0F8C05A /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE9A597F39D06F8A29C83AC9573BE9A /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22C60143943252E29F559130863525E /* WPMarkDownParseTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B874F4E94034881C07D939F7B73C015 /* WPMarkDownParseTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F241D0722101D240FB73DDDC5663DE16 /* Pods-WPMarkDownParse_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BF4A11D1C02877C0E124F3F0E0E54 /* Pods-WPMarkDownParse_Tests-dummy.m */; };
-		F355A94DBCD3EAC63038550BD50E95DB /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DDA55990710C1635CE8D274DC6EC16 /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2ACB075FE8C68644E908C0FDF1E65BA /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DDA55990710C1635CE8D274DC6EC16 /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F36D82FC7FB63AFB333FBCCEBC57E219 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 271DAC9AB6A3AA9BF7F12B7AC121C031 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F37A197A4B4BD89D1E98D90844BF7F43 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22D5A68F15F78AA373475ECD99F82D /* YYTextEffectWindow.m */; };
-		F3CB922436F36F320090419114A4F8AE /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209C5FB86CE4851703C99F68702871E0 /* YYTextWeakProxy.m */; };
 		F420FDB9B9D596DBA34F7E1F3063B123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
 		F46F213D8E26D0389C194DAC2CFDDD0E /* WPButtonChainedMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C024475C75EFC22E8A31E24E7D977F /* WPButtonChainedMaker.m */; };
-		F51404B61321E4F7E2A8F28FF6D50C17 /* UIView+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A0575903E6C517B6A75A219F98495A /* UIView+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53A6C443D1F8986BD59B42F9A34986D /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A038AE3C98CE9418A0F78D5B59A81 /* YYTextKeyboardManager.m */; };
 		F56484945077A3AAFD43E74C4CB07C25 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2351BFEA22DFC88553AC489578C01D /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F610FE6F2D5CC8B11DE46598F1319D35 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 3769231D9657315A4AFD0834BEFCC6A9 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6A78E8864E1D45564350B17D8567815 /* UINavigationItem+WPAddBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B2457A5386E481750457B469396A0BA5 /* UINavigationItem+WPAddBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6FE56451F2F2639232FFD5A6599BC6E /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EFF15732A91697BB89BDE1EBA9B0AC /* UIPasteboard+YYText.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E7E5B77668265BC3CCB17617C73C2E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DCBBA26D202EC81B68B29FF09007D8 /* WPMarkDownParseDisorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B014EC0CB379DC3EEBDA7D94B81C32 /* WPMarkDownParseDisorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8A864E2FBA9BC75B112497B3B0E4318 /* WPMutableParagraphStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E078FC89B76C8C190A04D742BEAD97 /* WPMutableParagraphStyleModel.m */; };
 		F8EDB27FC6C293B5126EDC476524EDB5 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EE5E7FEA1589598A4FA26F75823848 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9016347C7073BE549D22D003495ECE3 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F7E1537CFFDB3CB3786DFC49C6D978 /* YYTextMagnifier.m */; };
 		F9EFE513FA35A1CE09BC8A74FF7A7694 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B963892E049E8D2426D9504517D78 /* SDImageTransformer.m */; };
 		FA6773D25A884FEE759A4719FD829833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */; };
+		FBF72316C691AF895A4ECCDF8C629009 /* WPMarkDownParseOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9EE3DE36DFDF3C6724F25A3795D1A8 /* WPMarkDownParseOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE31D9C01A040D3550B2ACD832056B6C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617B86F9449A11916F31A2A1AEF48293 /* Accelerate.framework */; };
+		FF68129FA424BF6D9A909E75314AEA31 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8877E3A72E2FC87BC370410932701417 /* YYTextLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,14 +277,21 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		306F3725E991C8CE8BAD986B0CA6A107 /* PBXContainerItemProxy */ = {
+		146FF95A7FA18859A081491331E3A580 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 65A6E0A42E8AADD1B102078650B5E427;
 			remoteInfo = WPChained;
 		};
-		485053DB43CB97710BB894CDB2EE8CB9 /* PBXContainerItemProxy */ = {
+		4C7AABE6841AC0B91E6CDC6898AAE445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5C17E80BD1B7F60A33F79692330A57;
+			remoteInfo = YYText;
+		};
+		51DD7690A609EDFE59C9046828D39347 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -328,13 +333,6 @@
 			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
 			remoteInfo = SDWebImage;
 		};
-		DADDAAD1DAC426BEE2C32CCAF1A76C0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F5C17E80BD1B7F60A33F79692330A57;
-			remoteInfo = YYText;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -344,12 +342,10 @@
 		03A2A2BF9A39D387346576CE80632A33 /* Pods-WPMarkDownParse_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPMarkDownParse_Example-frameworks.sh"; sourceTree = "<group>"; };
 		047E9A051153792AD106727114D36F5E /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/SDImageFrame.h; sourceTree = "<group>"; };
 		050EB264385C2BB039E924577BB1193D /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
-		05A4A081A98BC93C27B6430995817777 /* WPMarkDownParseBold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseBold.m; sourceTree = "<group>"; };
 		0861607ECBB34B930F4E210CFD18FE30 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		08D1D9F9F4884191C8F103231C0B864F /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		092C2947503E0AC1CF874385D2957EB7 /* WPMarkDownConfigShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownConfigShareManager.h; sourceTree = "<group>"; };
 		0A12FF32F9495203B8E172C7ADBFF262 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
-		0ACE9B6B3997D0E7E730D31591823F28 /* WPMarkDownParseQuoteParagraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseQuoteParagraph.h; sourceTree = "<group>"; };
+		0A942C83D109B22310E39F3E398BE793 /* WPMarkDownParse.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPMarkDownParse.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AE9E2AA0DE0D39F02E3E60079F1D996 /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYText/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
 		0B35C10B2ED60727A15E274CB439C5C4 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/SDDiskCache.h; sourceTree = "<group>"; };
 		0B5AF7B1936964B90074EDEDE6ABA847 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
@@ -358,15 +354,15 @@
 		0C3BF4A11D1C02877C0E124F3F0E0E54 /* Pods-WPMarkDownParse_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPMarkDownParse_Tests-dummy.m"; sourceTree = "<group>"; };
 		0CF620DC8BA6205DBB1E1E6760853370 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		0D880E4751B16CA3EBA844A64ECBAF7D /* YYTextUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextUtilities.m; path = YYText/Utility/YYTextUtilities.m; sourceTree = "<group>"; };
-		0E45ECE7BECF9D5709229A18EE3B9B13 /* WPMarkDownParseFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseFactory.m; sourceTree = "<group>"; };
-		0F25C918475CAEA05905F6E0FC33BDAD /* WPMarkDownMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownMacro.h; sourceTree = "<group>"; };
+		0EEFA6763C569E25F475D991D5E33B59 /* WPMarkDownParseBold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseBold.h; sourceTree = "<group>"; };
 		0F52F020324D3F0680FB55F238657343 /* YYTextArchiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextArchiver.m; path = YYText/String/YYTextArchiver.m; sourceTree = "<group>"; };
-		0FE3AFE18E41AE55C06543166F3E6A72 /* WPMarkDownParseQuoteParagraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseQuoteParagraph.m; sourceTree = "<group>"; };
 		102E0EB3FEEE6290B96485EDBCE6906D /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SDWebImage/Private/UIColor+HexString.m"; sourceTree = "<group>"; };
 		11559B3B1EE780FAC91CBA71B05F189C /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		11D27537BF5F06E53906659F2E78985A /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/SDMemoryCache.h; sourceTree = "<group>"; };
+		11F2DE11F1EC1AAC9E1F872FB3D6AE92 /* WPMarkDownMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownMacro.h; sourceTree = "<group>"; };
 		13EB0AC2B6CEB0A122DDE4B6BB41DC47 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		1507614B9F3CC8B8DAC2088E5C72B566 /* Pods_WPMarkDownParse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPMarkDownParse_Tests.framework; path = "Pods-WPMarkDownParse_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AE547592902B5E316C3FE223717213 /* WPMarkDownParseStrageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseStrageInterface.h; sourceTree = "<group>"; };
 		166A2AFF1839AB15DAABF3A5C6599EB5 /* WPNavigationChainedMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPNavigationChainedMaker.h; path = WPChained/Classes/BarButtonItem/WPNavigationChainedMaker.h; sourceTree = "<group>"; };
 		17568DA9DB2CCCACED5EEB807F69C156 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		189E173C83A6A8A0E4F0D76999C31185 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
@@ -375,9 +371,8 @@
 		19B8EB9A1766B02AA344B09EFDB09BBC /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRubyAnnotation.m; path = YYText/String/YYTextRubyAnnotation.m; sourceTree = "<group>"; };
 		1B967D3E18AC771B18FB657AE9F6ED50 /* YYTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLayout.h; path = YYText/Component/YYTextLayout.h; sourceTree = "<group>"; };
 		1BCE76236020D410D85CB9975AECD960 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
-		1E16590DE72535CBB5AE349D3AF8D851 /* WPMarkDownParseTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseTitle.m; sourceTree = "<group>"; };
 		1E58AABF2085E1D5D0B4831B487EDFFE /* YYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYLabel.h; path = YYText/YYLabel.h; sourceTree = "<group>"; };
-		1EC87581929EC7EAD490CDA77786C1F0 /* WPMarkDownParseBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseBaseModel.h; sourceTree = "<group>"; };
+		1E82522588DD62EA9BDD3880C5128130 /* WPMarkDownParseQuoteParagraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseQuoteParagraph.h; sourceTree = "<group>"; };
 		1EE7FE20EB591DBF3EA147D5B2ED935A /* YYTextAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAttribute.h; path = YYText/String/YYTextAttribute.h; sourceTree = "<group>"; };
 		209C5FB86CE4851703C99F68702871E0 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextWeakProxy.m; path = YYText/Utility/YYTextWeakProxy.m; sourceTree = "<group>"; };
 		20B10E8569D0DBA3E9AAD27003CAF4C6 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
@@ -390,25 +385,28 @@
 		26157D1659A607AE1D0CD76327F23A7A /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/SDAnimatedImageView.h; sourceTree = "<group>"; };
 		271DAC9AB6A3AA9BF7F12B7AC121C031 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/SDImageCoder.h; sourceTree = "<group>"; };
 		27263F220C0D75AEE56555387936B5B5 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYText/Utility/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		28ABD3213E5F02FD79F487C8A72E73D7 /* WPMarkDownParseCodeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseCodeBlock.h; sourceTree = "<group>"; };
 		2910DA374BE8AD3B5733361E1523023B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		2A8D7668FF8F9B034D08906C0ECDF358 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		2AF23B73BB8CEC24992C738E1037200B /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/UIImage+Metadata.m"; sourceTree = "<group>"; };
 		2C1748F0057E613F206AA63CA5C3275D /* Pods-WPMarkDownParse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D4F495F67A267E9E107F8275A01CC66 /* UIButton+WPChained.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WPChained.m"; path = "WPChained/Classes/ButtonChained/UIButton+WPChained.m"; sourceTree = "<group>"; };
 		2DADFCEECDD07DE0B7F3BE0B106B590A /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
-		2F53CF63FC4594BE568F871116F46235 /* WPMarkDownParseFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseFactory.h; sourceTree = "<group>"; };
 		2FA28ABC885CAAA15540174DFF83C08B /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		30EE3A419E19E312573A4A916A1E5049 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		31907F8299F8D951CDF7BCE1BD019B7A /* WPMarkDownParseLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseLink.h; sourceTree = "<group>"; };
 		33334D6C6D7A14EE621933B1ACF3792A /* WPMutableAttributedStringMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPMutableAttributedStringMaker.m; path = WPChained/Classes/MutableAttributedStringChained/WPMutableAttributedStringMaker.m; sourceTree = "<group>"; };
 		33DCF7666A0147A3704BBDB9EAC292EB /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
 		3418F11A4E65674493CC8A13821A43ED /* YYTextSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextSelectionView.m; path = YYText/Component/YYTextSelectionView.m; sourceTree = "<group>"; };
 		3566636F1B33263F2BA3373692D852CA /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		36D7BB5D5E449298F115E6A9061E19DC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3769231D9657315A4AFD0834BEFCC6A9 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
-		389F4CF367CB75001565C5A32BC0A0A9 /* WPMarkDownParse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-prefix.pch"; sourceTree = "<group>"; };
+		37E6B99422778C075C7337715E85CA93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38301D6C5FC65E6E57D3826B09B59DD7 /* WPMarkDownParseQuoteParagraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseQuoteParagraph.m; sourceTree = "<group>"; };
 		3B9721B1DEF16F79420ABC0482BC82E7 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/NSImage+Compatibility.m"; sourceTree = "<group>"; };
 		3BA3D5E402A38B2FBF1B4CD03D444425 /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/SDImageIOCoder.m; sourceTree = "<group>"; };
 		3BED0011FAD8E8F2ED6C6274C3D8A4C5 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
+		3C2D7E07A5B279B4A45F9DA986BAD004 /* WPMarkDownParse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPMarkDownParse-Info.plist"; sourceTree = "<group>"; };
 		3C57F75F69B4E25F6AA9578E212F382B /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/SDImageCachesManager.h; sourceTree = "<group>"; };
 		3D4AE13700572C388303A069D3040B0E /* Pods-WPMarkDownParse_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPMarkDownParse_Tests.modulemap"; sourceTree = "<group>"; };
 		3DB1842261514F24A1CA044D615A34D8 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -427,6 +425,7 @@
 		477E7CF00E43E47CF2A8113FCCC87C15 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		47CCA0146B38234908DCEE7837003899 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		480C9A5A7007F743D6A9D743FB1C03FB /* SDImageAPNGCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoderInternal.h; path = SDWebImage/Private/SDImageAPNGCoderInternal.h; sourceTree = "<group>"; };
+		491F1BE1CEEF5548FF3273BBF0DF0FB2 /* WPMarkDownParseFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseFactory.h; sourceTree = "<group>"; };
 		49882E9AFDA90FE3BC72B4743739493B /* NSBezierPath+RoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+RoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.m"; sourceTree = "<group>"; };
 		49A8965C666ED17435A58E5E2406D0A1 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		4A1A30EEDB0DB85F3867AD5AAEEBFA8B /* Pods-WPMarkDownParse_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -439,35 +438,40 @@
 		4E342B52785A13FC2EEC9FED26A4F263 /* YYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextInput.h; path = YYText/Component/YYTextInput.h; sourceTree = "<group>"; };
 		4E9CD5F5D18757E4076ED2ABF7D4409F /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
 		52BD278D2A21FD78546C1F61EF2705EF /* WPMutableParagraphStyleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPMutableParagraphStyleModel.h; path = WPChained/Classes/MutableAttributedStringChained/WPMutableParagraphStyleModel.h; sourceTree = "<group>"; };
+		53A3AF0A8302BB932EC6AC43A86027D7 /* WPMarkDownParse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPMarkDownParse.modulemap; sourceTree = "<group>"; };
 		53CCEA669589186395A7BC42EC188ADC /* YYText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYText.modulemap; sourceTree = "<group>"; };
 		54203D6DC8238F4C72C2C301601C6E20 /* YYTextLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLine.h; path = YYText/Component/YYTextLine.h; sourceTree = "<group>"; };
 		5506B0E7081219E9B5600CB5EE16A3FC /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/SDImageLoadersManager.m; sourceTree = "<group>"; };
-		556D3562F00C33F6D2AE7DEA6ECE3CB2 /* WPMarkDownParse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-umbrella.h"; sourceTree = "<group>"; };
 		55DF1FD8D39E615744DECE50569AAFDF /* UIButton+WPChained.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WPChained.h"; path = "WPChained/Classes/ButtonChained/UIButton+WPChained.h"; sourceTree = "<group>"; };
+		56A89359D58F6A29BAF46038696A7B73 /* WPMarkDownParseOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseOrder.m; sourceTree = "<group>"; };
 		57D7244C4552EFFCB36543AE00D3D89A /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		5829D96994B4C75FE02795D4C51C4905 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		59DAB2030D60D5FA3DDE389290466059 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		5A6AB0BE3AFC2640394B1D3ED02D3E4B /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		5AA3E12530E7BD4A59B2B9BC1D095B2C /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/SDImageCoderHelper.h; sourceTree = "<group>"; };
+		5B06E005CC3761B1183461A4CC00EAFB /* WPMarkDownBaseParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownBaseParse.m; sourceTree = "<group>"; };
 		5B5509AA8C989E15779922A2616746A7 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		5BE1EB50B277AB2E0EDD814C4F238AFA /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
 		5BFA6ECA5257CBE5C0CDC5C9DB7FE289 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCA0E6D290104803923225F17E076D0 /* WPMarkDownParseDisorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseDisorder.m; sourceTree = "<group>"; };
+		5E54765423E43697A7514A4A3A9DC25E /* WPMarkDownParseTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseTitle.h; sourceTree = "<group>"; };
 		5EF7D7DB56179AE93462736A167EE941 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		5F09721B60F2135356B395B592755A7A /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+YYText.h"; path = "YYText/Utility/NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		5F1234A4D4E17746BE342502D03C4ADE /* NSString+WPMarkDownParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WPMarkDownParse.h"; sourceTree = "<group>"; };
 		5F31600E2584ED0C22A5E99A98EB8FC1 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRunDelegate.h; path = YYText/String/YYTextRunDelegate.h; sourceTree = "<group>"; };
 		60E6D2165301A958AEFDA2EDE280C6A3 /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		617B86F9449A11916F31A2A1AEF48293 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		61FDC992A396EEABB0523B91BE181FBD /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
 		61FFC6A2C0DA567D2842122BE65235C3 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
-		6266A735F9962FAAC5E870F79437D5E7 /* WPMarkDownParse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPMarkDownParse.xcconfig; sourceTree = "<group>"; };
 		6298D14C2B7C3172DB0CD0917E78002F /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYText/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
 		645221E90B3A9C3EAA450CAD9F2A77B4 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		64FCEF2C4A8704A28C5B86461854D4DF /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
 		658E982D4478A2DADA91167555760628 /* NSBezierPath+RoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+RoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.h"; sourceTree = "<group>"; };
-		663923C8E1C3B46CAE08354EEAB3A756 /* WPMarkDownParseCodeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseCodeBlock.h; sourceTree = "<group>"; };
+		6604F2F41FF21F1577B77F5C3E48006F /* WPMarkDownParseBold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseBold.m; sourceTree = "<group>"; };
+		6711D7A79D9F4D647635F581CCE87F5A /* WPMarkDownBaseParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownBaseParse.h; sourceTree = "<group>"; };
 		68349C598208B8170680BBDFCEE94038 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		68B014EC0CB379DC3EEBDA7D94B81C32 /* WPMarkDownParseDisorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseDisorder.h; sourceTree = "<group>"; };
+		688ECA8E0804615C4DE54F5BAE478041 /* WPMarkDownParseLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseLink.m; sourceTree = "<group>"; };
 		69063093477388ECC8F33DBEB9E8E7AA /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		693BD88B0D111CB3C496580A00F89D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69CFB112EBF7A9AD8327D334C177848D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
@@ -478,7 +482,7 @@
 		6E16FB1925CE2CF7A4E16DBA21058705 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/SDImageGraphics.h; sourceTree = "<group>"; };
 		6E2D6B26446B755EAA17BAD96D98B2A4 /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYText/String/YYTextParser.h; sourceTree = "<group>"; };
 		6EFCF5DD332DA5AF6191CB87228A875C /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/SDImageLoader.h; sourceTree = "<group>"; };
-		6FC68F54ADC58234917A74992FE4AD1B /* WPMarkDownParseStrageInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseStrageInterface.h; sourceTree = "<group>"; };
+		70AB57471F373EB0C3CCAB824E66CAD2 /* WPMarkDownParseDisorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseDisorder.h; sourceTree = "<group>"; };
 		71762A728913EB440C97D3616D291AF3 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYText.framework; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7271C321419787CC8AC5A221580D2F0F /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		732BEB4A880929640771F05E539B3A25 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -486,34 +490,30 @@
 		758D04197E6A59003E7C709A28812AA7 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/UIImage+Transform.h"; sourceTree = "<group>"; };
 		759B963892E049E8D2426D9504517D78 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/SDImageTransformer.m; sourceTree = "<group>"; };
 		765E44FAC9F69E6F68E6092B058EC08E /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+YYText.m"; path = "YYText/Utility/NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
-		77A5D1176EB995708D0A836A833FFF77 /* WPMarkDownParse.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPMarkDownParse.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7676CCFC4F7BC157CF620D1A4D19BA1C /* WPMarkDownParse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPMarkDownParse.xcconfig; sourceTree = "<group>"; };
 		77F2BE7D0BF1A55EDDDB98574989B474 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/SDImageFrame.m; sourceTree = "<group>"; };
 		79548A6104598EA4393DD3B982A9F01B /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		7993B46B2FB1CC89A63250B426EAE42B /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/SDImageIOCoder.h; sourceTree = "<group>"; };
-		7AA1E55E331FF7140F45FE591893B9EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B00E1C5DBC1E33C84F326BA61F89981 /* WPMarkDownParseItalic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseItalic.m; sourceTree = "<group>"; };
 		7C30627A4719BC3A04CC92E3B9EFD442 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		7E74BE02279056DC478B55AF53D39170 /* WPMarkDownParseCodeBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseCodeBlock.m; sourceTree = "<group>"; };
 		8028C491CC0330D04EC7A14E5F356153 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		8316E636C5A5F8C4A73152807CAEA179 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
 		835F5FB9B7A3DB6CB4B0A0AAEB9C52C0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		8416221163571F2860AA3D52FD65962D /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		861374CB2A52AE1F3DF0E4E30ACF6A83 /* Pods-WPMarkDownParse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Example.release.xcconfig"; sourceTree = "<group>"; };
 		866F0DCDDE73D8A82A855F418B9233FC /* WPLabelChainedMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPLabelChainedMaker.m; path = WPChained/Classes/LabelChained/WPLabelChainedMaker.m; sourceTree = "<group>"; };
-		86BAD4D401F20014C7B81BDA6B57AED6 /* WPMarkDownParseItalic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseItalic.m; sourceTree = "<group>"; };
 		875621894073F9B3A78997B6F5188A2A /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYText/Utility/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
 		8877E3A72E2FC87BC370410932701417 /* YYTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLayout.m; path = YYText/Component/YYTextLayout.m; sourceTree = "<group>"; };
 		88F12D392E5ADF4B5D98CB2AAC2A92B1 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRunDelegate.m; path = YYText/String/YYTextRunDelegate.m; sourceTree = "<group>"; };
 		8B50570D87F36293E1F3C5FDBAC1BD83 /* WPNavigationChainedMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPNavigationChainedMaker.m; path = WPChained/Classes/BarButtonItem/WPNavigationChainedMaker.m; sourceTree = "<group>"; };
-		8B874F4E94034881C07D939F7B73C015 /* WPMarkDownParseTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseTitle.h; sourceTree = "<group>"; };
 		8BEDB4CF904DA4985E39C9F38E2E1AAD /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/SDImageCacheDefine.h; sourceTree = "<group>"; };
 		8C30145FFD651CE4FCB7899205031820 /* NSMutableAttributedString+WPAddAttributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+WPAddAttributed.m"; path = "WPChained/Classes/MutableAttributedStringChained/NSMutableAttributedString+WPAddAttributed.m"; sourceTree = "<group>"; };
 		8D0F71709367155BC14BB93F2405452A /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		8D6EBE1614486E3139D93D4A949D5F9E /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		8E4DB8BFC9EFABD77DF24298DB827D9D /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/SDImageAPNGCoder.h; sourceTree = "<group>"; };
-		8E9302E47C440F00B16F4BA83352FD16 /* WPMarkDownParse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPMarkDownParse-Info.plist"; sourceTree = "<group>"; };
-		8FA9736146A912E1E0EBFA2D95F3399E /* WPMarkDownParseOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseOrder.m; sourceTree = "<group>"; };
 		8FAA7E16AB3A28208B46211E59048E54 /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
 		90C109F860CFF06F54DA54D5DAFDB9C6 /* WPChained.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPChained.xcconfig; sourceTree = "<group>"; };
+		91365395A4A7DE8539DD554FA0ECC1E4 /* WPMarkDownParseTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseTitle.m; sourceTree = "<group>"; };
 		92378A164C70996073A3E9418F1C8907 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
 		945CAE53384870E758F0E2C7742AD265 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
 		950B07FD22EFB7479F89CFBE2AF607B0 /* WPLabelChainedMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPLabelChainedMaker.h; path = WPChained/Classes/LabelChained/WPLabelChainedMaker.h; sourceTree = "<group>"; };
@@ -525,22 +525,23 @@
 		99D5B3B19F7890EA797306123C5E4B63 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9A9D672994723A79A1EA8CC95963EC1B /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		9AC388A317F74813D8497FC0E1E29FE2 /* Pods-WPMarkDownParse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BD72ECE3D259F454451BE4E579AF752 /* WPMarkDownParseBold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseBold.h; sourceTree = "<group>"; };
 		9C3D67609481B3F2DE8DAD8334393A9B /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/SDAnimatedImageView.m; sourceTree = "<group>"; };
-		9C5383323CD654E2E39B842F81A3F632 /* WPMarkDownParseDisorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseDisorder.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1552AE89432B39B1CF6AB17381A53F6 /* WPMarkDownParseImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseImage.m; sourceTree = "<group>"; };
+		A1C3D8B994D52BEF349254A95F201B13 /* WPMarkDownParseBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseBaseModel.m; sourceTree = "<group>"; };
+		A1C82EE7436A3F680ADC8B4F93CA1A15 /* WPMarkDownParseCodeBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseCodeBlock.m; sourceTree = "<group>"; };
+		A3578DA6035A030248208AFA0BC2494E /* NSString+WPMarkDownParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPMarkDownParse.m"; sourceTree = "<group>"; };
+		A3CCD7B18A5A8FED9589FA561A2F4A6F /* WPMarkDownParseFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseFactory.m; sourceTree = "<group>"; };
+		A56CBD2B268B6361FAB64EC64D38891C /* WPMarkDownParseItalic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseItalic.h; sourceTree = "<group>"; };
 		A672B3AED6F91EB8298DEB348696EF62 /* Pods-WPMarkDownParse_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPMarkDownParse_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A69B821C10D51E909E60C3F119F96675 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		A6F039476B5295C26C25955F101506F1 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/SDDiskCache.m; sourceTree = "<group>"; };
 		AA560B0EF1A2F6886966788FF570DF2C /* YYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextView.h; path = YYText/YYTextView.h; sourceTree = "<group>"; };
 		AACBEC0D605F311ABD8BA0296377A736 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		AB2B483C9756F5F3A79932B498BC5CAA /* WPMarkDownParseLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseLink.h; sourceTree = "<group>"; };
 		ABD643E4379AC657B5435D080C7B1EED /* WPChainedHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPChainedHeader.h; path = WPChained/Classes/WPChainedHeader.h; sourceTree = "<group>"; };
 		AC085784EACDB52645BBDC676DE6055E /* YYTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextInput.m; path = YYText/Component/YYTextInput.m; sourceTree = "<group>"; };
 		AC12203CA9E830DA03B058C349172D8B /* Pods-WPMarkDownParse_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPMarkDownParse_Example.modulemap"; sourceTree = "<group>"; };
 		ACEF02ABD8C7242EA9C54863FDB7CA89 /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = YYText/String/YYTextAttribute.m; sourceTree = "<group>"; };
-		ADA32F2CC05E92AFA4243C8C89A70EBE /* WPMarkDownBaseParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownBaseParse.h; sourceTree = "<group>"; };
+		AD81C5BA9427F1B802A5A69A80F0F17F /* WPMarkDownParseImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseImage.m; sourceTree = "<group>"; };
 		AEA87A7EF0336C2726D47541A9608138 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		AEDE4001CA551CB4F97F62982117944C /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		AF5A44828E243D2F360DCF9DF3CCA2FA /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
@@ -559,10 +560,8 @@
 		B7D66D087682C7708F3E43EA16B4F51E /* YYTextMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextMagnifier.h; path = YYText/Component/YYTextMagnifier.h; sourceTree = "<group>"; };
 		B9D25017E360D6267833DAC480A63557 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYText/String/YYTextParser.m; sourceTree = "<group>"; };
 		BA2351BFEA22DFC88553AC489578C01D /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SDWebImage/Private/UIColor+HexString.h"; sourceTree = "<group>"; };
-		BA9E0CB6FB9C34332AF178D3B68E1E3F /* WPMarkDownParse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPMarkDownParse-dummy.m"; sourceTree = "<group>"; };
 		BAC290DF222D6E7685C97193A1B3867B /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		BB5F8EEA7D92C9F9FEC0E4A94B2D56F6 /* Pods-WPMarkDownParse_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCA51BF37445BA29EA4A636F713DBEBA /* WPMarkDownParseLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseLink.m; sourceTree = "<group>"; };
 		BCC6BCEA49677938ACF38013CC890ED5 /* Pods-WPMarkDownParse_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD082357A60C952EE8A28F9DCC573E67 /* Pods-WPMarkDownParse_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPMarkDownParse_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD1BA924DB1219E198C00443932F828C /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
@@ -574,60 +573,56 @@
 		C2F2ED7357A04E65888B02CE061317D2 /* WPChained.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPChained.modulemap; sourceTree = "<group>"; };
 		C30B907889143CD81439EA3F48E11154 /* YYTextContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextContainerView.h; path = YYText/Component/YYTextContainerView.h; sourceTree = "<group>"; };
 		C451BBC6FD023618984DB2F85356A836 /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
+		C6C0E0EA3598E16C0900920A9B5D3C49 /* WPMarkDownParseBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseBaseModel.h; sourceTree = "<group>"; };
 		C6C4DFF6B2E163120F02E1F61D41D203 /* YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYText.h; path = YYText/YYText.h; sourceTree = "<group>"; };
 		C842096BEE4F654391A6CF8FA6E70C2F /* Pods-WPMarkDownParse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPMarkDownParse_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F7E1537CFFDB3CB3786DFC49C6D978 /* YYTextMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextMagnifier.m; path = YYText/Component/YYTextMagnifier.m; sourceTree = "<group>"; };
-		C967049465F278BB527A78F98FAD02A3 /* WPMarkDownParseImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseImage.h; sourceTree = "<group>"; };
 		CA02CF0213F166C15D582683DB90C070 /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/SDAnimatedImage.h; sourceTree = "<group>"; };
 		CA364AD6FFF2C43901206F339D16A8BE /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYText/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
 		CA82D2E5C24CAC83E0DE5C0FEE645F40 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/SDImageCacheDefine.m; sourceTree = "<group>"; };
+		CA9EE3DE36DFDF3C6724F25A3795D1A8 /* WPMarkDownParseOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseOrder.h; sourceTree = "<group>"; };
 		CCC1E6F222FA353B33A44E790FA11696 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC68D1452472A791744AFF26782E928 /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/SDImageTransformer.h; sourceTree = "<group>"; };
 		CD1633634C146C0DD70760571389B2EF /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		CF9E85082DD1183FDA9919196732CFE4 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/SDWebImageError.m; sourceTree = "<group>"; };
-		D0F640C30D0D91858D340CB431214EF7 /* NSString+WPMarkDownParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPMarkDownParse.m"; sourceTree = "<group>"; };
+		D216172AF2B3B9D6A3CC6E1210B9CA84 /* WPMarkDownParse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-umbrella.h"; sourceTree = "<group>"; };
 		D34976A7DD98A165C402C2A76C14082C /* WPChained-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPChained-dummy.m"; sourceTree = "<group>"; };
 		D38D34ADF83DBF30E42B9717B41F1A82 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		D4A0575903E6C517B6A75A219F98495A /* UIView+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYText.h"; path = "YYText/Utility/UIView+YYText.h"; sourceTree = "<group>"; };
 		D4B1A2AEC46FFD2FA48238CE054914FD /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		D4EFF15732A91697BB89BDE1EBA9B0AC /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYText/Utility/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		D61B3E33793CB6AE5C504EF918E35A49 /* WPMarkDownParseImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseImage.h; sourceTree = "<group>"; };
 		D86801609C03442D7A98AC81442E42A2 /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/SDWebImageDefine.m; sourceTree = "<group>"; };
 		D9EE5E7FEA1589598A4FA26F75823848 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		DA2329B11F8C02296F9BD3E6C5F143D9 /* UIView+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYText.m"; path = "YYText/Utility/UIView+YYText.m"; sourceTree = "<group>"; };
-		DC0C39298840ED02C33CB7765784D67E /* WPMarkDownParseItalic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseItalic.h; sourceTree = "<group>"; };
 		DC74704C6AC357DC5B5B9A7C71AC9021 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		DCBE9B8453C3F8631F5C6CB8615477BF /* WPMarkDownParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPMarkDownParse.framework; path = WPMarkDownParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3E1377CBA93EB32AF800537A0476D1 /* WPMarkDownParse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPMarkDownParse-prefix.pch"; sourceTree = "<group>"; };
 		DD98D583E6DD8B71FBF0D3DD365F25BE /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
 		DEC16F589C98009215DEF987B8948FE6 /* WPButtonChainedMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPButtonChainedMaker.h; path = WPChained/Classes/ButtonChained/WPButtonChainedMaker.h; sourceTree = "<group>"; };
 		DF072D0893A9D12AC5FB47891ECFF6AF /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/SDImageCodersManager.h; sourceTree = "<group>"; };
 		DF520E504BDDB0BFF9CF35B7AEC5663A /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
-		DFDD526B73B63B6D9E977F890B46C4C8 /* WPMarkDownParseBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownParseBaseModel.m; sourceTree = "<group>"; };
 		E1DFFEF0B76DB83B2B398386A94EEC42 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextWeakProxy.h; path = YYText/Utility/YYTextWeakProxy.h; sourceTree = "<group>"; };
 		E3C30EDE9F6100D4EC7D3E7562DCD5E1 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		E3EE24D2F18D1F00D8C76EC25A0FACFB /* WPMarkDownBaseParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownBaseParse.m; sourceTree = "<group>"; };
 		E570C5E246566A8E67DB684A65820A36 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		E6EFD72DD12796BD748E910DD05C0103 /* Pods-WPMarkDownParse_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPMarkDownParse_Example-Info.plist"; sourceTree = "<group>"; };
 		E7E7E5B77668265BC3CCB17617C73C2E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		E971122A4B6330E1AAB1FBEB08780AC1 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
 		EA41ADD1A0921D42B6ADFA46E656FDD3 /* WPChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC5916629FCCB26FF45A84138DF3255 /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/SDWebImageDefine.h; sourceTree = "<group>"; };
-		EB2E272A615156DDA52244F0EE5C610A /* WPMarkDownParse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPMarkDownParse.modulemap; sourceTree = "<group>"; };
 		EBC1A72D8B69353551589524DD6A3478 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		EC362C1B05AF475DF6B74B318682655E /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYText/String/YYTextArchiver.h; sourceTree = "<group>"; };
 		EC5FDC173944A46EF996EED323FA6D7C /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/SDImageLoader.m; sourceTree = "<group>"; };
 		EC69967604EAA7BBF86A441C2F5F5E41 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/SDImageCachesManager.m; sourceTree = "<group>"; };
-		EC8D3D45DE9D5D1F1AB92CE2E424DAA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EE22D5A68F15F78AA373475ECD99F82D /* YYTextEffectWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextEffectWindow.m; path = YYText/Component/YYTextEffectWindow.m; sourceTree = "<group>"; };
 		EEA8B1AD667A446A2ED60D8827B4F61C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		EF18CA3BAD6D0E91EE01D5AC8BF82B1F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EF2DAEEFA4068781793E3C99B5D06B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EF5A038AE3C98CE9418A0F78D5B59A81 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextKeyboardManager.m; path = YYText/Component/YYTextKeyboardManager.m; sourceTree = "<group>"; };
-		F048EB35855ED7A4EA6B5C0BDF79D9E8 /* WPMarkDownConfigShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPMarkDownConfigShareManager.m; sourceTree = "<group>"; };
 		F1738589957BE679E4EECE5F25825045 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29994DA18BEBE6A8C73EBE01CB47B8D /* YYTextUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextUtilities.h; path = YYText/Utility/YYTextUtilities.h; sourceTree = "<group>"; };
 		F2E96A204DE6E79FC02ADCCE56B78DD1 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAsyncLayer.m; path = YYText/Utility/YYTextAsyncLayer.m; sourceTree = "<group>"; };
-		F3D95255740E491D3EE2DD131DD64EA2 /* WPMarkDownParseOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPMarkDownParseOrder.h; sourceTree = "<group>"; };
 		F40E7878E5583A33A96FE191E64C8862 /* YYText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-umbrella.h"; sourceTree = "<group>"; };
-		F5011FBB6C1A1C9719A2E44E9A83A408 /* NSString+WPMarkDownParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WPMarkDownParse.h"; sourceTree = "<group>"; };
 		F55C2FE4764E1AFFC36FC03D2D6F739E /* WPChained-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPChained-prefix.pch"; sourceTree = "<group>"; };
 		F7ECC71449F7E36FFCFE5D5814D59780 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		F85CB49A20FCE3C522C9F31E7A01BF45 /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/SDAnimatedImage.m; sourceTree = "<group>"; };
@@ -636,6 +631,7 @@
 		FAFCB6B693CA736E76F0A79402E9C657 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		FC787B53053B4AE2C65B264C0A020350 /* UILabel+WPChained.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WPChained.h"; path = "WPChained/Classes/LabelChained/UILabel+WPChained.h"; sourceTree = "<group>"; };
 		FEA04A9CB5884A603DD9DB91E676C311 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		FFFDDEA6F064B25DEC7A68D6F7D958A7 /* WPMarkDownParse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPMarkDownParse-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -656,17 +652,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		706A0D22EE5DE31AF811BA7137878585 /* Frameworks */ = {
+		5946765B6F4E2D93B117FD1936DF8B3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2895CCBCDD7B866385A11CB21087CB07 /* Accelerate.framework in Frameworks */,
-				9C1AED2DEC25064E667183E855D5FD5A /* CoreFoundation.framework in Frameworks */,
-				21677CBB10369646A99E71939AB83E1A /* CoreText.framework in Frameworks */,
-				D504C350240E5C86EACBB10C4964CDAC /* Foundation.framework in Frameworks */,
-				53340D752A88B0525B34AFF9FCB7186A /* MobileCoreServices.framework in Frameworks */,
-				719CAC6700AD2C1F8808AE9B77C67076 /* QuartzCore.framework in Frameworks */,
-				D487B441E14CDDC133D23B2470EFACFB /* UIKit.framework in Frameworks */,
+				238E24448822ECF82238FA78A265B04D /* Foundation.framework in Frameworks */,
+				B72CA3789D368D88FA9543433F83170E /* SDWebImage.framework in Frameworks */,
+				6A17E67E17B4337C1312529A9C2D7185 /* WPChained.framework in Frameworks */,
+				E9EE52A79215F320CC4154D8723FE90C /* YYText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,14 +671,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7630DD9A800C92630590527404AD5796 /* Frameworks */ = {
+		AB81C0A3D87115436261514B1E4A85BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0FAC3B69B5B2ECE40F8404AF536C919 /* Foundation.framework in Frameworks */,
-				0E7B6BC5ADA3423EBBFE5933179D64BD /* SDWebImage.framework in Frameworks */,
-				D06E2B8FD6A1EF5A232E9B6BBA70E906 /* WPChained.framework in Frameworks */,
-				C14F4424A47B3F8AC945C19A4CE9A34D /* YYText.framework in Frameworks */,
+				FE31D9C01A040D3550B2ACD832056B6C /* Accelerate.framework in Frameworks */,
+				A4DBD25C156A87F833661263BC2BB03C /* CoreFoundation.framework in Frameworks */,
+				1EB19AD2BB3AA1590AEB5153BF952B03 /* CoreText.framework in Frameworks */,
+				27E08F5AF109876FE51806FBC7E36684 /* Foundation.framework in Frameworks */,
+				75279402304FB50D5C54C8E5699493E3 /* MobileCoreServices.framework in Frameworks */,
+				30C6E5DD2EB1B1F41099BA0F6F84C2E9 /* QuartzCore.framework in Frameworks */,
+				E810007AD38B5DAC176E2B4CDF91F2AB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +708,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D783B0697C31EBE849539D58F1B82C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				11F2DE11F1EC1AAC9E1F872FB3D6AE92 /* WPMarkDownMacro.h */,
+			);
+			name = Config;
+			path = WPMarkDownParse/Classes/Config;
+			sourceTree = "<group>";
+		};
+		0C13B2E9ABDF134F3D8B827E81C4446A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C0E0EA3598E16C0900920A9B5D3C49 /* WPMarkDownParseBaseModel.h */,
+				A1C3D8B994D52BEF349254A95F201B13 /* WPMarkDownParseBaseModel.m */,
+			);
+			name = Model;
+			path = WPMarkDownParse/Classes/Model;
+			sourceTree = "<group>";
+		};
 		10AEEDA72AA3C4D760FDE49223F14F81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -725,16 +740,18 @@
 			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		194E94864D1D59FC41C050C2B728A0FF /* Entry */ = {
+		17A2F35FB7F978B45FA9555BEA88CC96 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5011FBB6C1A1C9719A2E44E9A83A408 /* NSString+WPMarkDownParse.h */,
-				D0F640C30D0D91858D340CB431214EF7 /* NSString+WPMarkDownParse.m */,
-				2F53CF63FC4594BE568F871116F46235 /* WPMarkDownParseFactory.h */,
-				0E45ECE7BECF9D5709229A18EE3B9B13 /* WPMarkDownParseFactory.m */,
+				53A3AF0A8302BB932EC6AC43A86027D7 /* WPMarkDownParse.modulemap */,
+				7676CCFC4F7BC157CF620D1A4D19BA1C /* WPMarkDownParse.xcconfig */,
+				FFFDDEA6F064B25DEC7A68D6F7D958A7 /* WPMarkDownParse-dummy.m */,
+				3C2D7E07A5B279B4A45F9DA986BAD004 /* WPMarkDownParse-Info.plist */,
+				DD3E1377CBA93EB32AF800537A0476D1 /* WPMarkDownParse-prefix.pch */,
+				D216172AF2B3B9D6A3CC6E1210B9CA84 /* WPMarkDownParse-umbrella.h */,
 			);
-			name = Entry;
-			path = WPMarkDownParse/Classes/Entry;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPMarkDownParse";
 			sourceTree = "<group>";
 		};
 		20B0A495276EC38CC9A633B79635E38D /* Pods */ = {
@@ -806,26 +823,41 @@
 			path = YYText;
 			sourceTree = "<group>";
 		};
-		3F559224B81B40F643CCEB57FF6A6AAA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB2E272A615156DDA52244F0EE5C610A /* WPMarkDownParse.modulemap */,
-				6266A735F9962FAAC5E870F79437D5E7 /* WPMarkDownParse.xcconfig */,
-				BA9E0CB6FB9C34332AF178D3B68E1E3F /* WPMarkDownParse-dummy.m */,
-				8E9302E47C440F00B16F4BA83352FD16 /* WPMarkDownParse-Info.plist */,
-				389F4CF367CB75001565C5A32BC0A0A9 /* WPMarkDownParse-prefix.pch */,
-				556D3562F00C33F6D2AE7DEA6ECE3CB2 /* WPMarkDownParse-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WPMarkDownParse";
-			sourceTree = "<group>";
-		};
 		417ED63EA05E642B9C6E30B3EF600BFD /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				36D7BB5D5E449298F115E6A9061E19DC /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		47FC13C39426853F39596A5CCF4A84C3 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				6711D7A79D9F4D647635F581CCE87F5A /* WPMarkDownBaseParse.h */,
+				5B06E005CC3761B1183461A4CC00EAFB /* WPMarkDownBaseParse.m */,
+				0EEFA6763C569E25F475D991D5E33B59 /* WPMarkDownParseBold.h */,
+				6604F2F41FF21F1577B77F5C3E48006F /* WPMarkDownParseBold.m */,
+				28ABD3213E5F02FD79F487C8A72E73D7 /* WPMarkDownParseCodeBlock.h */,
+				A1C82EE7436A3F680ADC8B4F93CA1A15 /* WPMarkDownParseCodeBlock.m */,
+				70AB57471F373EB0C3CCAB824E66CAD2 /* WPMarkDownParseDisorder.h */,
+				5CCA0E6D290104803923225F17E076D0 /* WPMarkDownParseDisorder.m */,
+				D61B3E33793CB6AE5C504EF918E35A49 /* WPMarkDownParseImage.h */,
+				AD81C5BA9427F1B802A5A69A80F0F17F /* WPMarkDownParseImage.m */,
+				A56CBD2B268B6361FAB64EC64D38891C /* WPMarkDownParseItalic.h */,
+				7B00E1C5DBC1E33C84F326BA61F89981 /* WPMarkDownParseItalic.m */,
+				31907F8299F8D951CDF7BCE1BD019B7A /* WPMarkDownParseLink.h */,
+				688ECA8E0804615C4DE54F5BAE478041 /* WPMarkDownParseLink.m */,
+				CA9EE3DE36DFDF3C6724F25A3795D1A8 /* WPMarkDownParseOrder.h */,
+				56A89359D58F6A29BAF46038696A7B73 /* WPMarkDownParseOrder.m */,
+				1E82522588DD62EA9BDD3880C5128130 /* WPMarkDownParseQuoteParagraph.h */,
+				38301D6C5FC65E6E57D3826B09B59DD7 /* WPMarkDownParseQuoteParagraph.m */,
+				15AE547592902B5E316C3FE223717213 /* WPMarkDownParseStrageInterface.h */,
+				5E54765423E43697A7514A4A3A9DC25E /* WPMarkDownParseTitle.h */,
+				91365395A4A7DE8539DD554FA0ECC1E4 /* WPMarkDownParseTitle.m */,
+			);
+			name = Parse;
+			path = WPMarkDownParse/Classes/Parse;
 			sourceTree = "<group>";
 		};
 		521D2E3CF61ED307560BA3A767415909 /* Pods-WPMarkDownParse_Example */ = {
@@ -866,6 +898,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		5594324ACF77834D5918819A72476A21 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF2DAEEFA4068781793E3C99B5D06B8B /* LICENSE */,
+				37E6B99422778C075C7337715E85CA93 /* README.md */,
+				0A942C83D109B22310E39F3E398BE793 /* WPMarkDownParse.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		6847B183A6F4EAFBE2F43977F4C20208 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -880,27 +922,6 @@
 				68349C598208B8170680BBDFCEE94038 /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6AB2B5554C98422373410DA70F55AA1D /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				092C2947503E0AC1CF874385D2957EB7 /* WPMarkDownConfigShareManager.h */,
-				F048EB35855ED7A4EA6B5C0BDF79D9E8 /* WPMarkDownConfigShareManager.m */,
-				0F25C918475CAEA05905F6E0FC33BDAD /* WPMarkDownMacro.h */,
-			);
-			name = Config;
-			path = WPMarkDownParse/Classes/Config;
-			sourceTree = "<group>";
-		};
-		6ED97E5FAFB04B32AB2AF1442667CF23 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7AA1E55E331FF7140F45FE591893B9EB /* LICENSE */,
-				EC8D3D45DE9D5D1F1AB92CE2E424DAA4 /* README.md */,
-				77A5D1176EB995708D0A836A833FFF77 /* WPMarkDownParse.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8085894A8AFA4BA0D0A5EF3CFDC5CF3A /* Support Files */ = {
@@ -926,6 +947,20 @@
 				6847B183A6F4EAFBE2F43977F4C20208 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CA6A72B4F90FC2865D08358E096D9D /* WPMarkDownParse */ = {
+			isa = PBXGroup;
+			children = (
+				05D783B0697C31EBE849539D58F1B82C /* Config */,
+				AD82A4BD20E9FD27B2C6F9A1F78C6AF0 /* Entry */,
+				0C13B2E9ABDF134F3D8B827E81C4446A /* Model */,
+				47FC13C39426853F39596A5CCF4A84C3 /* Parse */,
+				5594324ACF77834D5918819A72476A21 /* Pod */,
+				17A2F35FB7F978B45FA9555BEA88CC96 /* Support Files */,
+			);
+			name = WPMarkDownParse;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		98C5B196BD9B1A303372150F7CBC38D1 /* WPChained */ = {
@@ -956,36 +991,24 @@
 			path = WPChained;
 			sourceTree = "<group>";
 		};
-		9C4B5CE8C634A13709C9E079ED7AF1B1 /* Model */ = {
+		AD82A4BD20E9FD27B2C6F9A1F78C6AF0 /* Entry */ = {
 			isa = PBXGroup;
 			children = (
-				1EC87581929EC7EAD490CDA77786C1F0 /* WPMarkDownParseBaseModel.h */,
-				DFDD526B73B63B6D9E977F890B46C4C8 /* WPMarkDownParseBaseModel.m */,
+				5F1234A4D4E17746BE342502D03C4ADE /* NSString+WPMarkDownParse.h */,
+				A3578DA6035A030248208AFA0BC2494E /* NSString+WPMarkDownParse.m */,
+				491F1BE1CEEF5548FF3273BBF0DF0FB2 /* WPMarkDownParseFactory.h */,
+				A3CCD7B18A5A8FED9589FA561A2F4A6F /* WPMarkDownParseFactory.m */,
 			);
-			name = Model;
-			path = WPMarkDownParse/Classes/Model;
+			name = Entry;
+			path = WPMarkDownParse/Classes/Entry;
 			sourceTree = "<group>";
 		};
 		B365AECFF9EE1EEA3EC2B115E5B72439 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFAC9A72D6B7F873278CC51A3C405702 /* WPMarkDownParse */,
+				95CA6A72B4F90FC2865D08358E096D9D /* WPMarkDownParse */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BFAC9A72D6B7F873278CC51A3C405702 /* WPMarkDownParse */ = {
-			isa = PBXGroup;
-			children = (
-				6AB2B5554C98422373410DA70F55AA1D /* Config */,
-				194E94864D1D59FC41C050C2B728A0FF /* Entry */,
-				9C4B5CE8C634A13709C9E079ED7AF1B1 /* Model */,
-				DADF0B8C23F382E5E85FC73FB7F23026 /* Parse */,
-				6ED97E5FAFB04B32AB2AF1442667CF23 /* Pod */,
-				3F559224B81B40F643CCEB57FF6A6AAA /* Support Files */,
-			);
-			name = WPMarkDownParse;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C7252CA194C3235D0F454A16675C3271 /* Targets Support Files */ = {
@@ -1038,35 +1061,6 @@
 			);
 			name = "Pods-WPMarkDownParse_Tests";
 			path = "Target Support Files/Pods-WPMarkDownParse_Tests";
-			sourceTree = "<group>";
-		};
-		DADF0B8C23F382E5E85FC73FB7F23026 /* Parse */ = {
-			isa = PBXGroup;
-			children = (
-				ADA32F2CC05E92AFA4243C8C89A70EBE /* WPMarkDownBaseParse.h */,
-				E3EE24D2F18D1F00D8C76EC25A0FACFB /* WPMarkDownBaseParse.m */,
-				9BD72ECE3D259F454451BE4E579AF752 /* WPMarkDownParseBold.h */,
-				05A4A081A98BC93C27B6430995817777 /* WPMarkDownParseBold.m */,
-				663923C8E1C3B46CAE08354EEAB3A756 /* WPMarkDownParseCodeBlock.h */,
-				7E74BE02279056DC478B55AF53D39170 /* WPMarkDownParseCodeBlock.m */,
-				68B014EC0CB379DC3EEBDA7D94B81C32 /* WPMarkDownParseDisorder.h */,
-				9C5383323CD654E2E39B842F81A3F632 /* WPMarkDownParseDisorder.m */,
-				C967049465F278BB527A78F98FAD02A3 /* WPMarkDownParseImage.h */,
-				A1552AE89432B39B1CF6AB17381A53F6 /* WPMarkDownParseImage.m */,
-				DC0C39298840ED02C33CB7765784D67E /* WPMarkDownParseItalic.h */,
-				86BAD4D401F20014C7B81BDA6B57AED6 /* WPMarkDownParseItalic.m */,
-				AB2B483C9756F5F3A79932B498BC5CAA /* WPMarkDownParseLink.h */,
-				BCA51BF37445BA29EA4A636F713DBEBA /* WPMarkDownParseLink.m */,
-				F3D95255740E491D3EE2DD131DD64EA2 /* WPMarkDownParseOrder.h */,
-				8FA9736146A912E1E0EBFA2D95F3399E /* WPMarkDownParseOrder.m */,
-				0ACE9B6B3997D0E7E730D31591823F28 /* WPMarkDownParseQuoteParagraph.h */,
-				0FE3AFE18E41AE55C06543166F3E6A72 /* WPMarkDownParseQuoteParagraph.m */,
-				6FC68F54ADC58234917A74992FE4AD1B /* WPMarkDownParseStrageInterface.h */,
-				8B874F4E94034881C07D939F7B73C015 /* WPMarkDownParseTitle.h */,
-				1E16590DE72535CBB5AE349D3AF8D851 /* WPMarkDownParseTitle.m */,
-			);
-			name = Parse;
-			path = WPMarkDownParse/Classes/Parse;
 			sourceTree = "<group>";
 		};
 		E145B917831787744A834463109B6C04 /* Products */ = {
@@ -1266,36 +1260,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60D401BBD5F3E3DC409A5E628A72D5E2 /* Headers */ = {
+		42FD70FBE610A9E3BD6B29BA7653ABF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28679FF0B0FB2D19F191DEFA407CCE7B /* NSAttributedString+YYText.h in Headers */,
-				001B982D7F0DE9595D51FD0760F92E54 /* NSParagraphStyle+YYText.h in Headers */,
-				AD723324C151B7483A1CF3F45936BD58 /* UIPasteboard+YYText.h in Headers */,
-				F51404B61321E4F7E2A8F28FF6D50C17 /* UIView+YYText.h in Headers */,
-				4174BF09241E8DA253F8ACDEF6C04C21 /* YYLabel.h in Headers */,
-				3D50302F912F569453661FECEC79E4BF /* YYText-umbrella.h in Headers */,
-				A652CB50E44079C081BF200E302F438B /* YYText.h in Headers */,
-				4200979EAD8E3BE5D63BD604C61A8E9C /* YYTextArchiver.h in Headers */,
-				CB3A830EB0D8187E21C91997AA4B0B06 /* YYTextAsyncLayer.h in Headers */,
-				555AD2DF8FB3650809CD18F4908C0AE9 /* YYTextAttribute.h in Headers */,
-				CF6BF8AADDC37265194EB2BD4F825F7A /* YYTextContainerView.h in Headers */,
-				9A0D028E6C40E69EF3C28E286C144CE8 /* YYTextDebugOption.h in Headers */,
-				84E68DAAE520E949041AC626C69112DC /* YYTextEffectWindow.h in Headers */,
-				20C98991BE6ADB0406C37DFC7581FE2B /* YYTextInput.h in Headers */,
-				06274DCC0647EB1957FA312CB929C4A7 /* YYTextKeyboardManager.h in Headers */,
-				BED2A29D550FE54DDA58D2BF35C671AD /* YYTextLayout.h in Headers */,
-				5A119404130B075B798C4EB9C6E0D2A8 /* YYTextLine.h in Headers */,
-				4FE0D9B792F2CF77564F9CFA8577725C /* YYTextMagnifier.h in Headers */,
-				405323CAAE2DE0241421F59742543277 /* YYTextParser.h in Headers */,
-				F355A94DBCD3EAC63038550BD50E95DB /* YYTextRubyAnnotation.h in Headers */,
-				930A8CDF6F4E5ABC1AA7551BE01A80F0 /* YYTextRunDelegate.h in Headers */,
-				804895270CE7F0B18B6D6B56F00E4951 /* YYTextSelectionView.h in Headers */,
-				B8189A6603C59B6C6CE3CC3C2B077A75 /* YYTextTransaction.h in Headers */,
-				60674EB9F61FE68A9083560FBEAF8D89 /* YYTextUtilities.h in Headers */,
-				9D2356E8CE0BA3B6E63E627E788C9168 /* YYTextView.h in Headers */,
-				D5F7668BCB451B702A87073BE6FFA8E1 /* YYTextWeakProxy.h in Headers */,
+				644332F0486E3B0A2E019943CF91779B /* NSString+WPMarkDownParse.h in Headers */,
+				50A996873D0A293A0DE100C8F075BD89 /* WPMarkDownBaseParse.h in Headers */,
+				4BA7A8BEB3A75C41347874E3CED74846 /* WPMarkDownMacro.h in Headers */,
+				C678CAC7C5E6DD638F3A9F11C8BAE0D2 /* WPMarkDownParse-umbrella.h in Headers */,
+				78AADE74CBC94704FE5F428468B5491D /* WPMarkDownParseBaseModel.h in Headers */,
+				0FEB69C3AB873D3A474D936B592F3821 /* WPMarkDownParseBold.h in Headers */,
+				855E401F22E4CAB5DE0C53CE3776B1F3 /* WPMarkDownParseCodeBlock.h in Headers */,
+				2023103B5A48C1A6A9589B1E32562AD1 /* WPMarkDownParseDisorder.h in Headers */,
+				0015CF5D587D2FB66888963B858FEA10 /* WPMarkDownParseFactory.h in Headers */,
+				DC9797590ECD46501FB112131694219A /* WPMarkDownParseImage.h in Headers */,
+				6931EB43A9BF878ED14C8DE2367152EC /* WPMarkDownParseItalic.h in Headers */,
+				A4C9894D4A15242C747EF46563C881CA /* WPMarkDownParseLink.h in Headers */,
+				FBF72316C691AF895A4ECCDF8C629009 /* WPMarkDownParseOrder.h in Headers */,
+				894891D07F1214F8B82B0EB6E23CC4F6 /* WPMarkDownParseQuoteParagraph.h in Headers */,
+				1F9CE4E31B2818F9C2F6BE112C97C18D /* WPMarkDownParseStrageInterface.h in Headers */,
+				17FE659F8785DAE38225E131F60B70C7 /* WPMarkDownParseTitle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1366,6 +1350,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FAEA15EB308659E2F81B17E322C1415 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A36C239541A82C4706EAD43CE3E1D7 /* NSAttributedString+YYText.h in Headers */,
+				87CEF2EBD02FF76644839A0E60267217 /* NSParagraphStyle+YYText.h in Headers */,
+				21AFABC79B4928B360F3C31C09D23A82 /* UIPasteboard+YYText.h in Headers */,
+				BDB25DEEF06F630B46875F360E1BCCD5 /* UIView+YYText.h in Headers */,
+				712AC67962D692C9CE3E7C4EB5D2AFDE /* YYLabel.h in Headers */,
+				C62F62C154A5C1D3F3E71FA7249B0ACD /* YYText-umbrella.h in Headers */,
+				668F3031653D3CF68DB60B4489A0E055 /* YYText.h in Headers */,
+				38173E8DF8447B50754CFBDBFE1EF866 /* YYTextArchiver.h in Headers */,
+				D5985E2BEEE8C4D798578E680CE30CEC /* YYTextAsyncLayer.h in Headers */,
+				76A222599EF5DE43A4928EBFFD0A0BA3 /* YYTextAttribute.h in Headers */,
+				A388CE36296F7964E0D073E17D5E1E2A /* YYTextContainerView.h in Headers */,
+				E39CBD8FFBAED6559BB8F8019469E29E /* YYTextDebugOption.h in Headers */,
+				33AC396CC8ABBE7267F46F1161F7E275 /* YYTextEffectWindow.h in Headers */,
+				029971398B5F7B9BD9B659C4FC3CE92E /* YYTextInput.h in Headers */,
+				8BA6EC41B41F3D2441949B1883EB8097 /* YYTextKeyboardManager.h in Headers */,
+				363F9F1666FF9BC2EC16052293F651E9 /* YYTextLayout.h in Headers */,
+				98BAB4803A107A79442C1A175F959D30 /* YYTextLine.h in Headers */,
+				0458B22703B2264B7A796C802955A345 /* YYTextMagnifier.h in Headers */,
+				EACF00EE7433C4B2AD12E0E3D45A1F8F /* YYTextParser.h in Headers */,
+				F2ACB075FE8C68644E908C0FDF1E65BA /* YYTextRubyAnnotation.h in Headers */,
+				75952F848D3F448B1A9DE6350FC3DB6F /* YYTextRunDelegate.h in Headers */,
+				9A8CBC8ED4AB78661F080C524AA583E5 /* YYTextSelectionView.h in Headers */,
+				4E222DA8F014F4F86ADA953E9B91FE36 /* YYTextTransaction.h in Headers */,
+				1CA94FCD5291C3D3FE8C16BBA7F413EB /* YYTextUtilities.h in Headers */,
+				16EB6D6E22327845E74E064A5DADB0C6 /* YYTextView.h in Headers */,
+				C4B47C22042AC5AC335E58C4471AF2B0 /* YYTextWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD4EE68E374EDDD1F4116023C2D3E17F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1389,30 +1406,6 @@
 				14983672707CA9DE885CCAA2C75EFDCD /* WPMutableAttributedStringMaker.h in Headers */,
 				44DA9B8240EAA7ED49768904DCB226C4 /* WPMutableParagraphStyleModel.h in Headers */,
 				1557A648F50981926086688B622C2AF9 /* WPNavigationChainedMaker.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7554477B221F345F22F9EBAA3C46058 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5AF7F6F8949B87A3FE7F97BAB57A643 /* NSString+WPMarkDownParse.h in Headers */,
-				1806641365129B1475C61AFBD036F0CD /* WPMarkDownBaseParse.h in Headers */,
-				9037FCE340936A92DF0A804FFCD95F4A /* WPMarkDownConfigShareManager.h in Headers */,
-				E9ED35FD613BA1292B5473F1B72CCCA1 /* WPMarkDownMacro.h in Headers */,
-				C4BE04F59CB732B1144F2166452131E0 /* WPMarkDownParse-umbrella.h in Headers */,
-				1BFC7BC763C8F786550578273AA7C76F /* WPMarkDownParseBaseModel.h in Headers */,
-				3DA07A64C87FEBF3CD43E447A1B7BACB /* WPMarkDownParseBold.h in Headers */,
-				4391FF45E87C9AD2E454C447422B4217 /* WPMarkDownParseCodeBlock.h in Headers */,
-				F7DCBBA26D202EC81B68B29FF09007D8 /* WPMarkDownParseDisorder.h in Headers */,
-				0C5048912970A679E6482E927B57F17F /* WPMarkDownParseFactory.h in Headers */,
-				C4CE37B28069B8E12D1E221E0F6FC64E /* WPMarkDownParseImage.h in Headers */,
-				581840C4A283208257B25B907D75AA78 /* WPMarkDownParseItalic.h in Headers */,
-				5DF14810A01D3F558AE328A30C48397A /* WPMarkDownParseLink.h in Headers */,
-				3F76C5DA5197B2547ED88E28EFD3F9AA /* WPMarkDownParseOrder.h in Headers */,
-				72E1BA105844053E12CFB823A4B91219 /* WPMarkDownParseQuoteParagraph.h in Headers */,
-				1B18636FE76289A80EF4B63FB42212A2 /* WPMarkDownParseStrageInterface.h in Headers */,
-				F22C60143943252E29F559130863525E /* WPMarkDownParseTitle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1457,12 +1450,12 @@
 		};
 		6F5C17E80BD1B7F60A33F79692330A57 /* YYText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4C2106E50039269F9980BE4CBA75129 /* Build configuration list for PBXNativeTarget "YYText" */;
+			buildConfigurationList = FBC054BF9C9980E846C2B6640830EFA0 /* Build configuration list for PBXNativeTarget "YYText" */;
 			buildPhases = (
-				60D401BBD5F3E3DC409A5E628A72D5E2 /* Headers */,
-				84D8EE6F05035147E9D19592B7070105 /* Sources */,
-				706A0D22EE5DE31AF811BA7137878585 /* Frameworks */,
-				01801EFEE30A42FE1BADFFEA1970C023 /* Resources */,
+				8FAEA15EB308659E2F81B17E322C1415 /* Headers */,
+				07BD4A5CF55C1FF00A60F6E7DC7D790E /* Sources */,
+				AB81C0A3D87115436261514B1E4A85BC /* Frameworks */,
+				C255A29DC6A9C2205E8ED44D33783274 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1535,19 +1528,19 @@
 		};
 		AFBBC3A3BDAADBA49A7935C25777CF93 /* WPMarkDownParse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C52B5E19F30AF6987D8C4905B39E5D9 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */;
+			buildConfigurationList = 2D2F3314ACF71F974394026A74770802 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */;
 			buildPhases = (
-				F7554477B221F345F22F9EBAA3C46058 /* Headers */,
-				652B0E6D42E91AD52358FB020265429C /* Sources */,
-				7630DD9A800C92630590527404AD5796 /* Frameworks */,
-				B557386976FB61381D88D60282CE8128 /* Resources */,
+				42FD70FBE610A9E3BD6B29BA7653ABF5 /* Headers */,
+				511FDA28A6B79EB7D5A1BCDD8E704CE0 /* Sources */,
+				5946765B6F4E2D93B117FD1936DF8B3C /* Frameworks */,
+				1F9AEA219A0C99C5914CA7C7DAE5FD91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				779D995A7F00C619ECB36DD7B179D390 /* PBXTargetDependency */,
-				B824A95F2D7172232120F0F38AA22B28 /* PBXTargetDependency */,
-				B74E621F577BC7E40BBFE871BF6545E5 /* PBXTargetDependency */,
+				10987680421652C49EEF32D8C8483DA9 /* PBXTargetDependency */,
+				D78D310F418A845960C3AB841A4479B7 /* PBXTargetDependency */,
+				A3CBDA7B3E929393FC90205C4C775A37 /* PBXTargetDependency */,
 			);
 			name = WPMarkDownParse;
 			productName = WPMarkDownParse;
@@ -1588,14 +1581,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01801EFEE30A42FE1BADFFEA1970C023 /* Resources */ = {
+		158C28355A5CC6C1102A142D169187EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158C28355A5CC6C1102A142D169187EB /* Resources */ = {
+		1F9AEA219A0C99C5914CA7C7DAE5FD91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1616,7 +1609,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B557386976FB61381D88D60282CE8128 /* Resources */ = {
+		C255A29DC6A9C2205E8ED44D33783274 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1640,6 +1633,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07BD4A5CF55C1FF00A60F6E7DC7D790E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108371A2B9B82C4BFC86BE8A308B9F94 /* NSAttributedString+YYText.m in Sources */,
+				92A9A130946AB616DF3304B9002E66AB /* NSParagraphStyle+YYText.m in Sources */,
+				0085700B7AC6FDD14350A8D48246B2AC /* UIPasteboard+YYText.m in Sources */,
+				C0D6424CD403A24F66CFE601B82A5695 /* UIView+YYText.m in Sources */,
+				33A17527968522AD73D8380E23FC44C3 /* YYLabel.m in Sources */,
+				0246DEB8C5483DA7C22F68F6048FB73C /* YYText-dummy.m in Sources */,
+				15C204AC5DCE70814A60655F6281C37B /* YYTextArchiver.m in Sources */,
+				4CE4F600C2FCE41E0A5528059EE93158 /* YYTextAsyncLayer.m in Sources */,
+				C79BD320955DA1DA6B474D78AA270A7C /* YYTextAttribute.m in Sources */,
+				B70E501D8C76619B3B4DF7DF59F8A8C0 /* YYTextContainerView.m in Sources */,
+				7D02C43588B1C114C2739DD2AE33B8A6 /* YYTextDebugOption.m in Sources */,
+				C0F65B37C0644BDAF4EDCE801C3CAAE2 /* YYTextEffectWindow.m in Sources */,
+				3B2AA10CAFEA01D2F9C656974755AA7F /* YYTextInput.m in Sources */,
+				F53A6C443D1F8986BD59B42F9A34986D /* YYTextKeyboardManager.m in Sources */,
+				FF68129FA424BF6D9A909E75314AEA31 /* YYTextLayout.m in Sources */,
+				054E2D7AB7D73FDB3EC09A245D6F39E3 /* YYTextLine.m in Sources */,
+				F9016347C7073BE549D22D003495ECE3 /* YYTextMagnifier.m in Sources */,
+				962551A099D50D35885B247C286F66CC /* YYTextParser.m in Sources */,
+				635F5237BE5D808C45AC31D14DE994CC /* YYTextRubyAnnotation.m in Sources */,
+				483CA193D9309ABDBEDD51A06C8198BB /* YYTextRunDelegate.m in Sources */,
+				67DD73BE7BEA0484FA889F299C8171D8 /* YYTextSelectionView.m in Sources */,
+				1A7B929FF8FBEF2D18BF230590D27272 /* YYTextTransaction.m in Sources */,
+				6B4EC814B9F758C6875467FF6FE45A53 /* YYTextUtilities.m in Sources */,
+				B404EFD72F6CFC5DBAD2CAA150C06B86 /* YYTextView.m in Sources */,
+				7048F7E960EF273F9BDBC66F2458ADB3 /* YYTextWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC2307FC10A3421821596F77333F6BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1711,57 +1736,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		652B0E6D42E91AD52358FB020265429C /* Sources */ = {
+		511FDA28A6B79EB7D5A1BCDD8E704CE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567B76DB3107D10132E755D40BE0FB7A /* NSString+WPMarkDownParse.m in Sources */,
-				521FED30111A926918756C141F8B40F8 /* WPMarkDownBaseParse.m in Sources */,
-				80729B255C33574F58E82A4B4FFFF775 /* WPMarkDownConfigShareManager.m in Sources */,
-				67838BFC7763D62DB134B770089C8C6E /* WPMarkDownParse-dummy.m in Sources */,
-				87BD3F164064EE6F2D218F56723E5F4F /* WPMarkDownParseBaseModel.m in Sources */,
-				EA7B6B6EB29892274ABFA06BE230C61C /* WPMarkDownParseBold.m in Sources */,
-				D26729CA11AD4C67345431DA31E90214 /* WPMarkDownParseCodeBlock.m in Sources */,
-				2CC11859C1F515E901D9FF413579A659 /* WPMarkDownParseDisorder.m in Sources */,
-				6B429CF7803334C2334A7D1810D51155 /* WPMarkDownParseFactory.m in Sources */,
-				2D4002399B49332F8FA808660454794E /* WPMarkDownParseImage.m in Sources */,
-				1ECBFA306942B76D2A1B98363AF574CE /* WPMarkDownParseItalic.m in Sources */,
-				78EF0660AB0F816B0C6448E2A0D4220A /* WPMarkDownParseLink.m in Sources */,
-				3158F7CC0E40FE2FEB77070BE642B117 /* WPMarkDownParseOrder.m in Sources */,
-				8F9C9CFE14DBCF0E075C85540A2CC4BF /* WPMarkDownParseQuoteParagraph.m in Sources */,
-				E050389608FECFBD9C5821F3FB7AA0DF /* WPMarkDownParseTitle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84D8EE6F05035147E9D19592B7070105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF036E1F4615E2766351E710E397C64F /* NSAttributedString+YYText.m in Sources */,
-				69E1D71DA93651DA8665B3859D988E2C /* NSParagraphStyle+YYText.m in Sources */,
-				F6FE56451F2F2639232FFD5A6599BC6E /* UIPasteboard+YYText.m in Sources */,
-				3CF6E5F13FF9B7D2BBD6E91692BD03C9 /* UIView+YYText.m in Sources */,
-				BFE60DA0CEF5D5762069ED68F082EC02 /* YYLabel.m in Sources */,
-				6D8F0BE99858C5ACD51F829039FB1E0D /* YYText-dummy.m in Sources */,
-				186922EFE5594F17426A405D14D6CE37 /* YYTextArchiver.m in Sources */,
-				09A5A36A44A042D7BFE7026A97F9146E /* YYTextAsyncLayer.m in Sources */,
-				2F6FB925B19EA463E0E591AB33E0B3AB /* YYTextAttribute.m in Sources */,
-				6937E380503DF689615A54F228C7C71E /* YYTextContainerView.m in Sources */,
-				0B80F28E252161A37037F80582492A5B /* YYTextDebugOption.m in Sources */,
-				F37A197A4B4BD89D1E98D90844BF7F43 /* YYTextEffectWindow.m in Sources */,
-				312AB9B1CCE4189F1DF9C56DC3CAE705 /* YYTextInput.m in Sources */,
-				C410A2126FC546E64C03B3239B8E4E68 /* YYTextKeyboardManager.m in Sources */,
-				B0C1DEFEF7AD1F475DB6907EEC083696 /* YYTextLayout.m in Sources */,
-				C1E698D402A640653F3AA86D5BACA975 /* YYTextLine.m in Sources */,
-				615B7A4D69260D47EB5A2A09778A65A2 /* YYTextMagnifier.m in Sources */,
-				DBB510C404CBB678CED6646DDA12F0B5 /* YYTextParser.m in Sources */,
-				E61BE21BA695C075A805B79E0CEC950C /* YYTextRubyAnnotation.m in Sources */,
-				47F2046981C7A7BFFF0B040C9AD987CC /* YYTextRunDelegate.m in Sources */,
-				CF25DB08C83EE660EBD49ACB5C451049 /* YYTextSelectionView.m in Sources */,
-				DA6C9CEF5FF500F650A745B531887DC9 /* YYTextTransaction.m in Sources */,
-				689F1E096D435A53EF34A52C9D8C4F54 /* YYTextUtilities.m in Sources */,
-				58A966DBA044F582C47AD36A96D8E3B0 /* YYTextView.m in Sources */,
-				F3CB922436F36F320090419114A4F8AE /* YYTextWeakProxy.m in Sources */,
+				DE4B5FDC01A1103F8D35A35C1DE457FD /* NSString+WPMarkDownParse.m in Sources */,
+				4056E858713FEDD9A1BA836500A193A0 /* WPMarkDownBaseParse.m in Sources */,
+				3EE1534E2958FD7CD2000290103A6DAA /* WPMarkDownParse-dummy.m in Sources */,
+				4191609ACE0FDCC3E96DC5F420E0BC63 /* WPMarkDownParseBaseModel.m in Sources */,
+				33AC29DD9DE183F52D864A60D62277D2 /* WPMarkDownParseBold.m in Sources */,
+				308DD0EBF199D17411D316C53C1F0D60 /* WPMarkDownParseCodeBlock.m in Sources */,
+				E91CB334C34FDFD2A987F7DE41A35F06 /* WPMarkDownParseDisorder.m in Sources */,
+				0B6936F5C9B6B08F378DDBE919F803D0 /* WPMarkDownParseFactory.m in Sources */,
+				31B9A56B7DFD73BB163FFF0F7899871E /* WPMarkDownParseImage.m in Sources */,
+				0A14C2A7AF716D233B4C6EC8C029499C /* WPMarkDownParseItalic.m in Sources */,
+				026CCBE8A2EEBDFFACB16238ADAF4823 /* WPMarkDownParseLink.m in Sources */,
+				0D8EB84B240167EA48888160F889D18A /* WPMarkDownParseOrder.m in Sources */,
+				331855041A3DE8917F5CF83EDC1783E6 /* WPMarkDownParseQuoteParagraph.m in Sources */,
+				26CA52DA2A829AF560056B83C81EAA66 /* WPMarkDownParseTitle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1809,6 +1801,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		10987680421652C49EEF32D8C8483DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 51DD7690A609EDFE59C9046828D39347 /* PBXContainerItemProxy */;
+		};
 		13FD000727DDB13DAC8F3774C6306E7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WPMarkDownParse;
@@ -1833,11 +1831,11 @@
 			target = 8D044BEFB2AB30FA78850A3FCE0D69E3 /* Pods-WPMarkDownParse_Example */;
 			targetProxy = B1F7498AED79ABEC8C588D032F90B4AB /* PBXContainerItemProxy */;
 		};
-		779D995A7F00C619ECB36DD7B179D390 /* PBXTargetDependency */ = {
+		A3CBDA7B3E929393FC90205C4C775A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 485053DB43CB97710BB894CDB2EE8CB9 /* PBXContainerItemProxy */;
+			name = YYText;
+			target = 6F5C17E80BD1B7F60A33F79692330A57 /* YYText */;
+			targetProxy = 4C7AABE6841AC0B91E6CDC6898AAE445 /* PBXContainerItemProxy */;
 		};
 		B5FE24F2838A241EA60CD821F0412CCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1845,23 +1843,17 @@
 			target = 65A6E0A42E8AADD1B102078650B5E427 /* WPChained */;
 			targetProxy = A58A3C38CA50C39D33C147B0EAA44662 /* PBXContainerItemProxy */;
 		};
-		B74E621F577BC7E40BBFE871BF6545E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYText;
-			target = 6F5C17E80BD1B7F60A33F79692330A57 /* YYText */;
-			targetProxy = DADDAAD1DAC426BEE2C32CCAF1A76C0D /* PBXContainerItemProxy */;
-		};
-		B824A95F2D7172232120F0F38AA22B28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WPChained;
-			target = 65A6E0A42E8AADD1B102078650B5E427 /* WPChained */;
-			targetProxy = 306F3725E991C8CE8BAD986B0CA6A107 /* PBXContainerItemProxy */;
-		};
 		D17D9B17086B3568CAE1E487B5A539A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYText;
 			target = 6F5C17E80BD1B7F60A33F79692330A57 /* YYText */;
 			targetProxy = ADD51F8DCBE39582F96450DA4ED3E989 /* PBXContainerItemProxy */;
+		};
+		D78D310F418A845960C3AB841A4479B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPChained;
+			target = 65A6E0A42E8AADD1B102078650B5E427 /* WPChained */;
+			targetProxy = 146FF95A7FA18859A081491331E3A580 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1897,9 +1889,9 @@
 			};
 			name = Debug;
 		};
-		09C4AC33D88A91E29A9B024CB77A747A /* Release */ = {
+		16D14051B3922D9BE74BD827C5F4B4E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6266A735F9962FAAC5E870F79437D5E7 /* WPMarkDownParse.xcconfig */;
+			baseConfigurationReference = 7676CCFC4F7BC157CF620D1A4D19BA1C /* WPMarkDownParse.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1993,38 +1985,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		49B234BD786CDF166E71401BDA2AFDE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF9950FAB10AE7294414EF063D0D9DD /* YYText.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
-				PRODUCT_MODULE_NAME = YYText;
-				PRODUCT_NAME = YYText;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2120,6 +2080,38 @@
 			};
 			name = Release;
 		};
+		68507DE720A5B08E90B50DA887778A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF9950FAB10AE7294414EF063D0D9DD /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_MODULE_NAME = YYText;
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7ECC71449F7E36FFCFE5D5814D59780 /* FBSnapshotTestCase.xcconfig */;
@@ -2151,6 +2143,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6A06A968D07638D12A51D355BC98D444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF9950FAB10AE7294414EF063D0D9DD /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_MODULE_NAME = YYText;
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2216,9 +2239,9 @@
 			};
 			name = Debug;
 		};
-		C61B719FA1193B7F4CEF18A46AB228B8 /* Debug */ = {
+		C3DEF3754C963B95FA9995536C1AD0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6266A735F9962FAAC5E870F79437D5E7 /* WPMarkDownParse.xcconfig */;
+			baseConfigurationReference = 7676CCFC4F7BC157CF620D1A4D19BA1C /* WPMarkDownParse.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2306,37 +2329,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DB071DEF416CF42E6860A01C642743B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF9950FAB10AE7294414EF063D0D9DD /* YYText.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYText/YYText-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
-				PRODUCT_MODULE_NAME = YYText;
-				PRODUCT_NAME = YYText;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2451,20 +2443,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2D2F3314ACF71F974394026A74770802 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DEF3754C963B95FA9995536C1AD0B8 /* Debug */,
+				16D14051B3922D9BE74BD827C5F4B4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6C52B5E19F30AF6987D8C4905B39E5D9 /* Build configuration list for PBXNativeTarget "WPMarkDownParse" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C61B719FA1193B7F4CEF18A46AB228B8 /* Debug */,
-				09C4AC33D88A91E29A9B024CB77A747A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2496,20 +2488,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4C2106E50039269F9980BE4CBA75129 /* Build configuration list for PBXNativeTarget "YYText" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB071DEF416CF42E6860A01C642743B8 /* Debug */,
-				49B234BD786CDF166E71401BDA2AFDE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BAA5ECFA42F2E8894D53A1C26768CCF6 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02525BD863712075A0331B3BA8D07FFC /* Debug */,
 				19E975B4D8D2BF2DE386C947D4067470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC054BF9C9980E846C2B6640830EFA0 /* Build configuration list for PBXNativeTarget "YYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A06A968D07638D12A51D355BC98D444 /* Debug */,
+				68507DE720A5B08E90B50DA887778A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -19,11 +19,17 @@
     return self;
 }
 
+- (void)configFontSize:(CGFloat)size width:(CGFloat)width{
+    _defaultWidth = width;
+    _defaultFontSize = size;
+}
+
 //模板模式
 - (void)segmentString:(NSString**)text{
     //通过符号进行分割
     NSArray * separatedArray = [*text componentsSeparatedByString:self.symbol];
     if (separatedArray.count>0) {
+        self.segmentArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
         [self segmentString:separatedArray text:*text];
         *text = [self replace:*text];
     }
@@ -35,6 +41,39 @@
         replaceAfter = [replaceAfter stringByReplacingOccurrencesOfString:[obj willBeReplacedString] withString:[obj replaceString]];
     }];
     return replaceAfter;
+}
+
+- (void)segmentString:(NSArray *)separatedArray text:(NSString *)text {
+    
+}
+
+
+- (void)setAttributedString:(NSMutableAttributedString *)attributedString {
+    
+}
+
+//检查是不是反斜杠
+- (BOOL)isBackslash:(NSString *)string{
+    NSString * lastOneString = [self lastOneString:string];
+    if ([lastOneString isEqualToString:@"\\"]) {
+        return YES;
+    }
+    return NO;
+}
+
+//最后一个字符
+- (NSString *)lastOneString:(NSString *)string{
+    if (string.length == 0) {
+        return nil;
+    }
+    return [string substringFromIndex:string.length-1];
+}
+//第一个字符
+- (NSString *)firstOneString:(NSString *)string{
+    if (string.length == 0) {
+        return nil;
+    }
+    return [string substringToIndex:1];
 }
 
 @end

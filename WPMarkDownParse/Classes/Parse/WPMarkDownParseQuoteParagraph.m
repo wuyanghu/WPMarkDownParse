@@ -18,15 +18,16 @@
     NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1;i++) {
-        WPMarkDownParseQuoteParagraphModel * paragraphModel = [[WPMarkDownParseQuoteParagraphModel alloc] initWithSymbol:self.symbol];
-        
+        if ([self isBackslash:separatedArray[i]]) {
+            continue;
+        }
         NSArray * rightStringSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n\n"];
         if (rightStringSeparteds.count>0) {
+            WPMarkDownParseQuoteParagraphModel * paragraphModel = [[WPMarkDownParseQuoteParagraphModel alloc] initWithSymbol:self.symbol];
             paragraphModel.text = rightStringSeparteds.firstObject;
-            [parseArray addObject:paragraphModel];
+            [self.segmentArray addObject:paragraphModel];
         }
     }
-    self.segmentArray = parseArray;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{
@@ -61,6 +62,7 @@
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
     styleModel.headIndent = 20;//整体缩进(首行除外)
     styleModel.firstLineHeadIndent = 20;
+    styleModel.alignment = NSTextAlignmentJustified;
     return styleModel;
 }
 

@@ -7,7 +7,6 @@
 //
 
 #import "WPMarkDownParseTitle.h"
-#import "WPMarkDownConfigShareManager.h"
 #import "WPMarkDownParseBaseModel.h"
 #import "NSMutableAttributedString+WPAddAttributed.h"
 
@@ -43,15 +42,16 @@
     NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1; i++) {
-        WPMarkDownParseTitleModel * titleModel = [[WPMarkDownParseTitleModel alloc] initWithSymbol:self.symbol];
-        
+        if ([self isBackslash:separatedArray[i]]) {
+            continue;
+        }
         NSArray * rightStringSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n"];
         if (rightStringSeparteds.count>0) {
+            WPMarkDownParseTitleModel * titleModel = [[WPMarkDownParseTitleModel alloc] initWithSymbol:self.symbol];
             titleModel.text = rightStringSeparteds.firstObject;
-            [parseArray addObject:titleModel];
+            [self.segmentArray addObject:titleModel];
         }
     }
-    self.segmentArray = parseArray;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{
@@ -59,11 +59,11 @@
         return;
     }
     NSString * text = attributedString.string;
-    CGFloat fontSize = [WPMarkDownConfigShareManager sharedManager].defaultFontSize+6-_level;
     
     [self.segmentArray enumerateObjectsUsingBlock:^(WPMarkDownParseTitleModel * obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSRange range = [text rangeOfString:obj.text];
         [attributedString wp_makeAttributed:^(WPMutableAttributedStringMaker * _Nullable make) {
+            CGFloat fontSize = self.defaultFontSize+6-_level;
             make.textBoldFont(fontSize,range);
             make.textColor([UIColor blackColor],range);
         }];

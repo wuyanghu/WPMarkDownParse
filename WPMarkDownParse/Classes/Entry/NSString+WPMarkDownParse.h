@@ -6,11 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "WPMarkDownParseFactory.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (WPMarkDownParse)
-
+@property (nonatomic,strong) WPMarkDownParseFactory * wp_markdownParseFactory;
+//同步
+- (NSMutableAttributedString *)wp_markDownParse;
+- (NSMutableAttributedString *)wp_markDownParseWithFontSize:(CGFloat)size;
+- (NSMutableAttributedString *)wp_markDownParseWithFontSize:(CGFloat)size width:(CGFloat)width;
+//异步入口
+- (void)wp_markDownParseWithText:(NSString *)text finishBlock:(void(^)(NSMutableAttributedString * string))block;
+- (void)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width finishBlock:(void (^)(NSMutableAttributedString * string))block;
 @end
 
 NS_ASSUME_NONNULL_END
+

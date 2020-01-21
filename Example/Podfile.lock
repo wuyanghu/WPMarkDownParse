@@ -8,7 +8,7 @@ PODS:
     - SDWebImage/Core (= 5.0.2)
   - SDWebImage/Core (5.0.2)
   - WPChained (0.1.2)
-  - WPMarkDownParse (0.1.0):
+  - WPMarkDownParse (0.1.1):
     - SDWebImage (= 5.0.2)
     - WPChained (= 0.1.2)
     - YYText (= 1.0.7)
@@ -33,7 +33,7 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
   WPChained: 354502cdfaf040ae05dd41b115c9169da90967cf
-  WPMarkDownParse: 1ac33eb30159a6bf406b0b1bd2259c9dd12bd05e
+  WPMarkDownParse: 7e934ae9e0cf572669c86a2e72c166ddab5a45b6
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 77c5a6c23daf09d1c57206aa6519f43c23b0350b

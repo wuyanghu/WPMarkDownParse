@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "WPMarkDownConfigShareManager.h"
 #import "WPMarkDownMacro.h"
 #import "NSString+WPMarkDownParse.h"
 #import "WPMarkDownParseFactory.h"

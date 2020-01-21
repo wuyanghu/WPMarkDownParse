@@ -26,9 +26,9 @@
         if (leftString.length == 0) {
             continue;
         }
-        WPMarkDownParseOrderModel * disorderModel = [[WPMarkDownParseOrderModel alloc] initWithSymbol:self.symbol];
         NSArray * rightStringSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n\n"];
         if (rightStringSeparteds.count>0) {
+            WPMarkDownParseOrderModel * disorderModel = [[WPMarkDownParseOrderModel alloc] initWithSymbol:self.symbol];
             disorderModel.lastString = lastString;
             disorderModel.text = rightStringSeparteds.firstObject;
             
@@ -37,10 +37,9 @@
             if (rightEndNumString.length>0) {
                 disorderModel.text = [disorderModel.text substringToIndex:disorderModel.text.length-rightEndNumString.length];
             }
-            [parseArray addObject:disorderModel];
+            [self.segmentArray addObject:disorderModel];
         }
     }
-    self.segmentArray = parseArray;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{
@@ -59,6 +58,7 @@
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
     styleModel.headIndent = 20;//整体缩进(首行除外)
     styleModel.firstLineHeadIndent = 20;
+    styleModel.alignment = NSTextAlignmentJustified;
     return styleModel;
 }
 

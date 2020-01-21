@@ -1,8 +1,8 @@
 {
   "name": "WPMarkDownParse",
-  "version": "0.1.0",
-  "summary": "A short description of WPMarkDownParse.",
-  "description": "MarkDown解析",
+  "version": "0.1.1",
+  "summary": "MardDown解析",
+  "description": "增加异步入口，",
   "homepage": "https://github.com/wuyanghu/WPMarkDownParse",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wuyanghu/WPMarkDownParse.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
