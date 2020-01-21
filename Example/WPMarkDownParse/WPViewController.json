@@ -5,9 +5,12 @@
     "content":[
         [
             {
-                "title":"for 循环引起的内存泄漏",
-                "desc":"1. SDWebImage除了UIImageView,有没有提供缓存加下载入口？\n2. Socket推送的分包要接上\n3. 怎么处理图片加载\n4. 根据接口查询判断是否需要自动刷新\n5. 上拉有时鬼畜",
-                "classname":"MemoryLeakForViewController"
+                "title":"#MarkDown1",
+                "desc":"1. isa指向：实例对象的isa指向类对象，类指向元类\n思考：isa指针有哪些实际用途？\n例如：实例方法中调用self.class\n2. [内存管理](https://www.jianshu.com/p/7cc1de0d9e27)\n3. 消息查找\n底层涉及汇编，有点难以理解。\n4. 消息转发\n5. [weak原理](https://www.jianshu.com/p/5b68e0279ede)\n6. autoreleasepool\n7. dealloc 涉及内存相关，知道何时释放，怎么释放\n8. [category原理](https://www.jianshu.com/p/a9431ac7516b)\n9. [关联对象原理](https://www.jianshu.com/p/d6399fb59748)\n10. mach-o文件的结构，runtime如何加载mach-o最后生成对应的数据结构。分类与类的加载关系\n11. load加载原理\n12. [方法交换原理](https://www.jianshu.com/p/ceb774295fbe)\n13. [方法添加原理](https://www.jianshu.com/p/4323aa2c3709)"
+            },
+            {
+                "title":"#MarkDown2",
+                "desc":"#1.标题\n**加粗**\n[百度链接](https://www.baidu.com)\n# 一级标题\n## 二级标题\n##### 五级标题\n- 列表第一项\n列表第一项列表第一项\n- 列表第二项\n1. 有序列表第一项\n顶格?下面一行会自动缩进两个汉字多行碰到单独空的一行或其他标识就停下\n2. 有序列表第二项顶格?下面一行会自动缩进两个汉字多行呢\n碰到单独空的一行或其他标识就停下\n3. fadsfsaffdsa\n![图片描述](https://upload-images.jianshu.io/upload_images/1387554-4b0b9611387b3397.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\n> 引用段落\n\n```代码块\n```"
             }
         ]
     ]
