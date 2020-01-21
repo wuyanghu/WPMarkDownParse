@@ -7,26 +7,26 @@
 
 ## Example
 
-#1.效果展示
-[MarkDown组件库地址](https://github.com/wuyanghu/WPMarkDownParse)
+# 1.效果展示
+[MarkDown简书](https://www.jianshu.com/p/649e72b1bf1f)
 ![效果1](https://upload-images.jianshu.io/upload_images/1387554-84016149642dafa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![效果2](https://upload-images.jianshu.io/upload_images/1387554-665e8ccb9a7217e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![效果3](https://upload-images.jianshu.io/upload_images/1387554-31cb4bbcd423968a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#2.调用
-#2.1 NSString+WPMarkDownParse入口
+# 2.调用
+# 2.1 NSString+WPMarkDownParse入口
 WPMarkDownParse主要是提供了一个NSString的分类，方便调用；真正的入口在WPMarkDownParseFactory
-#2.2 WPMarkDownParseFactory
-#2.2.1 同步异步入口
+# 2.2 WPMarkDownParseFactory
+# 2.2.1 同步异步入口
 ```
 + (NSMutableAttributedString *)parseMarkDownWithText:(NSString *)text；
 + (NSMutableAttributedString *)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width；
 - (void)parseMarkDownWithText:(NSString *)text finishBlock:(void (^)(NSMutableAttributedString * string))block;
 - (void)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width finishBlock:(void (^)(NSMutableAttributedString * string))block;
 ```
-#2.2.2 parseMarkDownWithText
+# 2.2.2 parseMarkDownWithText
 ```
 + (NSMutableAttributedString *)parseMarkDownWithText:(NSString *)text fontSize:(CGFloat)fontSize width:(CGFloat)width{
     NSArray * parseArray = [self setUpParseArray];
@@ -45,7 +45,7 @@ WPMarkDownParse主要是提供了一个NSString的分类，方便调用；真正
     return attributedString;
 }
 ```
-#2.2.3 setUpParseArray初始化
+# 2.2.3 setUpParseArray初始化
 >WPMarkDownParseImage:解析图片
 WPMarkDownParseLink:解析链接
 WPMarkDownParseQuoteParagraph:解析段落引用
@@ -58,7 +58,7 @@ WPMarkDownParseOrder:有序
 
 所有的解析类继承自WPMarkDownBaseParse，使用策略模式、模板模式与工厂模式结合进行解析。
 
-#2.2.4 策略模式方法
+# 2.2.4 策略模式方法
 ```
 //解析策略模式
 @protocol WPMarkDownParseStrageInterface <NSObject>
@@ -70,15 +70,15 @@ WPMarkDownParseOrder:有序
 1. 每个类按symbol进行分割，如果separatedArray不为空，则进行解析，判断是否满足条件，加入self.segmentArray中。
 2. 替换掉markdown的标识符，如链接\[百度](https:baidu.com)，只能显示百度，字体高亮，点击能跳转到WebView.
 
-#2.2.5 replaceBackslash
+# 2.2.5 replaceBackslash
 替换掉转义字符\，即出现反斜杠，都不解析。
 
-#2.2.6 setAttributedString
+# 2.2.6 setAttributedString
 attributedString 是所有都替换完，才生产的attributedString。
 策略模式使得每个类setAttributedString能够设置对应的属性，如图片，高亮、斜体等。
 
 # 3. 链接、图片解析过程
-#3.1 WPMarkDownParseLink
+# 3.1 WPMarkDownParseLink
 1. 在setUpParseArray初始化，WPMarkDownParseLink添加到解析parseArray数组中
 2. 配置fontSize与width
 ```
@@ -136,7 +136,7 @@ for (WPMarkDownBaseParse * parseModel in parseArray) {
 }
 ```
 
-#3.2 WPMarkDownParseImage
+# 3.2 WPMarkDownParseImage
 图片解析或其他解析与链接解析大致相同，区别在于每个细节内容都不相同。
 1. WPMarkDownParseImage添加到parseArray
 2. 配置字体和宽度configFontSize:fontSize:width
@@ -251,7 +251,7 @@ for (WPMarkDownBaseParse * parseModel in parseArray) {
 - setAttributedDefaultFont设置默认字号
 - wp_markdownParseSetAttributedString统一设置对应的属性
 
-#4.链接与标题单元测试
+# 4.链接与标题单元测试
 ```
 @interface WPMarkDownParseStringTest : XCTestCase
 {
@@ -389,8 +389,7 @@ for (WPMarkDownBaseParse * parseModel in parseArray) {
 
 @end
 ```
-#5. 总结
-[MarkDown组件库地址](https://github.com/wuyanghu/WPMarkDownParse)
+# 5. 总结
 1. Markdown的解析功能基本完成，但还有很多细节需处理。
 2. 由于按文字匹配，会出现匹配文字。如标题与链接相同时，标题可能会被加上下划线；有序嵌套时效果不是很好，现在是碰到两个\n停止，而实际远不止这些条件。
 3. 文中的富文本链式使用，已经封装成了[WPChained](https://github.com/wuyanghu/WPChained)
