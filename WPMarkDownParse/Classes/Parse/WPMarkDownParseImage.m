@@ -76,7 +76,7 @@
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
     styleModel.headIndent =  (self.defaultWidth-width)/2;//整体缩进(首行除外)
     styleModel.firstLineHeadIndent = (self.defaultWidth-width)/2;
-    styleModel.alignment = NSTextAlignmentJustified;
+    styleModel.alignment = NSTextAlignmentLeft;
     return styleModel;
 }
 

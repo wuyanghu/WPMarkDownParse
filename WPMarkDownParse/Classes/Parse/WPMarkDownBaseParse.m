@@ -76,4 +76,43 @@
     return [string substringToIndex:1];
 }
 
+//裁剪字符最后几位的数字
+- (NSString *)subStringLastNum:(NSString *)text{
+    NSInteger i = text.length-1;
+    while (i>=0) {
+        NSString * lastString = [text substringWithRange:NSMakeRange(i, 1)];
+        if ([self isNumberWithStr:lastString]) {
+            i--;
+        }else{
+            break;
+        }
+    }
+    return [text substringFromIndex:i+1];
+}
+//截取字符的最后几位数字之前的字符
+- (NSString *)subLastNumPreString:(NSString *)text{
+    NSInteger i = text.length-1;
+    while (i>=0) {
+        NSString * lastString = [text substringWithRange:NSMakeRange(i, 1)];
+        if ([self isNumberWithStr:lastString]) {
+            i--;
+        }else{
+            break;
+        }
+    }
+    if (i<text.length) {
+        return [text substringToIndex:i];
+    }
+    return nil;
+}
+
+- (BOOL)isNumberWithStr:(NSString *)str {
+    if (str.length == 0) {
+        return NO;
+    }
+    NSString *regex = @"[0-9]*";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    return [pred evaluateWithObject:str];
+}
+
 @end

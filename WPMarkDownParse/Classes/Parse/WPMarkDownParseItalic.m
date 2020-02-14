@@ -20,10 +20,28 @@
         if ([self isBackslash:leftString]) {
             continue;
         }
+        NSString * rightString = separatedArray[i+1];
+        NSString * leftLastString = [self lastOneString:leftString];
+        NSString * rightFirstString = [self firstOneString:rightString];
+        if (leftLastString && ![self isChineseWithText:leftLastString]) {//字符不为空，左边最后一个字符是中文
+            continue;
+        }
+        if (rightFirstString && ![self isChineseWithText:rightFirstString]) {//字符不为空，右边第一个字符是中文
+            continue;
+        }
         WPMarkDownParseItalicModel * titleModel = [[WPMarkDownParseItalicModel alloc] initWithSymbol:self.symbol];
-        titleModel.text = separatedArray[i+1];
+        titleModel.text = rightString;
         [self.segmentArray addObject:titleModel];
     }
+}
+
+- (BOOL)isChineseWithText:(NSString *)text{
+    NSString *temp = text;
+    const char *u8Temp = [temp UTF8String];
+    if (3==strlen(u8Temp)){
+        return YES;
+    }
+    return NO;
 }
 
 - (void)setAttributedString:(NSMutableAttributedString *)attributedString{

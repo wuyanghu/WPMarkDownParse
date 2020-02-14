@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WPMarkDownParseBaseModel : NSObject
 @property (nonatomic,copy) NSString * text;
+@property (nonatomic,assign) NSInteger depath;
 @property (nonatomic,copy) NSString * symbol;
 - (id)initWithSymbol:(NSString *)symbol;
 - (NSString *)willBeReplacedString;//将要被替换的字符

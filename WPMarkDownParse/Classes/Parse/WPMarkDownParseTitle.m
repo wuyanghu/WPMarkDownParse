@@ -39,7 +39,6 @@
 #pragma mark - 策略
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1; i++) {
         if ([self isBackslash:separatedArray[i]]) {
@@ -63,7 +62,7 @@
     [self.segmentArray enumerateObjectsUsingBlock:^(WPMarkDownParseTitleModel * obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSRange range = [text rangeOfString:obj.text];
         [attributedString wp_makeAttributed:^(WPMutableAttributedStringMaker * _Nullable make) {
-            CGFloat fontSize = self.defaultFontSize+6-_level;
+            CGFloat fontSize = self.defaultFontSize+6-self.level;
             make.textBoldFont(fontSize,range);
             make.textColor([UIColor blackColor],range);
         }];

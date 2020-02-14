@@ -15,12 +15,19 @@
 #pragma mark - 策略
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1;i++) {
         if ([self isBackslash:separatedArray[i]]) {
             continue;
         }
+        NSString * leftLastString = [self lastOneString:separatedArray[i]];
+        if (!leftLastString || [leftLastString isEqualToString:@"\n"]) {
+            //第一行或段首
+            
+        }else{
+            continue;
+        }
+        
         NSArray * rightStringSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n\n"];
         if (rightStringSeparteds.count>0) {
             WPMarkDownParseQuoteParagraphModel * paragraphModel = [[WPMarkDownParseQuoteParagraphModel alloc] initWithSymbol:self.symbol];
@@ -60,9 +67,9 @@
 
 - (WPMutableParagraphStyleModel *)styleModel{
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
-    styleModel.headIndent = 20;//整体缩进(首行除外)
-    styleModel.firstLineHeadIndent = 20;
-    styleModel.alignment = NSTextAlignmentJustified;
+    styleModel.headIndent = 17;//整体缩进(首行除外)
+    styleModel.firstLineHeadIndent = 17;
+    styleModel.alignment = NSTextAlignmentLeft;
     return styleModel;
 }
 

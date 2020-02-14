@@ -16,7 +16,6 @@
 }
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
-    NSMutableArray * parseArray = [NSMutableArray arrayWithCapacity:separatedArray.count-1];
     
     for (int i = 0; i<separatedArray.count-1;i++) {
         
@@ -56,36 +55,10 @@
 
 - (WPMutableParagraphStyleModel *)styleModel{
     WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
-    styleModel.headIndent = 20;//整体缩进(首行除外)
-    styleModel.firstLineHeadIndent = 20;
-    styleModel.alignment = NSTextAlignmentJustified;
+    styleModel.headIndent = 17;//整体缩进(首行除外)
+    styleModel.firstLineHeadIndent = 17;
+    styleModel.alignment = NSTextAlignmentLeft;
     return styleModel;
-}
-
-#pragma mark - private
-
-//裁剪字符最后几位的数字
-- (NSString *)subStringLastNum:(NSString *)text{
-    NSInteger i = text.length-1;
-    while (i>=0) {
-        NSString * lastString = [text substringWithRange:NSMakeRange(i, 1)];
-        if ([self isNumberWithStr:lastString]) {
-            i--;
-        }else{
-            break;
-        }
-    }
-    return [text substringFromIndex:i+1];
-}
-
-- (BOOL)isNumberWithStr:(NSString *)str {
-   if (str.length == 0) {
-        return NO;
-    }
-    NSString *regex = @"[0-9]*";
-    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    return [pred evaluateWithObject:str];
-
 }
 
 @end

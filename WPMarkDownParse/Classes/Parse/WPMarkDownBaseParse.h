@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isBackslash:(NSString *)leftString;//检查是不是反斜杠
 - (NSString *)firstOneString:(NSString *)string;//第一个字符
 - (NSString *)lastOneString:(NSString *)string;//获取最后一个字符
+- (NSString *)subStringLastNum:(NSString *)text;//裁剪字符得到最后几位数字
+- (NSString *)subLastNumPreString:(NSString *)text;//裁剪字符最后几位数字
 @end
 
 NS_ASSUME_NONNULL_END

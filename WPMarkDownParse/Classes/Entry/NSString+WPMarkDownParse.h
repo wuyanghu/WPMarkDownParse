@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (WPMarkDownParse)
-@property (nonatomic,strong) WPMarkDownParseFactory * wp_markdownParseFactory;
+@property (nonatomic,strong,readonly) WPMarkDownParseFactory * wp_markdownParseFactory;
 //同步
 - (NSMutableAttributedString *)wp_markDownParse;
 - (NSMutableAttributedString *)wp_markDownParseWithFontSize:(CGFloat)size;

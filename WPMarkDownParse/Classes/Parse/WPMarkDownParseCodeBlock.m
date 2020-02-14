@@ -32,8 +32,6 @@
         NSRange range = [text rangeOfString:obj.text];
         [attributedString wp_makeAttributed:^(WPMutableAttributedStringMaker * _Nullable make) {
             make.textColor(WP_RGB_COLOR(155, 162, 177),range);
-            WPMutableParagraphStyleModel * styleModel = [self styleModel];
-            make.paragraphStyle([styleModel createParagraphStyle],range);
         }];
         
         [self setBgColorWithAttributedString:attributedString range:range];
@@ -50,13 +48,6 @@
     border.lineJoin = kCGLineJoinBevel;
 
     [attributedString yy_setTextBlockBorder:border.copy range:range];
-}
-
-- (WPMutableParagraphStyleModel *)styleModel{
-    WPMutableParagraphStyleModel * styleModel = [WPMutableParagraphStyleModel new];
-    styleModel.headIndent = 20;//整体缩进(首行除外)
-    styleModel.firstLineHeadIndent = 20;
-    return styleModel;
 }
 
 @end

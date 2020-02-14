@@ -106,7 +106,7 @@
     }];
     
     //有序
-    NSArray * orders = @[@". "];
+    NSArray * orders = @[kWPOrderSymbol];
     [orders enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [parseArray addObject:[[WPMarkDownParseOrder alloc] initWithSymbol:obj]];
     }];
