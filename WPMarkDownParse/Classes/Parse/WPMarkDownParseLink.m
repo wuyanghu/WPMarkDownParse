@@ -25,18 +25,26 @@
     
     for (int i = 0; i<separatedArray.count-1; i++) {
         NSString * leftString = separatedArray[i];
-        if ([self isBackslash:leftString]) {
+        if ([self wp_isBackslash:leftString]) {
             continue;
         }
         WPMarkDownParseLinkModel * urlModel = [[WPMarkDownParseLinkModel alloc] initWithSymbol:self.symbol];
-        NSArray * leftStringSeparateArray = [leftString componentsSeparatedByString:@"["];
-        if (leftStringSeparateArray.count>0) {
-            urlModel.text = leftStringSeparateArray.lastObject;
+        
+        NSRange leftRange = [leftString rangeOfString:@"["];
+        if (leftRange.location != NSNotFound) {
+            urlModel.text = [leftString substringFromIndex:NSMaxRange(leftRange)];
+        }else{
+            continue;
         }
-        NSArray * rightStringSepartedArray = [separatedArray[i+1] componentsSeparatedByString:@")"];
-        if (rightStringSepartedArray.count>0) {
-            urlModel.url = rightStringSepartedArray.firstObject;
+        
+        NSString * rightText = separatedArray[i+1];
+        NSRange rightRange = [rightText rangeOfString:@")"];
+        if (rightRange.location != NSNotFound) {
+            urlModel.url = [rightText substringToIndex:rightRange.location];
+        }else{
+            continue;
         }
+        
         if (urlModel.text.length && urlModel.url.length) {
             [self.segmentArray addObject:urlModel];//当文字与url都不为空时，才算解析成功
         }        

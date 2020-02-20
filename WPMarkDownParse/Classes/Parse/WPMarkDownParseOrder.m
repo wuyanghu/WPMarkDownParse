@@ -21,7 +21,7 @@
         
         NSString * leftString = separatedArray[i];
         //前n位必须是数字
-        NSString * lastString = [self subStringLastNum:leftString];
+        NSString * lastString = [self wp_subStringLastNum:leftString];
         if (leftString.length == 0) {
             continue;
         }
@@ -32,7 +32,7 @@
             disorderModel.text = rightStringSeparteds.firstObject;
             
             //如果右侧字符最后是数字，必须截取
-            NSString * rightEndNumString = [self subStringLastNum:rightStringSeparteds.firstObject];
+            NSString * rightEndNumString = [self wp_subStringLastNum:rightStringSeparteds.firstObject];
             if (rightEndNumString.length>0) {
                 disorderModel.text = [disorderModel.text substringToIndex:disorderModel.text.length-rightEndNumString.length];
             }

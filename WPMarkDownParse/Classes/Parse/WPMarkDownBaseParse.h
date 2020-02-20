@@ -24,11 +24,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (id)initWithSymbol:(NSString *)symbol;
 - (void)segmentString:(NSString**)text;
 
-- (BOOL)isBackslash:(NSString *)leftString;//检查是不是反斜杠
-- (NSString *)firstOneString:(NSString *)string;//第一个字符
-- (NSString *)lastOneString:(NSString *)string;//获取最后一个字符
-- (NSString *)subStringLastNum:(NSString *)text;//裁剪字符得到最后几位数字
-- (NSString *)subLastNumPreString:(NSString *)text;//裁剪字符最后几位数字
+@end
+
+@interface WPMarkDownBaseParse (Util)
+- (BOOL)wp_isBackslash:(NSString *)leftString;//检查是不是反斜杠
+- (NSString *)wp_firstOneString:(NSString *)string;//第一个字符
+- (NSString *)wp_lastOneString:(NSString *)string;//获取最后一个字符
+- (NSString *)wp_subStringLastNum:(NSString *)text;//裁剪字符得到最后几位数字
+- (NSString *)wp_subLastNumPreString:(NSString *)text;//裁剪字符最后几位数字
+- (BOOL)wp_isChineseWithText:(NSString *)text;//是否是中文
 @end
 
 NS_ASSUME_NONNULL_END

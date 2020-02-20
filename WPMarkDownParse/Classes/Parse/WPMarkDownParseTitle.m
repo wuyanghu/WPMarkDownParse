@@ -41,15 +41,20 @@
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
     
     for (int i = 0; i<separatedArray.count-1; i++) {
-        if ([self isBackslash:separatedArray[i]]) {
+        if ([self wp_isBackslash:separatedArray[i]]) {
             continue;
         }
-        NSArray * rightStringSeparteds = [separatedArray[i+1] componentsSeparatedByString:@"\n"];
-        if (rightStringSeparteds.count>0) {
-            WPMarkDownParseTitleModel * titleModel = [[WPMarkDownParseTitleModel alloc] initWithSymbol:self.symbol];
-            titleModel.text = rightStringSeparteds.firstObject;
-            [self.segmentArray addObject:titleModel];
+        //匹配到第一个\n
+        NSString * rightText = separatedArray[i+1];
+        NSRange range = [rightText rangeOfString:@"\n"];
+        
+        WPMarkDownParseTitleModel * titleModel = [[WPMarkDownParseTitleModel alloc] initWithSymbol:self.symbol];
+        if (range.location != NSNotFound) {
+            titleModel.text = [rightText substringToIndex:range.location];
+        }else{
+            titleModel.text = rightText;
         }
+        [self.segmentArray addObject:titleModel];
     }
 }
 

@@ -16,11 +16,11 @@
     for (int i = 0; i<separatedArray.count-1;i++) {
         
         NSString * leftString = separatedArray[i];
-        if ([self isBackslash:leftString]) {
+        if ([self wp_isBackslash:leftString]) {
             continue;
         }
         //必须是段落第一位，中间的-不解析
-        NSString * lastOneString = [self lastOneString:leftString];
+        NSString * lastOneString = [self wp_lastOneString:leftString];
         if (!lastOneString || [lastOneString isEqualToString:@"\n"]) {
 
         }else{
@@ -39,14 +39,14 @@
             }else{
                 disorderModel.depath = 1;
                 NSString * text = [rightString substringToIndex:orderRange.location];
-                disorderModel.text = [self subLastNumPreString:text];
+                disorderModel.text = [self wp_subLastNumPreString:text];
             }
         }else if (range.location != NSNotFound) {
             disorderModel.text = [rightString substringToIndex:range.location];
         }else if (orderRange.location != NSNotFound){
             disorderModel.depath = 1;
             NSString * text = [rightString substringToIndex:orderRange.location];
-            disorderModel.text = [self subLastNumPreString:text];
+            disorderModel.text = [self wp_subLastNumPreString:text];
         }else{
             disorderModel.text = rightString;
         }

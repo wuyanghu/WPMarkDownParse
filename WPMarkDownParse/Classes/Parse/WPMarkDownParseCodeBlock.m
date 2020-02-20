@@ -16,7 +16,7 @@
 
 - (void)segmentString:(NSArray *)separatedArray text:(NSString *)text{
     for (int i = 0; i<separatedArray.count-1;i+=2) {
-        if ([self isBackslash:separatedArray[i]]) {
+        if ([self wp_isBackslash:separatedArray[i]]) {
             continue;
         }
         WPMarkDownParseCodeBlockModel * blockModel = [[WPMarkDownParseCodeBlockModel alloc] initWithSymbol:self.symbol];
