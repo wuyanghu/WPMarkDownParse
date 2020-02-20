@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WPMarkDownParse'
-  s.version          = '0.1.2'
-  s.summary          = 'MardDown解析'
+  s.version          = '0.1.3'
+  s.summary          = 'MarkDown解析'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-修正缩进偏移量，引用段首才解析，斜体左右为中文时才解析，对齐方式采用左对齐，解决有序嵌套，代码块偏移量
+MarkDown解析
                        DESC
 
   s.homepage         = 'https://github.com/wuyanghu/WPMarkDownParse'
