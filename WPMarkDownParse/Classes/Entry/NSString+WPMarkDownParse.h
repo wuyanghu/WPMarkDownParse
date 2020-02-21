@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WPMarkDownParseFactory.h"
+#import "WPMarkDownParseFade.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (WPMarkDownParse)
-@property (nonatomic,strong,readonly) WPMarkDownParseFactory * wp_markdownParseFactory;
+@property (nonatomic,strong,readonly) WPMarkDownParseFade * wp_markdownParseFade;
 //同步
 - (NSMutableAttributedString *)wp_markDownParse;
 - (NSMutableAttributedString *)wp_markDownParseWithFontSize:(CGFloat)size;
