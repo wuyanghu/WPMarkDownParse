@@ -101,7 +101,7 @@
            nil];
         
         //加粗
-        NSArray * boldSymbols = @[@"**",@"__"];
+        NSArray * boldSymbols = @[@"**",KWPBoldLineSymbol];
         [boldSymbols enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [parseArray addObject:[[WPMarkDownParseBold alloc] initWithSymbol:obj]];
         }];

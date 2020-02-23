@@ -55,9 +55,7 @@
              设置图片,现在是固定宽高，可让url后带上宽高
              */
             UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.defaultWidth, self.defaultWidth*0.68)];
-            [imageView sd_setImageWithURL:[NSURL URLWithString:obj.url] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-                
-            }];
+            [imageView sd_setImageWithURL:[NSURL URLWithString:obj.url] placeholderImage:nil options:SDWebImageRetryFailed];
             
             imageView.backgroundColor = [UIColor whiteColor];
             NSMutableAttributedString *attachText = [NSMutableAttributedString yy_attachmentStringWithContent:imageView contentMode:UIViewContentModeCenter attachmentSize:imageView.frame.size alignToFont:[UIFont systemFontOfSize:self.defaultFontSize] alignment:YYTextVerticalAlignmentCenter];

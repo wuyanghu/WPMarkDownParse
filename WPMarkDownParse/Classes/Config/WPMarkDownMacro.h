@@ -12,5 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 #define WP_ScreenWidth     [[UIScreen mainScreen] bounds].size.width
 
 #define kWPOrderSymbol @". "
+#define KWPBoldLineSymbol @"__"
 
 NS_ASSUME_NONNULL_END
