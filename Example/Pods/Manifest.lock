@@ -18,7 +18,7 @@ PODS:
     - WPMarkDownParse
     - YYText (= 1.0.7)
   - WPChained (0.1.2)
-  - WPMarkDownParse (0.1.1):
+  - WPMarkDownParse (0.1.4.1):
     - SDWebImage (= 5.0.2)
     - WPChained (= 0.1.2)
     - YYText (= 1.0.7)
@@ -27,6 +27,7 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase
   - WPBaseTableView (= 0.1.5)
+  - WPMarkDownParse (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -37,8 +38,11 @@ SPEC REPOS:
     - "UITableView+FDTemplateLayoutCell"
     - WPBaseTableView
     - WPChained
-    - WPMarkDownParse
     - YYText
+
+EXTERNAL SOURCES:
+  WPMarkDownParse:
+    :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
@@ -48,9 +52,9 @@ SPEC CHECKSUMS:
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   WPBaseTableView: 68377bd4cf1605d7b941a6f59719d9cd513a0289
   WPChained: 354502cdfaf040ae05dd41b115c9169da90967cf
-  WPMarkDownParse: 7e934ae9e0cf572669c86a2e72c166ddab5a45b6
+  WPMarkDownParse: 28428ce7b8dc6135e12b4334c2d05ea92046d800
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: e94a5c87037f5bb5fd6d87f1c32e4922fc61b3bc
+PODFILE CHECKSUM: fb4502bf62e9530a0a1d5fa5af0bcf7b376664e4
 
 COCOAPODS: 1.8.4

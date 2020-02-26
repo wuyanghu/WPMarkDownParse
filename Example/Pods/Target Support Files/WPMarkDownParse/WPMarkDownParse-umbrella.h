@@ -12,7 +12,7 @@
 
 #import "WPMarkDownMacro.h"
 #import "NSString+WPMarkDownParse.h"
-#import "WPMarkDownParseFactory.h"
+#import "WPMarkDownParseFade.h"
 #import "WPMarkDownParseBaseModel.h"
 #import "WPMarkDownBaseParse.h"
 #import "WPMarkDownParseBold.h"

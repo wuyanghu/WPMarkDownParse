@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'WPMarkDownParse_Example' do
-#  pod 'WPMarkDownParse', :path => '../'
+  pod 'WPMarkDownParse', :path => '../'
   pod 'WPBaseTableView','0.1.5'
   target 'WPMarkDownParse_Tests' do
     inherit! :search_paths

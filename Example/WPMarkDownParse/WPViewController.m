@@ -8,7 +8,6 @@
 
 #import "WPViewController.h"
 #import "YYText.h"
-#import "WPMarkDownParseFactory.h"
 #import "UIView+Frame.h"
 
 @interface WPViewController ()
