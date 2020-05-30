@@ -32,7 +32,7 @@
         NSRange range = [rightText rangeOfString:@"\n\n"];//匹配到第一个\n\n
         
         WPMarkDownParseQuoteParagraphModel * paragraphModel = [[WPMarkDownParseQuoteParagraphModel alloc] initWithSymbol:self.symbol];
-        if (range.location != 0) {
+        if (range.location != NSNotFound) {
             paragraphModel.text = [rightText substringToIndex:range.location];
         }else{
             paragraphModel.text = rightText;
